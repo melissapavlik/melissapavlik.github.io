@@ -546,7 +546,7 @@ var config = {
 		{
 			id: 'us-3',
 			title: '<span style="font-size:50px; line-height:60px; color:white; text-align:center; font-style:bold; font-style:italic;"> The U.S. is home to a robust protest environment and rare, but deadly violence.</span>',
-			image: 'file:///C:/Users/Melissa%20Pavlik/Desktop/Scrolly-Telly/images/us-event-fatality-donut.png',
+			image: 'images/us-event-fatality-donut.png',
 			description: '<span style="color:cfcfcf;line-height:30px;1">ACLED’s pilot project collected data on political violence and protest events in the U.S. from July through September 2019, which included thousands of peaceful protests across all 50 states. Political violence events were limited, but disproportionately lethal: these include mass shootings, hate crimes, militia activity, and police brutality, and resulted in nearly 50 fatalities. </span>',
 			location: {
 				center: [-101.55207, 38.27297],
