@@ -51,10 +51,6 @@ var config = {
 					opacity: 0.05
 				},
 				{
-					layer: 'all-data-4',
-					opacity: 0.05
-				},
-				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				},
@@ -324,10 +320,6 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
-					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			],
@@ -2271,10 +2263,6 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-data-1',
-					opacity: 0.0
-				},
-				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -3042,8 +3030,7 @@ var config = {
 					opacity: 0.0
 				}
 			]
-		},
-
-
+		}
+		
 	]
 };
