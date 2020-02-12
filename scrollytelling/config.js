@@ -224,7 +224,7 @@ var config = {
 			id: 'world-overview-3',
 			title: ' ',
 			image: '',
-			description: '<p  style="font-size:25px;line-height:30px;"> Ten countries across four regions call for particularly close attention in the coming year: these countries feature conflicts and disorder which threaten to have an outsized impact on global disorder, represent a massive shift from past patterns, or could devolve significantly as the decade begins.</p>',
+			description: '<p style="font-size:25px;line-height:30px;"> Ten countries across four regions call for particularly close attention in the coming year: these countries feature conflicts and disorder which threaten to have an outsized impact on global disorder, represent a massive shift from past patterns, or could devolve significantly as the decade begins.</p>',
 			location: {
 				center: [14.22310, 21.33435],
 				zoom: 1.46,
