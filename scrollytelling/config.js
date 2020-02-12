@@ -624,7 +624,7 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [-113.24446, 22.07355],
+				center: [-113.43439, 21.86218],
 				zoom: 4.21,
 				pitch: 0.00,
 				bearing: 0.00
