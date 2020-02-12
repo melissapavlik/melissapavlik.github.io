@@ -54,10 +54,6 @@ var config = {
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.0
-				}
 			],
 			onChapterExit: [
 				{
@@ -82,10 +78,6 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
-					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 		  ]
@@ -128,10 +120,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -157,10 +145,6 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'mex-fatalities',
 					opacity: 0
 				}
 			]
@@ -203,10 +187,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -232,10 +212,6 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
-					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 		  ]
@@ -278,10 +254,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.9
 				}
 			],
 			onChapterExit: [
@@ -307,10 +279,6 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
-					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			]
@@ -383,10 +351,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.0
 				}
 			]
 		},
@@ -428,10 +392,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -457,10 +417,6 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
-					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			]
@@ -503,10 +459,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -533,10 +485,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.8
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.0
 				}
 			]
 		},
@@ -578,10 +526,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.8
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -608,10 +552,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.8
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.0
 				}
 			]
 		},
@@ -653,10 +593,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -682,10 +618,6 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
-					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			]
@@ -728,10 +660,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.9
 				}
 			],
 			onChapterExit: [
@@ -758,10 +686,6 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
-				},
-				{
-					layer: 'mex-fatalities',
-					opacity: 0.9
 				}
 			]
 		},
