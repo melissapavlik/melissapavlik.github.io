@@ -624,8 +624,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [-110.80997, 22.99564],
-				zoom: 4.32,
+				center: [-113.24446, 22.07355],
+				zoom: 4.21,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -699,8 +699,8 @@ var config = {
 			image: '',
 			description: 'A deteriorating security situation, caused in part by weak public institutions and frequent political turnover, has made Mexico one of the most violent countries in the world. 2019 saw a record number of homicides across the country, particularly concentrated in the south. ',
 			location: {
-				center: [-110.80997, 22.99564],
-				zoom: 4.32,
+				center: [-113.24446, 22.07355],
+				zoom: 4.21,
 				pitch: 0.00,
 				bearing: 0.00
 			},
