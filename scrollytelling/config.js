@@ -51,6 +51,26 @@ var config = {
 					opacity: 0.05
 				},
 				{
+					layer: 'all-data-4',
+					opacity: 0.05
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				},
@@ -75,6 +95,22 @@ var config = {
 				{
 					layer: 'all-data-4',
 					opacity: 0.05
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
 				},
 				{
 					layer: 'states-w-numbers',
@@ -118,6 +154,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -142,6 +194,22 @@ var config = {
 				{
 					layer: 'all-data-4',
 					opacity: 0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
 				},
 				{
 					layer: 'states-w-numbers',
@@ -185,6 +253,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -208,6 +292,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -252,6 +352,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -276,6 +392,22 @@ var config = {
 				{
 					layer: 'all-data-4',
 					opacity: 0.05
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
 				},
 				{
 					layer: 'states-w-numbers',
@@ -319,6 +451,22 @@ var config = {
 					opacity: 0.05
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				},
@@ -347,6 +495,22 @@ var config = {
 				{
 					layer: 'all-data-4',
 					opacity: 0.05
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
 				},
 				{
 					layer: 'states-w-numbers',
@@ -390,6 +554,22 @@ var config = {
 					opacity: 0.05
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0
 				}
@@ -414,6 +594,22 @@ var config = {
 				{
 					layer: 'all-data-4',
 					opacity: 0.05
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
 				},
 				{
 					layer: 'states-w-numbers',
@@ -457,6 +653,22 @@ var config = {
 					opacity: 0.05
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -480,6 +692,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -524,6 +752,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.8
 				}
@@ -548,6 +792,22 @@ var config = {
 				{
 					layer: 'all-data-4',
 					opacity: 0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
 				},
 				{
 					layer: 'states-w-numbers',
@@ -576,18 +836,34 @@ var config = {
 				},
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0.0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0.0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0.0
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.83
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.6
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.3
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.05
 				},
 				{
@@ -602,18 +878,34 @@ var config = {
 				},
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0.0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0.0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0.0
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.83
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.6
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.3
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.05
 				},
 				{
@@ -658,6 +950,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -681,6 +989,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -725,6 +1049,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -748,6 +1088,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -792,6 +1148,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -815,6 +1187,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -859,6 +1247,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -882,6 +1286,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -926,6 +1346,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -949,6 +1385,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -993,6 +1445,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1016,6 +1484,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1060,6 +1544,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1083,6 +1583,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1127,6 +1643,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1150,6 +1682,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1194,6 +1742,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1217,6 +1781,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1261,6 +1841,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1284,6 +1880,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1328,6 +1940,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1351,6 +1979,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1395,6 +2039,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1418,6 +2078,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1462,6 +2138,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1485,6 +2177,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1529,6 +2237,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1552,6 +2276,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1596,6 +2336,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1619,6 +2375,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1663,6 +2435,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1686,6 +2474,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1730,6 +2534,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1753,6 +2573,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1797,6 +2633,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1820,6 +2672,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1864,6 +2732,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1887,6 +2771,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1931,6 +2831,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -1954,6 +2870,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -1998,6 +2930,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2021,6 +2969,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2065,6 +3029,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2088,6 +3068,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2132,6 +3128,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2155,6 +3167,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2199,6 +3227,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2222,6 +3266,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2266,6 +3326,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2289,6 +3365,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2333,6 +3425,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2356,6 +3464,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2400,6 +3524,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2423,6 +3563,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2467,6 +3623,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2490,6 +3662,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2534,6 +3722,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2557,6 +3761,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2601,6 +3821,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2624,6 +3860,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2668,6 +3920,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2691,6 +3959,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2735,6 +4019,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2758,6 +4058,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2802,6 +4118,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2825,6 +4157,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2869,6 +4217,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2892,6 +4256,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -2936,6 +4316,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -2959,6 +4355,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
@@ -3003,6 +4415,22 @@ var config = {
 					opacity: 0.0
 				},
 				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
+					opacity: 0.0
+				},
+				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				}
@@ -3026,6 +4454,22 @@ var config = {
 				},
 				{
 					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-data-4',
 					opacity: 0.0
 				},
 				{
