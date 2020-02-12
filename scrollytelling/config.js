@@ -55,7 +55,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			],
@@ -85,7 +85,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 		  ]
@@ -130,7 +130,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			],
@@ -160,7 +160,7 @@ var config = {
 					opacity: 0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0
 				}
 			]
@@ -205,7 +205,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			],
@@ -235,7 +235,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 		  ]
@@ -280,7 +280,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.9
 				}
 			],
@@ -310,7 +310,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			]
@@ -355,7 +355,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			],
@@ -385,7 +385,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			]
@@ -430,7 +430,7 @@ var config = {
 					opacity: 0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			],
@@ -460,7 +460,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			]
@@ -505,7 +505,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			],
@@ -535,7 +535,7 @@ var config = {
 					opacity: 0.8
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			]
@@ -580,7 +580,7 @@ var config = {
 					opacity: 0.8
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			],
@@ -610,7 +610,7 @@ var config = {
 					opacity: 0.8
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			]
@@ -655,7 +655,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			],
@@ -685,7 +685,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.0
 				}
 			]
@@ -730,7 +730,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.9
 				}
 			],
@@ -760,7 +760,7 @@ var config = {
 					opacity: 0.0
 				},
 				{
-					layer: 'mex-rf-density',
+					layer: 'mex-fatalities',
 					opacity: 0.9
 				}
 			]
