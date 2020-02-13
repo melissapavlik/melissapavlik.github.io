@@ -397,19 +397,19 @@ var config = {
 				},
 				{
 					layer: 'all-data-1',
-					opacity: 0.0
+					opacity: 0.83
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.0
+					opacity: 0.6
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.0
+					opacity: 0.3
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.0
+					opacity: 0.05
 				},
 				{
 					layer: 'states-w-numbers',
