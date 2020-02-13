@@ -1561,7 +1561,7 @@ var config = {
 
 		{
 			id: 'lebanon-1',
-			title: 'Lebanon:At risk of protests evolving into organized violence',
+			title: 'Lebanon: At risk of protests evolving into organized violence',
 			image: '',
 			description: '',
 			location: {
@@ -1695,7 +1695,7 @@ var config = {
 
 		{
 			id: 'yemen-1',
-			title: '',
+			title: 'Yemen: High risk of persistent conflict as alliances and frontlines shift',
 			image: '',
 			description: '',
 			location: {
@@ -1762,7 +1762,7 @@ var config = {
 
 		{
 			id: 'yemen-2',
-			title: 'Yemen: High risk of persistent conflict as alliances and frontlines shift',
+			title: '',
 			image: '',
 			description: '',
 			location: {
@@ -2232,7 +2232,7 @@ var config = {
 
 		{
 			id: 'central-asia-2',
-			title: '',
+			title: 'Central Asia',
 			image: '',
 			description: '',
 			location: {
@@ -2299,7 +2299,7 @@ var config = {
 
 		{
 			id: 'afghanistan-1',
-			title: '',
+			title: 'Afghanistan: At risk of rising violence targeting civilians ',
 			image: '',
 			description: '',
 			location: {
@@ -2567,7 +2567,7 @@ var config = {
 
 		{
 			id: 'south-asia-2',
-			title: '',
+			title: 'South Asia',
 			image: '',
 			description: '',
 			location: {
@@ -2634,7 +2634,7 @@ var config = {
 
 		{
 			id: 'india-1',
-			title: '',
+			title: 'India: High risk of recent policies derailing with uncontrollable effects',
 			image: '',
 			description: '',
 			location: {
