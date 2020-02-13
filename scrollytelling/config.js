@@ -20,7 +20,7 @@ var config = {
 
 		{
 			id: 'world-overview-1',
-			title: 'Where to focus in 2020',
+			title: '<span style="font-family:Palatino Linotype,serif; font-size:34px;">Where to focus in 2020</span>',
 			image: '',
 			description: '2019 saw disorder mount across the world. Coups, popular demonstrations, assassinations, and election violence rocked countries across nearly every continent, and the year’s developments promise to shape political violence for years to come.',
 			location: {
