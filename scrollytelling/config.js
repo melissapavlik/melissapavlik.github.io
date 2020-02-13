@@ -16,7 +16,7 @@ var config = {
 
 	chapters: [
 
-//chapter1:world-overview-1//
+//world-overview-1//
 
 		{
 			id: 'world-overview-1',
@@ -83,7 +83,7 @@ var config = {
 		  ]
 		},
 
-//chapter2:world-overview-2//
+//world-overview-2//
 
 		{
 			id: 'world-overview-2',
@@ -150,7 +150,7 @@ var config = {
 			]
 		},
 
-//chapter3:world-overview-3//
+//world-overview-3//
 
 		{
 			id: 'world-overview-3',
@@ -217,7 +217,7 @@ var config = {
 		  ]
 		},
 
-//chapter4:north-america-1//
+//north-america-1//
 
 		{
 			id: 'north-america-1',
@@ -284,7 +284,7 @@ var config = {
 			]
 		},
 
-//chapter5:north-america-2//
+//north-america-2//
 
 		{
 			id: 'north-america-2',
@@ -351,7 +351,7 @@ var config = {
 			]
 		},
 
-//chapter6:us-1//
+//us-1//
 
 		{
 			id: 'us-1',
@@ -418,7 +418,7 @@ var config = {
 			]
 		},
 
-//chapter7:us-2//
+//us-2//
 
 		{
 			id: 'us-2',
@@ -485,7 +485,7 @@ var config = {
 			]
 		},
 
-//chapter8:us-3//
+//us-3//
 
 		{
 			id: 'us-3',
@@ -552,7 +552,7 @@ var config = {
 			]
 		},
 
-//chapter9:mexico-1//
+//mexico-1//
 
 		{
 			id: 'mexico-1',
@@ -619,7 +619,7 @@ var config = {
 			]
 		},
 
-//chapter10:mexico-2//
+//mexico-2//
 
 		{
 			id: 'mexico-2',
@@ -686,7 +686,7 @@ var config = {
 			]
 		},
 
-//chapter11:world-overview-4//
+//world-overview-4//
 
 		{
 			id: 'world-overview-4',
@@ -753,7 +753,7 @@ var config = {
 			]
 		},
 
-//chapter12:africa-1//
+//africa-1//
 
 		{
 			id: 'africa-1',
@@ -820,7 +820,7 @@ var config = {
 			]
 		},
 
-//chapter13:africa-2//
+//africa-2//
 
 		{
 			id: 'africa-2',
@@ -887,7 +887,7 @@ var config = {
 			]
 		},
 
-//chapter14:sahel-1//
+//sahel-1//
 
 		{
 			id: 'sahel-1',
@@ -954,7 +954,7 @@ var config = {
 			]
 		},
 
-//chapter15:sahel-2//
+//sahel-2//
 
 		{
 			id: 'sahel-2',
@@ -1021,7 +1021,7 @@ var config = {
 			]
 		},
 
-//chapter16:sahel-3//
+//sahel-3//
 
 		{
 			id: 'sahel-3',
@@ -1088,78 +1088,11 @@ var config = {
 			]
 		},
 
-//chapter17:africa-3//
-
-		{
-			id: 'africa-3',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [53.88551, 1.44802],
-				zoom: 2.54,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter18:ethiopia-1//
+//ethiopia-1//
 
 		{
 			id: 'ethiopia-1',
-			title: '',
+			title: 'Ethiopia: At risk of increased fragmentation despite a popular and promising leader',
 			image: '',
 			description: '',
 			location: {
@@ -1222,7 +1155,7 @@ var config = {
 			]
 		},
 
-//chapter19:ethiopia-2//
+//ethiopia-2//
 
 		{
 			id: 'ethiopia-2',
@@ -1289,11 +1222,11 @@ var config = {
 			]
 		},
 
-//chapter20:somalia-1//
+//somalia-1//
 
 		{
 			id: 'somalia-1',
-			title: '',
+			title: 'Somalia: High risk of Al Shabaab adapting to dominate and isolate a weak government',
 			image: '',
 			description: '',
 			location: {
@@ -1356,7 +1289,7 @@ var config = {
 			]
 		},
 
-//chapter21:somalia-2//
+//somalia-2//
 
 		{
 			id: 'somalia-2',
@@ -1423,7 +1356,7 @@ var config = {
 			]
 		},
 
-//chapter22:world-overview-5//
+//world-overview-5//
 
 		{
 			id: 'world-overview-5',
@@ -1490,7 +1423,7 @@ var config = {
 			]
 		},
 
-//chapter23:middle-east-1//
+//middle-east-1//
 
 		{
 			id: 'middle-east-1',
@@ -1557,11 +1490,11 @@ var config = {
 			]
 		},
 
-//chapter24:middle-east-2//
+//middle-east-2//
 
 		{
 			id: 'middle-east-2',
-			title: '',
+			title: 'The Middle East',
 			image: '',
 			description: '',
 			location: {
@@ -1624,11 +1557,11 @@ var config = {
 			]
 		},
 
-//chapter25:lebanon-1//
+//lebanon-1//
 
 		{
 			id: 'lebanon-1',
-			title: '',
+			title: 'Lebanon:At risk of protests evolving into organized violence',
 			image: '',
 			description: '',
 			location: {
@@ -1691,7 +1624,7 @@ var config = {
 			]
 		},
 
-//chapter26:lebanon-2//
+//lebanon-2//
 
 		{
 			id: 'lebanon-2',
@@ -1758,74 +1691,7 @@ var config = {
 			]
 		},
 
-//chapter27:middle-east-3//
-
-		{
-			id: 'middle-east-3',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [-108.64804, 21.96790],
-				zoom: 4.21,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter28:yemen-1//
+//yemen-1//
 
 		{
 			id: 'yemen-1',
@@ -1892,11 +1758,11 @@ var config = {
 			]
 		},
 
-//chapter29:yemen-2//
+//yemen-2//
 
 		{
 			id: 'yemen-2',
-			title: '',
+			title: 'Yemen: High risk of persistent conflict as alliances and frontlines shift',
 			image: '',
 			description: '',
 			location: {
@@ -1959,7 +1825,7 @@ var config = {
 			]
 		},
 
-//chapter30:yemen-3//
+//yemen-3//
 
 		{
 			id: 'yemen-3',
@@ -2027,78 +1893,11 @@ var config = {
 			]
 		},
 
-//chapter31:middle-east-4//
-
-		{
-			id: 'middle-east-4',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [-108.64804, 21.96790],
-				zoom: 4.21,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter32:iran-1//
+//iran-1//
 
 		{
 			id: 'iran-1',
-			title: '',
+			title: 'Iran: High risk of center deteriorating amid regime escalation abroad and at home',
 			image: '',
 			description: '',
 			location: {
@@ -2161,7 +1960,7 @@ var config = {
 			]
 		},
 
-//chapter33:iran-2//
+//iran-2//
 
 		{
 			id: 'iran-2',
@@ -2228,7 +2027,7 @@ var config = {
 			]
 		},
 
-//chapter34:iran-3//
+//iran-3//
 
 		{
 			id: 'iran-3',
@@ -2295,610 +2094,7 @@ var config = {
 			]
 		},
 
-//chapter35:central-asia-1//
-
-		{
-			id: 'central-asia-1',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [68.02622, 43.61508],
-				zoom: 3.64,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter36:afghanistan-1//
-
-		{
-			id: 'afghanistan-1',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [70.97220, 34.04994],
-				zoom: 5.36,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter37:afghanistan-2//
-
-		{
-			id: 'afghanistan-2',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [70.97220, 34.04994],
-				zoom: 5.36,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter38:central-asia-2//
-
-		{
-			id: 'central-asia-2',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [68.02622, 43.61508],
-				zoom: 3.64,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter39:south asia-1//
-
-		{
-			id: 'south-asia-1',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [77.51391, 22.37724],
-				zoom: 3.75,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter40:south-asia-2//
-
-		{
-			id: 'south-asia-2',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [77.51391, 22.37724],
-				zoom: 3.75,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter41:india-1//
-
-		{
-			id: 'india-1',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [75.23186, 22.52183],
-				zoom: 3.93,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter42:india-2//
-
-		{
-			id: 'india-2',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [75.23186, 22.52183],
-				zoom: 3.93,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter43:india-3//
-
-		{
-			id: 'india-3',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [75.23186, 22.52183],
-				zoom: 3.93,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'polygons',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-1',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0.0
-				}
-			]
-		},
-
-//chapter44:world-overview-6//
+//world-overview-6//
 
 		{
 			id: 'world-overview-6',
@@ -2965,10 +2161,747 @@ var config = {
 			]
 		},
 
-//chapter45:world-overview-7//
+//central-asia-1//
+
+		{
+			id: 'central-asia-1',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [68.02622, 43.61508],
+				zoom: 3.64,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//central-asia-2//
+
+		{
+			id: 'central-asia-2',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [68.02622, 43.61508],
+				zoom: 3.64,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//afghanistan-1//
+
+		{
+			id: 'afghanistan-1',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [70.97220, 34.04994],
+				zoom: 5.36,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//afghanistan-2//
+
+		{
+			id: 'afghanistan-2',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [70.97220, 34.04994],
+				zoom: 5.36,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//world-overview-7//
 
 		{
 			id: 'world-overview-7',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [14.22310, 21.33435],
+				zoom: 1.46,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//south asia-1//
+
+		{
+			id: 'south-asia-1',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [77.51391, 22.37724],
+				zoom: 3.75,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//south-asia-2//
+
+		{
+			id: 'south-asia-2',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [77.51391, 22.37724],
+				zoom: 3.75,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//india-1//
+
+		{
+			id: 'india-1',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [75.23186, 22.52183],
+				zoom: 3.93,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//india-2//
+
+		{
+			id: 'india-2',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [75.23186, 22.52183],
+				zoom: 3.93,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//india-3//
+
+		{
+			id: 'india-3',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [75.23186, 22.52183],
+				zoom: 3.93,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//world-overview-8//
+
+		{
+			id: 'world-overview-8',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [14.22310, 21.33435],
+				zoom: 1.46,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//world-overview-9//
+
+		{
+			id: 'world-overview-9',
 			title: '',
 			image: '',
 			description: '',
