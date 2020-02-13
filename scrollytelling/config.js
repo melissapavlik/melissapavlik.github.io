@@ -1293,7 +1293,7 @@ var config = {
 
 		{
 			id: 'ethiopia-1',
-			title: 'Ethiopia: At risk of increased fragmentation despite a popular and promising leader',
+			title: '',
 			image: '',
 			description: '',
 			location: {
@@ -1360,6 +1360,73 @@ var config = {
 
 		{
 			id: 'ethiopia-2',
+			title: 'Ethiopia: At risk of increased fragmentation despite a popular and promising leader',
+			image: '',
+			description: '',
+			location: {
+				center: [45.42018, 9.07741],
+				zoom: 5.14,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//ethiopia-3//
+
+		{
+			id: 'ethiopia-3',
 			title: '',
 			image: '',
 			description: '',
