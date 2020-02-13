@@ -355,6 +355,73 @@ var config = {
 
 		{
 			id: 'us-1',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [-101.55207, 38.27297],
+				zoom: 3.80,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
+//us-2//
+
+		{
+			id: 'us-2',
 			title: '<span style="font-size:100px; line-height:100px; color:white;text-align:center;font-style:bold;background-color:black;"> United States </span><span style="background-color:#ffbb7a;color:black;line-height:50px;text-align:center;">Developed, democratic political system at risk of turning violent</span>',
 			image: '',
 			description: '',
@@ -418,10 +485,10 @@ var config = {
 			]
 		},
 
-//us-2//
+//us-3//
 
 		{
-			id: 'us-2',
+			id: 'us-3',
 			title: '',
 			image: '',
 			description: '',
@@ -485,10 +552,10 @@ var config = {
 			]
 		},
 
-//us-3//
+//us-4//
 
 		{
-			id: 'us-3',
+			id: 'us-4',
 			title: '<span style="font-size:50px; line-height:60px; color:white; text-align:center; font-style:bold; font-style:italic;"> The U.S. is home to a robust protest environment and rare, but deadly violence.</span>',
 			image: 'images/us-event-fatality-donut.png',
 			description: '<span style="color:cfcfcf;line-height:30px;1">ACLED’s pilot project collected data on political violence and protest events in the U.S. from July through September 2019, which included thousands of peaceful protests across all 50 states. Political violence events were limited, but disproportionately lethal: these include mass shootings, hate crimes, militia activity, and police brutality, and resulted in nearly 50 fatalities. </span>',
