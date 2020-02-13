@@ -401,7 +401,7 @@
       padding-top: 2vh;
       padding-bottom: 2vh;
       z-index: 100;
-      opacity:1;
+      opacity:0;
     }
     .step {
       padding-bottom: 50vh;
@@ -452,6 +452,37 @@
     }
     @media (max-width: 1000px) {
       #mexico-2 {
+        width: 90vw;
+        margin: 0 auto;
+      }
+    }
+
+    #mexico-3 {
+      margin-left:5vw;
+      width:52vw;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      z-index: 100;
+      opacity:1;
+    }
+    .step {
+      padding-bottom: 50vh;
+      margin-bottom: 50vh;
+      opacity: 0.4;
+    }
+    .step.active {
+      opacity: 0.9;
+    }
+    .step div {
+      padding:  50px 50px;
+      line-height: 25px;
+      font-size: 13px;
+    }
+    .step img {
+      width: 100%;
+    }
+    @media (max-width: 1000px) {
+      #mexico-3 {
         width: 90vw;
         margin: 0 auto;
       }

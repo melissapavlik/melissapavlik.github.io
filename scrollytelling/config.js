@@ -622,7 +622,74 @@ var config = {
 //mexico-1//
 
 		{
-			id: 'mexico-1',
+	id: 'mexico-1',
+	title: '<span style="font-size:100px; line-height:100px; color:white; text-align:center; font-style:bold; background-color:black;"> Mexico </span><span style="background-color:#a2c8ec; color:black; line-height:50px; text-align:center;"> </br> High risk of cartel criminal market developing into an insurgency </span>',
+	image: '',
+	description: '',
+	location: {
+		center: [-108.64804, 21.96790],
+		zoom: 4.21,
+		pitch: 0.00,
+		bearing: 0.00
+	},
+	onChapterEnter: [
+		{
+			layer: 'polygons',
+			opacity: 0.0
+		},
+		{
+			layer: 'all-data-1',
+			opacity: 0.0
+		},
+		{
+			layer: 'all-data-2',
+			opacity: 0.0
+		},
+		{
+			layer: 'all-data-3',
+			opacity: 0.0
+		},
+		{
+			layer: 'all-data-4',
+			opacity: 0.0
+		},
+		{
+			layer: 'states-w-numbers',
+			opacity: 0.0
+		}
+	],
+	onChapterExit: [
+		{
+			layer: 'polygons',
+			opacity: 0.0
+		},
+		{
+			layer: 'all-data-1',
+			opacity: 0.0
+		},
+		{
+			layer: 'all-data-2',
+			opacity: 0.0
+		},
+		{
+			layer: 'all-data-3',
+			opacity: 0.0
+		},
+		{
+			layer: 'all-data-4',
+			opacity: 0.0
+		},
+		{
+			layer: 'states-w-numbers',
+			opacity: 0.0
+		}
+	]
+},
+
+//mexico-2//
+
+		{
+			id: 'mexico-2',
 			title: '<span style="font-size:100px; line-height:100px; color:white; text-align:center; font-style:bold; background-color:black;"> Mexico </span><span style="background-color:#a2c8ec; color:black; line-height:50px; text-align:center;"> </br> High risk of cartel criminal market developing into an insurgency </span>',
 			image: '',
 			description: '',
@@ -686,10 +753,10 @@ var config = {
 			]
 		},
 
-//mexico-2//
+//mexico-3//
 
 		{
-			id: 'mexico-2',
+			id: 'mexico-3',
 			title: '<span style="font-size:50px; line-height:60px; color:white; text-align:center; font-style:bold; font-style:italic;"> As cartels in Mexico fragment and increase their power, violence spreads. </span>',
 			image: '',
 			description: 'A deteriorating security situation, caused in part by weak public institutions and frequent political turnover, has made Mexico one of the most violent countries in the world. 2019 saw a record number of homicides across the country, particularly concentrated in the south. ',
