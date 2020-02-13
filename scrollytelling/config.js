@@ -824,9 +824,9 @@ var config = {
 
 		{
 			id: 'africa-2',
-			title: '',
+			title: '<span style="font-size:100px;line-height:100px; color:#FF7F0E;text-align:left;font-style:bold;">Africa</span><span style="font-size:40px;line-height:60px;color:white;text-align:left;font-style:italic;background-color:black;">Conflict with the potential to crumble states and wreak regional havoc.</span>',
 			image: '',
-			description: '',
+			description: 'Two countries in North America - the United States and Mexico - pose unique threats to their respective polities and the world at large. The United States - long considered a stable and proficient democracy, and the wealthiest and most powerful country in the world, has seen mass unrest and lone acts of violence which proven to be remarkably deadly. In Mexico, organized criminal gangs, long violence, have increased in frequency and in power, promising political elements to come.'',
 			location: {
 				center: [-8.80584, 1.34592],
 				zoom: 2.53,
@@ -891,9 +891,9 @@ var config = {
 
 		{
 			id: 'sahel-1',
-			title: '',
+			title: 'The Sahel: Mali, Burkina Faso, Niger, Mauritania and Chad',
 			image: '',
-			description: '',
+			description: 'High risk of conflicts diffusing and infecting neighbors',
 			location: {
 				center: [-1.80370, 13.99233],
 				zoom: 3.97,
