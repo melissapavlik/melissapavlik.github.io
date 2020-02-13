@@ -893,7 +893,7 @@ var config = {
 			id: 'sahel-1',
 			title: '<span style="font-size:100px; line-height:100px; color:white; text-align:center; font-style:bold;">The Sahel: Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:#ffbb7a; color:black; line-height:50px; text-align:center;">High risk of conflicts diffusing and infecting neighbors </span>',
 			image: '',
-			description: ,
+			description:'' ,
 			location: {
 				center: [-1.80370, 13.99233],
 				zoom: 3.97,
