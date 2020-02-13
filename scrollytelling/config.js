@@ -20,7 +20,7 @@ var config = {
 
 		{
 			id: 'world-overview-1',
-			title: '<span style="font-family:Palatino Linotype,serif; font-size:34px;">Where to focus in 2020</span>',
+			title: 'Where to focus in 2020',
 			image: '',
 			description: '2019 saw disorder mount across the world. Coups, popular demonstrations, assassinations, and election violence rocked countries across nearly every continent, and the year’s developments promise to shape political violence for years to come.',
 			location: {
@@ -824,9 +824,9 @@ var config = {
 
 		{
 			id: 'africa-2',
-			title: '',
+			title: '<span style="font-size:100px;line-height:100px; color:#FF7F0E;text-align:left;font-style:bold;">Africa</span><span style="font-size:40px;line-height:60px;color:white;text-align:left;font-style:italic;background-color:black;">Conflict with the potential to crumble states and wreak regional havoc.</span>',
 			image: '',
-			description: '',
+			description: 'There exist multiple conflicts across Africa which threaten civilians and regional stability. However, three in particular - those in the Sahel, in Somalia, and in Ethiopia -  may see shifts in the coming year that will produce long-lasting and far-reaching consequences. Al Shabaab threatens the fragile Somali government, as across the continent Islamist groups grow more organized and lethal in the Sahel. Meanwhile, new political openness in Ethiopia has led long-simmering ethnic conflicts to devolve into open violence.',
 			location: {
 				center: [-8.80584, 1.34592],
 				zoom: 2.53,
@@ -836,7 +836,7 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'polygons',
-					opacity: 0.0
+					opacity: 0.9
 				},
 				{
 					layer: 'all-data-1',
@@ -891,9 +891,9 @@ var config = {
 
 		{
 			id: 'sahel-1',
-			title: '',
+			title: 'The Sahel: Mali, Burkina Faso, Niger, Mauritania and Chad',
 			image: '',
-			description: '',
+			description: 'High risk of conflicts diffusing and infecting neighbors',
 			location: {
 				center: [-1.80370, 13.99233],
 				zoom: 3.97,
