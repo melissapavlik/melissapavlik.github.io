@@ -891,7 +891,7 @@ var config = {
 
 		{
 			id: 'sahel-1',
-			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">The Sahel:</span><span style="font-size:50px; line-height:70px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:#ffbb7a; color:black; line-height:50px; text-align:center;">High risk of conflicts diffusing and infecting neighbors </span>',
+			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">The Sahel:</span><span style="font-size:50px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:#ffbb7a; color:black; line-height:50px; text-align:center;">High risk of conflicts diffusing and infecting neighbors </span>',
 			image: '',
 			description:'' ,
 			location: {
