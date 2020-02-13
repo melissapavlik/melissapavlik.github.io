@@ -826,7 +826,7 @@ var config = {
 			id: 'africa-2',
 			title: '<span style="font-size:100px;line-height:100px; color:#FF7F0E;text-align:left;font-style:bold;">Africa</span><span style="font-size:40px;line-height:60px;color:white;text-align:left;font-style:italic;background-color:black;">Conflict with the potential to crumble states and wreak regional havoc.</span>',
 			image: '',
-			description: 'Two countries in North America - the United States and Mexico - pose unique threats to their respective polities and the world at large. The United States - long considered a stable and proficient democracy, and the wealthiest and most powerful country in the world, has seen mass unrest and lone acts of violence which proven to be remarkably deadly. In Mexico, organized criminal gangs, long violence, have increased in frequency and in power, promising political elements to come.'',
+			description: 'There exist multiple conflicts across Africa which threaten civilians and regional stability. However, three in particular - those in the Sahel, in Somalia, and in Ethiopia -  may see shifts in the coming year that will produce long-lasting and far-reaching consequences. Al Shabaab threatens the fragile Somali government, as across the continent Islamist groups grow more organized and lethal in the Sahel. Meanwhile, new political openness in Ethiopia has led long-simmering ethnic conflicts to devolve into open violence.'',
 			location: {
 				center: [-8.80584, 1.34592],
 				zoom: 2.53,
