@@ -836,7 +836,7 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'polygons',
-					opacity: 0.0
+					opacity: 0.9
 				},
 				{
 					layer: 'all-data-1',
