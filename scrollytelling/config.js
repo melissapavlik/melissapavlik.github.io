@@ -958,7 +958,7 @@ var config = {
 
 		{
 			id: 'africa-intro',
-			title: '<span style="font-size:100px; line-height:150px; text-align:right; font-style:bold; background-color:black; color:#A2C8EC;">Africa</span><span style="font-size:40px; line-height:60px; text-align:right; font-style:italic; color:#CFCFCF;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
+			title: '<span style="font-size:100px; line-height:150px; text-align:right; font-style:bold; color:#A2C8EC;">Africa</span><span style="font-size:40px; line-height:60px; text-align:right; font-style:italic; background-color:black; color:white;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
 			image: '',
 			description: 'There exist multiple conflicts across Africa which threaten civilians and regional stability. However, three in particular - those in the Sahel, in Somalia, and in Ethiopia -  may see shifts in the coming year that will produce long-lasting and far-reaching consequences. Al Shabaab threatens the fragile Somali government, as across the continent Islamist groups grow more organized and lethal in the Sahel. Meanwhile, new political openness in Ethiopia has led long-simmering ethnic conflicts to devolve into open violence.',
 			location: {
@@ -1829,9 +1829,9 @@ var config = {
 
 		{
 			id: 'middle-east-intro',
-			title: '<span style="font-size:100px; line-height:150px; background-color:black; color:#DBEFF4; text-align:right; font-style:bold;">The Middle East</span><span style="font-size:40px; line-height:60px; color:black; text-align:right; font-style:italic;"></br>The Midle East, long a lightning rod for instability, has seen continued insurgencies, wars, and increased government repression across the region in 2019. Lebanon, Yemen, and Iran pose particular concerns as 2020 begins. </span>',
+			title: '<span style="font-size:100px; line-height:150px; background-color:black; color:#DBEFF4; text-align:right; font-style:bold;">The Middle East</span><span style="font-size:40px; line-height:60px; color:black; text-align:right; font-style:italic;background-color:#CFCFCF;"></br> A troubled region faces new challenges </span>',
 			image: '',
-			description: '',
+			description: 'The Midle East, long a lightning rod for instability, has seen continued insurgencies, wars, and increased government repression across the region in 2019. Lebanon, Yemen, and Iran pose particular concerns as 2020 begins.',
 			location: {
 				center: [47.23947, 26.89468],
 				zoom: 3.87,
@@ -2768,9 +2768,9 @@ var config = {
 
 		{
 			id: 'central-asia-intro',
-			title: '<span style="font-size:100px; background-color:black; line-height:150px; color:#F88D2F; text-align:right; font-style:bold;">Central Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:#CFCFCF; color:black;"></br>The center of instability in Central Asia remains Afghanistan, even as other counries in the region suffr from spillover instability and rising protest movements.</span>',
+			title: '<span style="font-size:100px; background-color:black; line-height:150px; color:#F88D2F; text-align:right; font-style:bold;">Central Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:#CFCFCF; color:black;"></br> The most lethal war in the world makes Central Asia a dangerous region. </span>',
 			image: '',
-			description: '',
+			description: 'The center of instability in Central Asia remains Afghanistan, even as other counries in the region suffr from spillover instability and rising protest movements.',
 			location: {
 				center: [68.02622, 43.61508],
 				zoom: 3.64,
@@ -3170,9 +3170,9 @@ var config = {
 
 		{
 			id: 'south-asia-intro',
-			title: '<span style="font-size:100px; line-height:150px; background-color:#FACFA7; text-align:right; font-style:bold; color:black;">South Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:black;"></br>South Asia, and particularly India, has long been home to high levels of demonstrations. However, the end of 2019 -due to political developments in India - featured the highest level of protests in the region reported in ACLED data, and threatens to provoke instability across the entire region. </span>',
+			title: '<span style="font-size:100px; line-height:150px; background-color:#FACFA7; text-align:right; font-style:bold; color:black;">South Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:black;"></br>A region rife with demonstrations sees an increase as discriminatory policies are enacted in its largest state</span>',
 			image: '',
-			description: '',
+			description: 'South Asia, and particularly India, has long been home to high levels of demonstrations. However, the end of 2019 -due to political developments in India - featured the highest level of protests in the region reported in ACLED data, and threatens to provoke instability across the entire region.',
 			location: {
 				center: [77.51391, 22.37724],
 				zoom: 3.75,
