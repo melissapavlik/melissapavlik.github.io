@@ -3241,8 +3241,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [75.23186, 22.52183],
-				zoom: 3.93,
+				center: [68.67099, 22.51075],
+				zoom: 3.94,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -3304,12 +3304,12 @@ var config = {
 
 		{
 			id: 'india-intro',
-			title: 'India: High risk of recent policies derailing with uncontrollable effects',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">India</span><span style="background-color:#093746; color:white; line-height:50px;"></br>High risk of recent policies derailing with uncontrollable effects</span>',
 			image: '',
 			description: '',
 			location: {
-				center: [75.23186, 22.52183],
-				zoom: 3.93,
+				center: [68.67099, 22.51075],
+				zoom: 3.94,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -3375,8 +3375,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [75.23186, 22.52183],
-				zoom: 3.93,
+				center: [68.67099, 22.51075],
+				zoom: 3.94,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -3442,8 +3442,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [75.23186, 22.52183],
-				zoom: 3.93,
+				center: [68.67099, 22.51075],
+				zoom: 3.94,
 				pitch: 0.00,
 				bearing: 0.00
 			},
