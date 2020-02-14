@@ -1092,7 +1092,7 @@ var config = {
 
 		{
 			id: 'sahel-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">The Sahel:</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:#ffbb7a; color:black; line-height:50px; text-align:center;"></br> High risk of conflicts diffusing and infecting neighbors </span>',
+			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">The Sahel</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:#ffbb7a; color:black; line-height:50px; text-align:center;"></br> High risk of conflicts diffusing and infecting neighbors </span>',
 			image: '',
 			description:'' ,
 			location: {
@@ -1360,7 +1360,7 @@ var config = {
 
 		{
 			id: 'ethiopia-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">Ethiopia:</span><span style="background-color:#ffbb7a; color:black; line-height:50px;"></br>At risk of increased fragmentation despite a popular and promising leader</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">Ethiopia</span><span style="background-color:#ffbb7a; color:black; line-height:50px;"></br>At risk of increased fragmentation despite a popular and promising leader</span>',
 			image: '',
 			description: '',
 			location: {
@@ -1498,8 +1498,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [45.59340, 9.08255],
-				zoom: 5.25,
+				center: [44.02895, 5.29517],
+				zoom: 5.01,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -1561,7 +1561,7 @@ var config = {
 
 		{
 			id: 'somalia-intro',
-			title: 'Somalia: High risk of Al Shabaab adapting to dominate and isolate a weak government',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Somalia</span><span style="background-color:#093746; color:white; line-height:50px;"></br> High risk of Al Shabaab adapting to dominate and isolate a weak government</span>',
 			image: '',
 			description: '',
 			location: {
