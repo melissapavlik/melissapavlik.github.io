@@ -1963,7 +1963,7 @@ var config = {
 
 		{
 			id: 'lebanon-intro',
-			title: 'Lebanon: At risk of protests evolving into organized violence',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Lebanon: </span><span style="background-color:#093746; color:white; line-height:50px;"></br> At risk of protests evolving into organized violence </span>'',
 			image: '',
 			description: '',
 			location: {
