@@ -2043,7 +2043,7 @@ var config = {
 			id: 'middle-east-intro',
 			title: '<span style="font-size:100px; line-height:150px; background-color:black; color:#DBEFF4; text-align:right; font-style:bold;">The Middle East</span><span style="font-size:40px; line-height:60px; color:black; text-align:right; font-style:italic;background-color:#CFCFCF;"></br> A troubled region faces new challenges </span>',
 			image: '',
-			description: 'The Midle East, long a lightning rod for instability, has seen continued insurgencies, wars, and increased government repression across the region in 2019. Lebanon, Yemen, and Iran pose particular concerns as 2020 begins.',
+			description: '<span style="background-color:black;>The Midle East, long a lightning rod for instability, has seen continued insurgencies, wars, and increased government repression across the region in 2019. Lebanon, Yemen, and Iran pose particular concerns as 2020 begins.</span>',
 			location: {
 				center: [47.23947, 26.89468],
 				zoom: 3.87,
