@@ -422,7 +422,7 @@ var config = {
 
 		{
 			id: 'us-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:white;font-style:bold;background-color:black;"> United States </span><span style="background-color:#0D657D;color:white;line-height:50px;text-align:center;">Developed, democratic political system at risk of turning violent</span>',
+			title: '<span style="font-size:100px; line-height:150px; color:white;font-style:bold;background-color:black;"> United States </span><span style="background-color:#0D657D;color:white;line-height:50px;text-align:center;">Developed, democratic political system at risk of turning violent</span>',
 			image: '',
 			description: '',
 			location: {
@@ -958,7 +958,7 @@ var config = {
 
 		{
 			id: 'africa-intro',
-			title: '<span style="font-size:100px; line-height:100px; text-align:right; font-style:bold; color:#0A98BB;">Africa</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:black;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
+			title: '<span style="font-size:100px; line-height:150px; text-align:right; font-style:bold; color:#0A98BB;">Africa</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:black;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
 			image: '',
 			description: 'There exist multiple conflicts across Africa which threaten civilians and regional stability. However, three in particular - those in the Sahel, in Somalia, and in Ethiopia -  may see shifts in the coming year that will produce long-lasting and far-reaching consequences. Al Shabaab threatens the fragile Somali government, as across the continent Islamist groups grow more organized and lethal in the Sahel. Meanwhile, new political openness in Ethiopia has led long-simmering ethnic conflicts to devolve into open violence.',
 			location: {
