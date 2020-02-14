@@ -757,7 +757,7 @@ var config = {
 
 		{
 			id: 'mexico-text',
-			title: '<span style="font-size:50px; line-height:60px; text-align:center; font-style:bold; font-style:italic; color:#5F9ED1;"> As cartels in Mexico fragment and increase their power, violence spreads.</span>',
+			title: '<span style="font-size:50px; line-height:60px; text-align:center; font-style:bold; font-style:italic; color:#A2C8EC;"> As cartels in Mexico fragment and increase their power, violence spreads.</span>',
 			image: '',
 			description: 'A deteriorating security situation, caused in part by weak public institutions and frequent political turnover, has made Mexico one of the most violent countries in the world. 2019 saw a record number of homicides across the country, particularly concentrated in the south.',
 			location: {
@@ -958,7 +958,7 @@ var config = {
 
 		{
 			id: 'africa-intro',
-			title: '<span style="font-size:100px; line-height:150px; text-align:right; font-style:bold; background-color:black; color:#A2C8EC;">Africa</span><span style="font-size:40px; line-height:60px; color:black; text-align:right; font-style:italic; background-color:#CFCFCF;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
+			title: '<span style="font-size:100px; line-height:150px; text-align:right; font-style:bold; background-color:black; color:#A2C8EC;">Africa</span><span style="font-size:40px; line-height:60px; text-align:right; font-style:italic; color:#CFCFCF;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
 			image: '',
 			description: 'There exist multiple conflicts across Africa which threaten civilians and regional stability. However, three in particular - those in the Sahel, in Somalia, and in Ethiopia -  may see shifts in the coming year that will produce long-lasting and far-reaching consequences. Al Shabaab threatens the fragile Somali government, as across the continent Islamist groups grow more organized and lethal in the Sahel. Meanwhile, new political openness in Ethiopia has led long-simmering ethnic conflicts to devolve into open violence.',
 			location: {
@@ -1092,7 +1092,7 @@ var config = {
 
 		{
 			id: 'sahel-intro',
-			title: '<span style="font-size:100px; line-height:150px; color:#C95200; font-style:bold;">The Sahel</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:black; color:white; line-height:50px;"></br> High risk of conflicts diffusing and infecting neighbors</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:#C95200; font-style:bold;">The Sahel</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:black; color:white; line-height:50px;"></br> High risk of conflicts diffusing and infecting neighbors</span>',
 			image: '',
 			description:'' ,
 			location: {
@@ -1829,7 +1829,7 @@ var config = {
 
 		{
 			id: 'middle-east-intro',
-			title: '<span style="font-size:100px; line-height:150px; background-color:black; color:#DBEFF4; text-align:right; font-style:bold;">The Middle East</span><span style="font-size:40px; line-height:60px; color:black; text-align:right; font-style:italic;"></br>etcetcetcetcetcetc</span>',
+			title: '<span style="font-size:100px; line-height:150px; background-color:black; color:#DBEFF4; text-align:right; font-style:bold;">The Middle East</span><span style="font-size:40px; line-height:60px; color:black; text-align:right; font-style:italic;"></br>The Midle East, long a lightning rod for instability, has seen continued insurgencies, wars, and increased government repression across the region in 2019. Lebanon, Yemen, and Iran pose particular concerns as 2020 begins. </span>',
 			image: '',
 			description: '',
 			location: {
@@ -2768,7 +2768,7 @@ var config = {
 
 		{
 			id: 'central-asia-intro',
-			title: '<span style="font-size:100px; background-color:black; line-height:150px; color:#F88D2F; text-align:right; font-style:bold;">Central Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:#CFCFCF; color:black;"></br>etcetcetcetcetcetc</span>',
+			title: '<span style="font-size:100px; background-color:black; line-height:150px; color:#F88D2F; text-align:right; font-style:bold;">Central Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:#CFCFCF; color:black;"></br>The center of instability in Central Asia remains Afghanistan, even as other counries in the region suffr from spillover instability and rising protest movements.</span>',
 			image: '',
 			description: '',
 			location: {
@@ -3170,7 +3170,7 @@ var config = {
 
 		{
 			id: 'south-asia-intro',
-			title: '<span style="font-size:100px; line-height:150px; background-color:#FACFA7; text-align:right; font-style:bold; color:black;">South Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:black;"></br>etcetcetcetcetcetc</span>',
+			title: '<span style="font-size:100px; line-height:150px; background-color:#FACFA7; text-align:right; font-style:bold; color:black;">South Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:black;"></br>South Asia, and particularly India, has long been home to high levels of demonstrations. However, the end of 2019 -due to political developments in India - featured the highest level of protests in the region reported in ACLED data, and threatens to provoke instability across the entire region. </span>',
 			image: '',
 			description: '',
 			location: {
