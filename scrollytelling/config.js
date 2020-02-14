@@ -623,7 +623,7 @@ var config = {
 
 		{
 			id: 'us2mexico',
-			title: '<span style="font-size:100px; line-height:100px; color:white; text-align:center; font-style:bold; background-color:black;"> Mexico </span><span style="background-color:#a2c8ec; color:black; line-height:50px; text-align:center;"> </br> High risk of cartel criminal market developing into an insurgency </span>',
+			title: '',
 			image: '',
 			description: '',
 			location: {
