@@ -1963,7 +1963,7 @@ var config = {
 
 		{
 			id: 'lebanon-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Lebanon</span><span style="background-color:#093746; color:white; line-height:50px;"></br>At risk of protests evolving into organized violence</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">Lebanon</span><span style="background-color:#FF7F0E; color:white; line-height:50px;"></br>At risk of protests evolving into organized violence</span>',
 			image: '',
 			description: '',
 			location: {
@@ -2433,7 +2433,7 @@ var config = {
 
 		{
 			id: 'iran-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Iran</span><span style="background-color:#093746; color:white; line-height:50px;"></br>High risk of center deteriorating amid regime escalation abroad and at home</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Iran</span><span style="background-color:#C95200; color:white; line-height:50px;"></br>High risk of center deteriorating amid regime escalation abroad and at home</span>',
 			image: '',
 			description: '',
 			location: {
@@ -3304,7 +3304,7 @@ var config = {
 
 		{
 			id: 'india-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">India</span><span style="background-color:#093746; color:white; line-height:50px;"></br>High risk of recent policies derailing with uncontrollable effects</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">India</span><span style="background-color:#A2C8EC; color:black; line-height:50px;"></br>High risk of recent policies derailing with uncontrollable effects</span>',
 			image: '',
 			description: '',
 			location: {
