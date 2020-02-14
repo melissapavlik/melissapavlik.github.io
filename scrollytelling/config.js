@@ -958,7 +958,7 @@ var config = {
 
 		{
 			id: 'africa-intro',
-			title: '<span style="font-size:100px; line-height:150px; text-align:right; font-style:bold; background-color:black; color:#B2D3DB;">Africa</span><span style="font-size:40px; line-height:60px; color:blackwhite; text-align:right; font-style:italic; background-color:#CFCFCF;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
+			title: '<span style="font-size:100px; line-height:150px; text-align:right; font-style:bold; background-color:black; color:#B2D3DB;">Africa</span><span style="font-size:40px; line-height:60px; color:black; text-align:right; font-style:italic; background-color:#CFCFCF;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
 			image: '',
 			description: 'There exist multiple conflicts across Africa which threaten civilians and regional stability. However, three in particular - those in the Sahel, in Somalia, and in Ethiopia -  may see shifts in the coming year that will produce long-lasting and far-reaching consequences. Al Shabaab threatens the fragile Somali government, as across the continent Islamist groups grow more organized and lethal in the Sahel. Meanwhile, new political openness in Ethiopia has led long-simmering ethnic conflicts to devolve into open violence.',
 			location: {
@@ -1092,7 +1092,7 @@ var config = {
 
 		{
 			id: 'sahel-intro',
-			title: '<span style="font-size:100px; line-height:150px; background-color:black; color:#EC9A63; font-style:bold;">The Sahel</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:#C95200; color:black; line-height:50px;"></br> High risk of conflicts diffusing and infecting neighbors</span>',
+			title: '<span style="font-size:100px; line-height:150px; color:#C95200; font-style:bold;">The Sahel</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:black; color:white; line-height:50px;"></br> High risk of conflicts diffusing and infecting neighbors</span>',
 			image: '',
 			description:'' ,
 			location: {
@@ -2433,7 +2433,7 @@ var config = {
 
 		{
 			id: 'iran-intro',
-			title: '<span style="font-size:100px; line-height:150px; color:#CFCFCF; background-color:black; font-style:bold;">Iran</span><span style="background-color:#FFBB7A; color:black; line-height:50px;"></br>High risk of center deteriorating amid regime escalation abroad and at home</span>',
+			title: '<span style="font-size:100px; line-height:150px; color:black; font-style:bold;">Iran</span><span style="background-color:#FFBB7A; color:black; line-height:50px;"></br>High risk of center deteriorating amid regime escalation abroad and at home</span>',
 			image: '',
 			description: '',
 			location: {
