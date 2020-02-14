@@ -1492,6 +1492,71 @@ var config = {
 
 //ethiopia2somalia//
 
+		{
+			id: 'ethiopia2somalia',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [44.02895, 5.29517],
+				zoom: 5.01,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
 //somalia-intro//
 
 		{
@@ -1829,6 +1894,71 @@ var config = {
 
 //middle-east2lebanon//
 
+		{
+			id: 'middle-east2lebanon',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [35.10882, 33.87781],
+				zoom: 7.78,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
 //lebanon-intro//
 
 		{
@@ -1964,6 +2094,71 @@ var config = {
 		},
 
 //lebanon2yemen//
+
+		{
+			id: 'lebanon2yemen',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [45.49023, 15.77554],
+				zoom: 6.02,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
 
 //yemen-intro//
 
@@ -2168,6 +2363,71 @@ var config = {
 		},
 
 //yemen2iran//
+
+		{
+			id: 'yemen2iran',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [49.94506, 32.57550],
+				zoom: 4.68,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
 
 //iran-intro//
 
@@ -2573,6 +2833,71 @@ var config = {
 
 //central-asia2afg//
 
+		{
+			id: 'central-asia2afg',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [70.97220, 34.04994],
+				zoom: 5.36,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
+
 //afg-intro//
 
 		{
@@ -2909,6 +3234,71 @@ var config = {
 		},
 
 //south-asia2india//
+
+		{
+			id: 'south-asia2india',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [75.23186, 22.52183],
+				zoom: 3.93,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'polygons',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-1',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0.0
+				}
+			]
+		},
 
 //india-intro//
 
