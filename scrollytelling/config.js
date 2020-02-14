@@ -1364,8 +1364,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [45.99901, 9.08255],
-				zoom: 5.25,
+				center: [46.75444, 9.06499],
+				zoom: 5.17,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -1431,8 +1431,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [45.99901, 9.08255],
-				zoom: 5.25,
+				center: [46.75444, 9.06499],
+				zoom: 5.1,
 				pitch: 0.00,
 				bearing: 0.00
 			},
