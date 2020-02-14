@@ -1297,7 +1297,7 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [45.59340, 9.08255],
+				center: [45.99901, 9.08255],
 				zoom: 5.25,
 				pitch: 0.00,
 				bearing: 0.00
@@ -1364,7 +1364,7 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [45.59340, 9.08255],
+				center: [45.99901, 9.08255],
 				zoom: 5.25,
 				pitch: 0.00,
 				bearing: 0.00
@@ -1431,7 +1431,7 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [45.59340, 9.08255],
+				center: [45.99901, 9.08255],
 				zoom: 5.25,
 				pitch: 0.00,
 				bearing: 0.00
