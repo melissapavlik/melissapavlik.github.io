@@ -1029,8 +1029,8 @@ var config = {
 			image: '',
 			description:'' ,
 			location: {
-				center: [-1.80370, 13.99233],
-				zoom: 3.97,
+				center: [-3.45246, 15.84362],
+				zoom: 4.18,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -1096,8 +1096,8 @@ var config = {
 			image: '',
 			description:'' ,
 			location: {
-				center: [-1.80370, 13.99233],
-				zoom: 3.97,
+				center: [-3.45246, 15.84362],
+				zoom: 4.18,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -1163,8 +1163,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [-1.80370, 13.99233],
-				zoom: 3.97,
+				center: [-3.45246, 15.84362],
+				zoom: 4.18,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -1230,8 +1230,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [-1.80370, 13.99233],
-				zoom: 3.97,
+				center: [-3.45246, 15.84362],
+				zoom: 4.18,
 				pitch: 0.00,
 				bearing: 0.00
 			},
