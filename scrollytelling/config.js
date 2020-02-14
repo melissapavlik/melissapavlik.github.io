@@ -2768,7 +2768,7 @@ var config = {
 
 		{
 			id: 'central-asia-intro',
-			title: 'Central Asia',
+			title: '<span style="font-size:100px; line-height:100px; color:#FF7F0E; text-align:right; font-style:bold;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">Central Asia</span><span style="font-size:40px;line-height:60px;color:white;text-align:right;font-style:italic;background-color:black;"></br>etcetcetcet cetcetc</span>',
 			image: '',
 			description: '',
 			location: {
