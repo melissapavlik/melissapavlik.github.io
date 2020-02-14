@@ -2433,7 +2433,7 @@ var config = {
 
 		{
 			id: 'iran-intro',
-			title: 'Iran: High risk of center deteriorating amid regime escalation abroad and at home',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Iran</span><span style="background-color:#093746; color:white; line-height:50px;"></br>High risk of center deteriorating amid regime escalation abroad and at home</span>',
 			image: '',
 			description: '',
 			location: {
