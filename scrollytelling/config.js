@@ -54,6 +54,10 @@ var config = {
 					layer: 'states-w-numbers',
 					opacity: 0.0
 				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
+				}
 			],
 			onChapterExit: [
 				{
@@ -78,6 +82,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 		  ]
@@ -120,6 +128,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -146,6 +158,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			]
 		},
@@ -187,6 +203,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -212,6 +232,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 		  ]
@@ -253,6 +277,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			],
@@ -321,6 +349,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -346,6 +378,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -388,6 +424,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -413,6 +453,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -455,6 +499,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -480,6 +528,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -522,6 +574,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -548,6 +604,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.8
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			]
 		},
@@ -589,6 +649,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.8
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -615,6 +679,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.8
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			]
 		},
@@ -656,6 +724,10 @@ var config = {
 			{
 				layer: 'states-w-numbers',
 				opacity: 0.0
+			},
+			{
+				layer: 'mex-rf-data',
+				opacity: 0.0
 			}
 		],
 			onChapterExit: [
@@ -682,6 +754,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 		]
 		},
@@ -706,22 +782,26 @@ var config = {
 				},
 				{
 					layer: 'all-data-1',
-					opacity: 0.0
+					opacity: 0.83
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.0
+					opacity: 0.6
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.0
+					opacity: 0.3
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.0
+					opacity: 0.05
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			],
@@ -732,22 +812,26 @@ var config = {
 				},
 				{
 					layer: 'all-data-1',
-					opacity: 0.0
+					opacity: 0.83
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.0
+					opacity: 0.6
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.0
+					opacity: 0.3
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.0
+					opacity: 0.05
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -790,6 +874,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.8
 				}
 			],
 			onChapterExit: [
@@ -816,6 +904,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.8
 				}
 			]
 		},
@@ -857,6 +949,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -882,6 +978,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -924,6 +1024,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -950,6 +1054,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			]
 		},
@@ -958,7 +1066,7 @@ var config = {
 
 		{
 			id: 'africa-intro',
-			title: '<span style="font-size:100px; line-height:150px; text-align:right; font-style:bold; color:#A2C8EC;">Africa</span><span style="font-size:40px; line-height:60px; text-align:right; font-style:italic; background-color:black; color:white;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
+			title: '<span style="font-size:100px; line-height:150px; text-align:right; font-style:bold; color:#A2C8EC;">Africa</span><span style="font-size:40px; line-height:60px; text-align:right; font-style:italic; background-color:black; color:white;"></br>Conflict with the potential to crumble states and wreak regional havoc</span>',
 			image: '',
 			description: 'There exist multiple conflicts across Africa which threaten civilians and regional stability. However, three in particular - those in the Sahel, in Somalia, and in Ethiopia -  may see shifts in the coming year that will produce long-lasting and far-reaching consequences. Al Shabaab threatens the fragile Somali government, as across the continent Islamist groups grow more organized and lethal in the Sahel. Meanwhile, new political openness in Ethiopia has led long-simmering ethnic conflicts to devolve into open violence.',
 			location: {
@@ -991,6 +1099,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1016,6 +1128,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1058,6 +1174,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1083,6 +1203,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1125,6 +1249,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1150,6 +1278,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1192,6 +1324,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1217,6 +1353,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1259,6 +1399,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1284,6 +1428,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1326,6 +1474,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1351,6 +1503,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1393,6 +1549,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1418,6 +1578,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1460,6 +1624,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1485,6 +1653,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1527,6 +1699,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1552,6 +1728,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1594,6 +1774,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1619,6 +1803,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1661,6 +1849,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1686,6 +1878,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1728,6 +1924,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1753,6 +1953,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1795,6 +1999,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1820,6 +2028,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1862,6 +2074,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1887,6 +2103,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1929,6 +2149,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -1954,6 +2178,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -1996,6 +2224,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2021,6 +2253,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2063,6 +2299,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2088,6 +2328,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2130,6 +2374,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2155,6 +2403,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2197,6 +2449,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2222,6 +2478,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2264,6 +2524,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2289,6 +2553,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2331,6 +2599,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2354,9 +2626,12 @@ var config = {
 					layer: 'all-data-4',
 					opacity: 0.0
 				},
-
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2399,6 +2674,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2424,6 +2703,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2466,6 +2749,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2491,6 +2778,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2533,6 +2824,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2558,6 +2853,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2600,6 +2899,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2625,6 +2928,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2667,6 +2974,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2692,6 +3003,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2734,6 +3049,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2759,6 +3078,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2801,6 +3124,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2826,6 +3153,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2868,6 +3199,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2893,6 +3228,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -2935,6 +3274,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -2960,6 +3303,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -3002,6 +3349,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -3027,6 +3378,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -3069,6 +3424,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -3094,6 +3453,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -3136,6 +3499,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -3161,6 +3528,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -3203,6 +3574,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -3228,6 +3603,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -3270,6 +3649,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -3295,6 +3678,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -3337,6 +3724,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -3362,6 +3753,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -3404,6 +3799,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -3429,6 +3828,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -3471,6 +3874,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -3496,6 +3903,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -3538,6 +3949,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -3563,6 +3978,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
@@ -3605,6 +4024,10 @@ var config = {
 				{
 					layer: 'states-w-numbers',
 					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0.0
 				}
 			],
 			onChapterExit: [
@@ -3630,6 +4053,10 @@ var config = {
 				},
 				{
 					layer: 'states-w-numbers',
+					opacity: 0.0
+				},
+				{
+					layer: 'mex-rf-data',
 					opacity: 0.0
 				}
 			]
