@@ -1360,7 +1360,7 @@ var config = {
 
 		{
 			id: 'ethiopia-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Ethiopia: <span><span style="background-color:#ffbb7a; color:black; font-size:50px; line-height:50px; text-align:center;"></br>At risk of increased fragmentation despite a popular and promising leader</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Ethiopia: <span><span style="background-color:#ffbb7a; color:black; line-height:50px;"></br>At risk of increased fragmentation despite a popular and promising leader</span>',
 			image: '',
 			description: '',
 			location: {
