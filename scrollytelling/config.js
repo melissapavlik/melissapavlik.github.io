@@ -690,7 +690,7 @@ var config = {
 
 		{
 			id: 'mexico-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:white; text-align:center; font-style:bold; background-color:black;"> Mexico </span><span style="background-color:#a2c8ec; color:black; line-height:50px; text-align:center;"> </br> High risk of cartel criminal market developing into an insurgency </span>',
+			title: '<span style="font-size:100px; line-height:100px; color:white; text-align:center; font-style:bold; background-color:black;"> Mexico </span><span style="background-color:#a2c8ec; color:black; line-height:50px; text-align:center;"></br>High risk of cartel criminal market developing into an insurgency</span>',
 			image: '',
 			description: '',
 			location: {
@@ -757,7 +757,7 @@ var config = {
 
 		{
 			id: 'mexico-text',
-			title: '<span style="font-size:50px; line-height:60px; color:white; text-align:center; font-style:bold; font-style:italic;"> As cartels in Mexico fragment and increase their power, violence spreads. </span>',
+			title: '<span style="font-size:50px; line-height:60px; color:white; text-align:center; font-style:bold; font-style:italic;"> As cartels in Mexico fragment and increase their power, violence spreads.</span>',
 			image: '',
 			description: 'A deteriorating security situation, caused in part by weak public institutions and frequent political turnover, has made Mexico one of the most violent countries in the world. 2019 saw a record number of homicides across the country, particularly concentrated in the south. ',
 			location: {
@@ -958,7 +958,7 @@ var config = {
 
 		{
 			id: 'africa-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:#FF7F0E; text-align:right; font-style:bold;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">Africa</span><span style="font-size:40px;line-height:60px;color:white;text-align:right;font-style:italic;background-color:black;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:#FF7F0E; text-align:right; font-style:bold; -webkit-text-stroke-width:1px; -webkit-text-stroke-color:black;">Africa</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:black;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
 			image: '',
 			description: 'There exist multiple conflicts across Africa which threaten civilians and regional stability. However, three in particular - those in the Sahel, in Somalia, and in Ethiopia -  may see shifts in the coming year that will produce long-lasting and far-reaching consequences. Al Shabaab threatens the fragile Somali government, as across the continent Islamist groups grow more organized and lethal in the Sahel. Meanwhile, new political openness in Ethiopia has led long-simmering ethnic conflicts to devolve into open violence.',
 			location: {
@@ -1092,7 +1092,7 @@ var config = {
 
 		{
 			id: 'sahel-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">The Sahel</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:#ffbb7a; color:black; line-height:50px; text-align:center;"></br> High risk of conflicts diffusing and infecting neighbors </span>',
+			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">The Sahel</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:#ffbb7a; color:black; line-height:50px; text-align:center;"></br> High risk of conflicts diffusing and infecting neighbors</span>',
 			image: '',
 			description:'' ,
 			location: {
@@ -1561,7 +1561,7 @@ var config = {
 
 		{
 			id: 'somalia-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Somalia</span><span style="background-color:#093746; color:white; line-height:50px;"></br> High risk of Al Shabaab adapting to dominate and isolate a weak government</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Somalia</span><span style="background-color:#093746; color:white; line-height:50px;"></br>High risk of Al Shabaab adapting to dominate and isolate a weak government</span>',
 			image: '',
 			description: '',
 			location: {
@@ -1829,7 +1829,7 @@ var config = {
 
 		{
 			id: 'middle-east-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:#FF7F0E; text-align:right; font-style:bold;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">The Middle East</span><span style="font-size:40px;line-height:60px;color:white;text-align:right;font-style:italic;background-color:black;"></br>etcetcetcet cetcetc</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:#FF7F0E; text-align:right; font-style:bold; -webkit-text-stroke-width:1px; -webkit-text-stroke-color: black;">The Middle East</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:black;"></br>etcetcetcetcetcetc</span>',
 			image: '',
 			description: '',
 			location: {
@@ -1963,7 +1963,7 @@ var config = {
 
 		{
 			id: 'lebanon-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Lebanon: </span><span style="background-color:#093746; color:white; line-height:50px;"></br> At risk of protests evolving into organized violence </span>'',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Lebanon</span><span style="background-color:#093746; color:white; line-height:50px;"></br>At risk of protests evolving into organized violence</span>'',
 			image: '',
 			description: '',
 			location: {
@@ -2768,7 +2768,7 @@ var config = {
 
 		{
 			id: 'central-asia-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:#FF7F0E; text-align:right; font-style:bold;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">Central Asia</span><span style="font-size:40px;line-height:60px;color:white;text-align:right;font-style:italic;background-color:black;"></br>etcetcetcet cetcetc</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:#FF7F0E; text-align:right; font-style:bold; -webkit-text-stroke-width:1px; -webkit-text-stroke-color:black;">Central Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:black;"></br>etcetcetcetcetcetc</span>',
 			image: '',
 			description: '',
 			location: {
@@ -3170,7 +3170,7 @@ var config = {
 
 		{
 			id: 'south-asia-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:#FF7F0E; text-align:right; font-style:bold;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">South Asia</span><span style="font-size:40px;line-height:60px;color:white;text-align:right;font-style:italic;background-color:black;"></br>etcetcetcet cetcetc</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:#FF7F0E; text-align:right; font-style:bold; -webkit-text-stroke-width:1px; -webkit-text-stroke-color:black;">South Asia</span><span style="font-size:40px;line-height:60px; color:white; text-align:right; font-style:italic; background-color:black;"></br>etcetcetcetcetcetc</span>',
 			image: '',
 			description: '',
 			location: {
