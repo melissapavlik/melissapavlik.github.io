@@ -2902,7 +2902,7 @@ var config = {
 
 		{
 			id: 'afg-intro',
-			title: 'Afghanistan: At risk of rising violence targeting civilians ',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Afghanistan</span><span style="background-color:#093746; color:white; line-height:50px;"></br>At risk of rising violence targeting civilians</span>',
 			image: '',
 			description: '',
 			location: {
