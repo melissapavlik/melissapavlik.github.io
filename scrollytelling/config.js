@@ -2164,7 +2164,7 @@ var config = {
 
 		{
 			id: 'yemen-intro',
-			title: 'Yemen: High risk of persistent conflict as alliances and frontlines shift',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Yemen</span><span style="background-color:#093746; color:white; line-height:50px;"></br>High risk of persistent conflict as alliances and frontlines shift</span>',
 			image: '',
 			description: '',
 			location: {
