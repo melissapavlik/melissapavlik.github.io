@@ -759,7 +759,7 @@ var config = {
 			id: 'mexico-text',
 			title: '<span style="font-size:50px; line-height:60px; color:white; text-align:center; font-style:bold; font-style:italic;"> As cartels in Mexico fragment and increase their power, violence spreads.</span>',
 			image: '',
-			description: 'A deteriorating security situation, caused in part by weak public institutions and frequent political turnover, has made Mexico one of the most violent countries in the world. 2019 saw a record number of homicides across the country, particularly concentrated in the south. ',
+			description: 'A deteriorating security situation, caused in part by weak public institutions and frequent political turnover, has made Mexico one of the most violent countries in the world. 2019 saw a record number of homicides across the country, particularly concentrated in the south.',
 			location: {
 				center: [-108.64804, 21.96790],
 				zoom: 4.21,
@@ -1963,7 +1963,7 @@ var config = {
 
 		{
 			id: 'lebanon-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Lebanon</span><span style="background-color:#093746; color:white; line-height:50px;"></br>At risk of protests evolving into organized violence</span>'',
+			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Lebanon</span><span style="background-color:#093746; color:white; line-height:50px;"></br>At risk of protests evolving into organized violence</span>',
 			image: '',
 			description: '',
 			location: {
