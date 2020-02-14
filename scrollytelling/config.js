@@ -16,10 +16,10 @@ var config = {
 
 	chapters: [
 
-//world-overview-1//
+//world-intro//
 
 		{
-			id: 'world-overview-1',
+			id: 'world-intro',
 			title: 'Where to focus in 2020',
 			image: '',
 			description: '2019 saw disorder mount across the world. Coups, popular demonstrations, assassinations, and election violence rocked countries across nearly every continent, and the year’s developments promise to shape political violence for years to come.',
@@ -83,10 +83,10 @@ var config = {
 		  ]
 		},
 
-//world-overview-2//
+//world-data2polygons//
 
 		{
-			id: 'world-overview-2',
+			id: 'world-data2polygons',
 			title: '',
 			image: '',
 			description: '',
@@ -99,7 +99,7 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'polygons',
-					opacity: 1.0
+					opacity: 0.9
 				},
 				{
 					layer: 'all-data-1',
@@ -125,7 +125,7 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'polygons',
-					opacity: 1
+					opacity: 0.9
 				},
 				{
 					layer: 'all-data-1',
@@ -150,10 +150,10 @@ var config = {
 			]
 		},
 
-//world-overview-3//
+//world-text//
 
 		{
-			id: 'world-overview-3',
+			id: 'world-text',
 			title: ' ',
 			image: '',
 			description: '<p style="font-size:25px; line-height:30px;"> Ten areas across five regions call for particularly close attention in the coming year: these countries and sub-regions feature conflicts and disorder which threaten to have an outsized impact on global disorder, represent a massive shift from past patterns, or could devolve significantly as the decade begins.</p>',
@@ -217,10 +217,10 @@ var config = {
 		  ]
 		},
 
-//north-america-1//
+//world2north-america//
 
 		{
-			id: 'north-america-1',
+			id: 'world2north-america',
 			title: '',
 			image: '',
 			description: '',
@@ -233,7 +233,7 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'polygons',
-					opacity: 1.0
+					opacity: 0.9
 				},
 				{
 					layer: 'all-data-1',
@@ -284,10 +284,10 @@ var config = {
 			]
 		},
 
-//north-america-2//
+//north-america-intro//
 
 		{
-			id: 'north-america-2',
+			id: 'north-america-intro',
 			title: '<span style="font-size:100px;line-height:100px; color:#FFBB7A;text-align:left;font-style:bold;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;"> North America</span> <span style="font-size:40px;line-height:60px;color:white;text-align:left;font-style:italic;background-color:black;"> Ongoing political violence threatens to escalate</span>',
 			image: '',
 			description: 'Two countries in North America - the United States and Mexico - pose unique threats to their respective polities and the world at large. The United States - long considered a stable and proficient democracy, and the wealthiest and most powerful country in the world, has seen mass unrest and lone acts of violence which proven to be remarkably deadly. In Mexico, organized criminal gangs, long violence, have increased in frequency and in power, promising political elements to come.',
@@ -351,10 +351,10 @@ var config = {
 			]
 		},
 
-//us-1//
+//north-america2us//
 
 		{
-			id: 'us-1',
+			id: 'north-america2us',
 			title: '',
 			image: '',
 			description: '',
@@ -418,10 +418,10 @@ var config = {
 			]
 		},
 
-//us-2//
+//us-intro//
 
 		{
-			id: 'us-2',
+			id: 'us-intro',
 			title: '<span style="font-size:100px; line-height:100px; color:white;text-align:center;font-style:bold;background-color:black;"> United States </span><span style="background-color:#ffbb7a;color:black;line-height:50px;text-align:center;">Developed, democratic political system at risk of turning violent</span>',
 			image: '',
 			description: '',
@@ -485,10 +485,10 @@ var config = {
 			]
 		},
 
-//us-3//
+//us-data2states//
 
 		{
-			id: 'us-3',
+			id: 'us-data2states',
 			title: '',
 			image: '',
 			description: '',
@@ -552,10 +552,10 @@ var config = {
 			]
 		},
 
-//us-4//
+//us-text//
 
 		{
-			id: 'us-4',
+			id: 'us-text',
 			title: '<span style="font-size:50px; line-height:60px; color:white; text-align:center; font-style:bold; font-style:italic;"> The U.S. is home to a robust protest environment and rare, but deadly violence.</span>',
 			image: 'images/us-event-fatality-donut.png',
 			description: '<span style="color:cfcfcf;line-height:30px;1">ACLED’s pilot project collected data on political violence and protest events in the U.S. from July through September 2019, which included thousands of peaceful protests across all 50 states. Political violence events were limited, but disproportionately lethal: these include mass shootings, hate crimes, militia activity, and police brutality, and resulted in nearly 50 fatalities. </span>',
@@ -619,10 +619,10 @@ var config = {
 			]
 		},
 
-//mexico-1//
+//us2mexico//
 
 		{
-			id: 'mexico-1',
+			id: 'us2mexico',
 			title: '<span style="font-size:100px; line-height:100px; color:white; text-align:center; font-style:bold; background-color:black;"> Mexico </span><span style="background-color:#a2c8ec; color:black; line-height:50px; text-align:center;"> </br> High risk of cartel criminal market developing into an insurgency </span>',
 			image: '',
 			description: '',
@@ -686,10 +686,10 @@ var config = {
 		]
 		},
 
-//mexico-2//
+//mexico-intro//
 
 		{
-			id: 'mexico-2',
+			id: 'mexico-intro',
 			title: '<span style="font-size:100px; line-height:100px; color:white; text-align:center; font-style:bold; background-color:black;"> Mexico </span><span style="background-color:#a2c8ec; color:black; line-height:50px; text-align:center;"> </br> High risk of cartel criminal market developing into an insurgency </span>',
 			image: '',
 			description: '',
@@ -753,10 +753,10 @@ var config = {
 			]
 		},
 
-//mexico-3//
+//mexico-text//
 
 		{
-			id: 'mexico-3',
+			id: 'mexico-text',
 			title: '<span style="font-size:50px; line-height:60px; color:white; text-align:center; font-style:bold; font-style:italic;"> As cartels in Mexico fragment and increase their power, violence spreads. </span>',
 			image: '',
 			description: 'A deteriorating security situation, caused in part by weak public institutions and frequent political turnover, has made Mexico one of the most violent countries in the world. 2019 saw a record number of homicides across the country, particularly concentrated in the south. ',
@@ -820,10 +820,10 @@ var config = {
 			]
 		},
 
-//world-overview-4//
+//mexico2world//
 
 		{
-			id: 'world-overview-4',
+			id: 'mexico2world',
 			title: '',
 			image: '',
 			description: '',
@@ -887,10 +887,10 @@ var config = {
 			]
 		},
 
-//africa-1//
+//world2africa//
 
 		{
-			id: 'africa-1',
+			id: 'world2africa',
 			title: '',
 			image: '',
 			description: '',
@@ -954,10 +954,10 @@ var config = {
 			]
 		},
 
-//africa-2//
+//africa-intro//
 
 		{
-			id: 'africa-2',
+			id: 'africa-intro',
 			title: '<span style="font-size:100px; line-height:100px; color:#FF7F0E; text-align:right; font-style:bold;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">Africa</span><span style="font-size:40px;line-height:60px;color:white;text-align:right;font-style:italic;background-color:black;"></br>Conflict with the potential to crumble states and wreak regional havoc.</span>',
 			image: '',
 			description: 'There exist multiple conflicts across Africa which threaten civilians and regional stability. However, three in particular - those in the Sahel, in Somalia, and in Ethiopia -  may see shifts in the coming year that will produce long-lasting and far-reaching consequences. Al Shabaab threatens the fragile Somali government, as across the continent Islamist groups grow more organized and lethal in the Sahel. Meanwhile, new political openness in Ethiopia has led long-simmering ethnic conflicts to devolve into open violence.',
@@ -1021,10 +1021,10 @@ var config = {
 			]
 		},
 
-//sahel-1//
+//africa2sahel//
 
 		{
-			id: 'sahel-1',
+			id: 'africa2sahel',
 			title: '',
 			image: '',
 			description:'' ,
@@ -1088,10 +1088,10 @@ var config = {
 			]
 		},
 
-//sahel-2//
+//sahel-intro//
 
 		{
-			id: 'sahel-2',
+			id: 'sahel-intro',
 			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">The Sahel:</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:#ffbb7a; color:black; line-height:50px; text-align:center;"></br> High risk of conflicts diffusing and infecting neighbors </span>',
 			image: '',
 			description:'' ,
@@ -1155,10 +1155,10 @@ var config = {
 			]
 		},
 
-//sahel-3//
+//sahel-datashift//
 
 		{
-			id: 'sahel-3',
+			id: 'sahel-datashift',
 			title: '',
 			image: '',
 			description: '',
@@ -1222,10 +1222,10 @@ var config = {
 			]
 		},
 
-//sahel-4//
+//sahel-text//
 
 		{
-			id: 'sahel-4',
+			id: 'sahel-text',
 			title: '',
 			image: '',
 			description: '',
@@ -1289,10 +1289,10 @@ var config = {
 			]
 		},
 
-//ethiopia-1//
+//sahel2ethiopia//
 
 		{
-			id: 'ethiopia-1',
+			id: 'sahel2ethiopia',
 			title: '',
 			image: '',
 			description: '',
@@ -1356,10 +1356,10 @@ var config = {
 			]
 		},
 
-//ethiopia-2//
+//ethiopia-intro//
 
 		{
-			id: 'ethiopia-2',
+			id: 'ethiopia-intro',
 			title: 'Ethiopia: At risk of increased fragmentation despite a popular and promising leader',
 			image: '',
 			description: '',
@@ -1423,10 +1423,10 @@ var config = {
 			]
 		},
 
-//ethiopia-3//
+//ethiopia-text//
 
 		{
-			id: 'ethiopia-3',
+			id: 'ethiopia-text',
 			title: '',
 			image: '',
 			description: '',
@@ -1490,10 +1490,12 @@ var config = {
 			]
 		},
 
-//somalia-1//
+//ethiopia2somalia//
+
+//somalia-intro//
 
 		{
-			id: 'somalia-1',
+			id: 'somalia-intro',
 			title: 'Somalia: High risk of Al Shabaab adapting to dominate and isolate a weak government',
 			image: '',
 			description: '',
@@ -1557,10 +1559,10 @@ var config = {
 			]
 		},
 
-//somalia-2//
+//somalia-text//
 
 		{
-			id: 'somalia-2',
+			id: 'somalia-text',
 			title: '',
 			image: '',
 			description: '',
@@ -1624,10 +1626,10 @@ var config = {
 			]
 		},
 
-//world-overview-5//
+//somalia2world//
 
 		{
-			id: 'world-overview-5',
+			id: 'somalia2world',
 			title: '',
 			image: '',
 			description: '',
@@ -1691,10 +1693,10 @@ var config = {
 			]
 		},
 
-//middle-east-1//
+//world2middle-east//
 
 		{
-			id: 'middle-east-1',
+			id: 'world2middle-east',
 			title: '',
 			image: '',
 			description: '',
@@ -1758,10 +1760,10 @@ var config = {
 			]
 		},
 
-//middle-east-2//
+//middle-east-intro//
 
 		{
-			id: 'middle-east-2',
+			id: 'middle-east-intro',
 			title: 'The Middle East',
 			image: '',
 			description: '',
@@ -1825,10 +1827,12 @@ var config = {
 			]
 		},
 
-//lebanon-1//
+//middle-east2lebanon//
+
+//lebanon-intro//
 
 		{
-			id: 'lebanon-1',
+			id: 'lebanon-intro',
 			title: 'Lebanon: At risk of protests evolving into organized violence',
 			image: '',
 			description: '',
@@ -1892,10 +1896,10 @@ var config = {
 			]
 		},
 
-//lebanon-2//
+//lebanon-text//
 
 		{
-			id: 'lebanon-2',
+			id: 'lebanon-text',
 			title: '',
 			image: '',
 			description: '',
@@ -1959,10 +1963,12 @@ var config = {
 			]
 		},
 
-//yemen-1//
+//lebanon2yemen//
+
+//yemen-intro//
 
 		{
-			id: 'yemen-1',
+			id: 'yemen-intro',
 			title: 'Yemen: High risk of persistent conflict as alliances and frontlines shift',
 			image: '',
 			description: '',
@@ -2026,10 +2032,10 @@ var config = {
 			]
 		},
 
-//yemen-2//
+//yemen-datashift//
 
 		{
-			id: 'yemen-2',
+			id: 'yemen-datashift',
 			title: '',
 			image: '',
 			description: '',
@@ -2093,10 +2099,10 @@ var config = {
 			]
 		},
 
-//yemen-3//
+//yemen-text//
 
 		{
-			id: 'yemen-3',
+			id: 'yemen-text',
 			title: '',
 			image: '',
 			description: '',
@@ -2161,10 +2167,12 @@ var config = {
 			]
 		},
 
-//iran-1//
+//yemen2iran//
+
+//iran-intro//
 
 		{
-			id: 'iran-1',
+			id: 'iran-intro',
 			title: 'Iran: High risk of center deteriorating amid regime escalation abroad and at home',
 			image: '',
 			description: '',
@@ -2228,10 +2236,10 @@ var config = {
 			]
 		},
 
-//iran-2//
+//iran-datashift//
 
 		{
-			id: 'iran-2',
+			id: 'iran-datashift',
 			title: '',
 			image: '',
 			description: '',
@@ -2295,10 +2303,10 @@ var config = {
 			]
 		},
 
-//iran-3//
+//iran-text//
 
 		{
-			id: 'iran-3',
+			id: 'iran-text',
 			title: '',
 			image: '',
 			description: '',
@@ -2362,10 +2370,10 @@ var config = {
 			]
 		},
 
-//world-overview-6//
+//iran2world//
 
 		{
-			id: 'world-overview-6',
+			id: 'iran2world',
 			title: '',
 			image: '',
 			description: '',
@@ -2429,10 +2437,10 @@ var config = {
 			]
 		},
 
-//central-asia-1//
+//world2central-asia//
 
 		{
-			id: 'central-asia-1',
+			id: 'world2central-asia',
 			title: '',
 			image: '',
 			description: '',
@@ -2496,10 +2504,10 @@ var config = {
 			]
 		},
 
-//central-asia-2//
+//central-asia-intro//
 
 		{
-			id: 'central-asia-2',
+			id: 'central-asia-intro',
 			title: 'Central Asia',
 			image: '',
 			description: '',
@@ -2563,10 +2571,12 @@ var config = {
 			]
 		},
 
-//afghanistan-1//
+//central-asia2afg//
+
+//afg-intro//
 
 		{
-			id: 'afghanistan-1',
+			id: 'afg-intro',
 			title: 'Afghanistan: At risk of rising violence targeting civilians ',
 			image: '',
 			description: '',
@@ -2630,10 +2640,10 @@ var config = {
 			]
 		},
 
-//afghanistan-2//
+//afg-text//
 
 		{
-			id: 'afghanistan-2',
+			id: 'afg-text',
 			title: '',
 			image: '',
 			description: '',
@@ -2697,10 +2707,10 @@ var config = {
 			]
 		},
 
-//world-overview-7//
+//afg2world//
 
 		{
-			id: 'world-overview-7',
+			id: 'afg2world',
 			title: '',
 			image: '',
 			description: '',
@@ -2764,10 +2774,10 @@ var config = {
 			]
 		},
 
-//south asia-1//
+//world2south-asia//
 
 		{
-			id: 'south-asia-1',
+			id: 'world2south-asia',
 			title: '',
 			image: '',
 			description: '',
@@ -2831,10 +2841,10 @@ var config = {
 			]
 		},
 
-//south-asia-2//
+//south-asia-intro//
 
 		{
-			id: 'south-asia-2',
+			id: 'south-asia-intro',
 			title: 'South Asia',
 			image: '',
 			description: '',
@@ -2898,10 +2908,12 @@ var config = {
 			]
 		},
 
-//india-1//
+//south-asia2india//
+
+//india-intro//
 
 		{
-			id: 'india-1',
+			id: 'india-intro',
 			title: 'India: High risk of recent policies derailing with uncontrollable effects',
 			image: '',
 			description: '',
@@ -2965,10 +2977,10 @@ var config = {
 			]
 		},
 
-//india-2//
+//india-datashift//
 
 		{
-			id: 'india-2',
+			id: 'india-datashift',
 			title: '',
 			image: '',
 			description: '',
@@ -3032,10 +3044,10 @@ var config = {
 			]
 		},
 
-//india-3//
+//india-text//
 
 		{
-			id: 'india-3',
+			id: 'india-text',
 			title: '',
 			image: '',
 			description: '',
@@ -3099,10 +3111,10 @@ var config = {
 			]
 		},
 
-//world-overview-8//
+//india2world//
 
 		{
-			id: 'world-overview-8',
+			id: 'india2world',
 			title: '',
 			image: '',
 			description: '',
@@ -3166,10 +3178,10 @@ var config = {
 			]
 		},
 
-//world-overview-9//
+//world-conclusion//
 
 		{
-			id: 'world-overview-9',
+			id: 'world-conclusion',
 			title: '',
 			image: '',
 			description: '',
