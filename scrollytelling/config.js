@@ -1561,7 +1561,7 @@ var config = {
 
 		{
 			id: 'somalia-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Somalia</span><span style="background-color:#093746; color:white; line-height:50px;"></br>High risk of Al Shabaab adapting to dominate and isolate a weak government</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:white; font-style:bold;">Somalia</span><span style="background-color:#CFCFCF; color:black; line-height:50px;"></br>High risk of Al Shabaab adapting to dominate and isolate a weak government</span>',
 			image: '',
 			description: '',
 			location: {
@@ -2902,7 +2902,7 @@ var config = {
 
 		{
 			id: 'afg-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:black; font-style:bold;">Afghanistan</span><span style="background-color:#093746; color:white; line-height:50px;"></br>At risk of rising violence targeting civilians</span>',
+			title: '<span style="font-size:100px; line-height:150px; color:black; font-style:bold;">Afghanistan</span><span style="background-color:#093746; color:white; line-height:50px;"></br>At risk of rising violence targeting civilians</span>',
 			image: '',
 			description: '',
 			location: {
