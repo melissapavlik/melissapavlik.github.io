@@ -323,10 +323,317 @@ var config = {
 		  ]
 		},
 
-//world-data2polygons
+//world-data2polygons//
 
 		{
 			id: 'world-data2polygons',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [14.22310, 21.33435],
+				zoom: 1.46,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'all-data-1',
+					opacity: 0.8
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0.6
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0.3
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0.05
+				},
+				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_na',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_africa',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_me',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_ca',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_sa',
+					opacity: 0
+				},
+				{
+					layer: 'jk-data',
+					opacity: 0
+				},
+				{
+					layer: 'jk-border',
+					opacity: 0
+				},
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
+				},
+				{
+					layer: 'ca-afg-data',
+					opacity: 0
+				},
+				{
+					layer: 'iran-nov-rf',
+					opacity: 0
+				},
+				{
+					layer: 'iran-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-data',
+					opacity: 0
+				},
+				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jan-mar',
+					opacity: 0
+				},
+				{
+					layer: 'leb-data',
+					opacity: 0
+				},
+				{
+					layer: 'me-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-airstrike-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-data',
+					opacity: 0
+				},
+				{
+					layer: 'eth-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data-by-year',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-label',
+					opacity: 0
+				},
+				{
+					layer: 'africa-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-data',
+					opacity: 0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0
+				},
+				{
+					layer: 'us-data',
+					opacity: 0
+				},
+				{
+					layer: 'na-data',
+					opacity: 0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'all-data-1',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_world',
+					opacity: 1
+				},
+				{
+					layer: 'polygons_na',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_africa',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_me',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_ca',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_sa',
+					opacity: 0
+				},
+				{
+					layer: 'jk-data',
+					opacity: 0
+				},
+				{
+					layer: 'jk-border',
+					opacity: 0
+				},
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
+				},
+				{
+					layer: 'ca-afg-data',
+					opacity: 0
+				},
+				{
+					layer: 'iran-nov-rf',
+					opacity: 0
+				},
+				{
+					layer: 'iran-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-data',
+					opacity: 0
+				},
+				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jan-mar',
+					opacity: 0
+				},
+				{
+					layer: 'leb-data',
+					opacity: 0
+				},
+				{
+					layer: 'me-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-airstrike-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-data',
+					opacity: 0
+				},
+				{
+					layer: 'eth-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data-by-year',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-label',
+					opacity: 0
+				},
+				{
+					layer: 'africa-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-data',
+					opacity: 0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0
+				},
+				{
+					layer: 'us-data',
+					opacity: 0
+				},
+				{
+					layer: 'na-data',
+					opacity: 0
+				}
+		  ]
+		},
+
+//world-text
+
+		{
+			id: 'world-text',
 			title: 'Where to focus in 2020',
 			image: '',
 			description: 'Ten areas across five regions call for particularly close attention in the coming year: these areas feature conflicts and disorder which threaten to have an outsized impact on global disorder, represent a massive shift from past patterns, or could devolve significantly as the decade begins.',
@@ -1280,7 +1587,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_na',
-					opacity: 1
+					opacity: 0
 				},
 				{
 					layer: 'polygons_africa',
@@ -1396,7 +1703,7 @@ var config = {
 				},
 				{
 					layer: 'us-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'na-data',
@@ -4047,7 +4354,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -4055,7 +4362,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_africa',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_me',
@@ -4297,7 +4604,7 @@ var config = {
 				},
 				{
 					layer: 'africa-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'mex-rf-data',
@@ -4454,11 +4761,11 @@ var config = {
 				},
 				{
 					layer: 'sahel-label',
-					opacity: 0.8
+					opacity: 0
 				},
 				{
 					layer: 'africa-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'mex-rf-data',
@@ -4596,11 +4903,11 @@ var config = {
 				},
 				{
 					layer: 'sahel-data',
-					opacity: 0.8
+					opacity: 0
 				},
 				{
 					layer: 'sahel-label',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'africa-data',
@@ -4765,7 +5072,7 @@ var config = {
 				},
 				{
 					layer: 'africa-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'mex-rf-data',
@@ -4903,7 +5210,7 @@ var config = {
 				},
 				{
 					layer: 'sahel-data',
-					opacity: .8
+					opacity: 0.8
 				},
 				{
 					layer: 'sahel-label',
@@ -4936,10 +5243,10 @@ var config = {
 		  ]
 		},
 
-//sahel-datashift//
+//sahel-data2year//
 
 		{
-			id: 'sahel-datashift',
+			id: 'sahel-data2year',
 			title: '',
 			image: '',
 			description: '',
@@ -5068,7 +5375,7 @@ var config = {
 				},
 				{
 					layer: 'sahel-label',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'africa-data',
@@ -5590,7 +5897,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_africa',
-					opacity: 1
+					opacity: 0
 				},
 				{
 					layer: 'polygons_me',
@@ -5816,7 +6123,7 @@ var config = {
 				},
 				{
 					layer: 'eth-data',
-					opacity: 0.8
+					opacity: 0
 				},
 				{
 					layer: 'sahel-data-by-year',
@@ -6019,23 +6326,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -6123,314 +6430,7 @@ var config = {
 				},
 				{
 					layer: 'eth-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-data',
-					opacity: 0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'us-data',
-					opacity: 0
-				},
-				{
-					layer: 'na-data',
-					opacity: 0
-				}
-		  ]
-		},
-
-//ethiopia-text//
-
-		{
-			id: 'ethiopia-text',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [46.75444, 9.06499],
-				zoom: 5.17,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'all-data-1',
-					opacity: 0.83
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.6
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.3
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.05
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0.0
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_africa',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_me',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_ca',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_sa',
-					opacity: 0
-				},
-				{
-					layer: 'jk-data',
-					opacity: 0
-				},
-				{
-					layer: 'jk-border',
-					opacity: 0
-				},
-				{
-					layer: 'sa-ind-data',
-					opacity: 0
-				},
-				{
-					layer: 'ca-afg-data',
-					opacity: 0
-				},
-				{
-					layer: 'iran-nov-rf',
-					opacity: 0
-				},
-				{
-					layer: 'iran-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-data',
-					opacity: 0
-				},
-				{
-					layer: 'leb-oct-dec',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jul-sep',
-					opacity: 0
-				},
-				{
-					layer: 'leb-apr-jun',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jan-mar',
-					opacity: 0
-				},
-				{
-					layer: 'leb-data',
-					opacity: 0
-				},
-				{
-					layer: 'me-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-airstrike-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-data',
-					opacity: 0
-				},
-				{
-					layer: 'eth-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-data',
-					opacity: 0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'us-data',
-					opacity: 0
-				},
-				{
-					layer: 'na-data',
-					opacity: 0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'all-data-1',
-					opacity: 0.83
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.6
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.3
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.05
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0.0
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_africa',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_me',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_ca',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_sa',
-					opacity: 0
-				},
-				{
-					layer: 'jk-data',
-					opacity: 0
-				},
-				{
-					layer: 'jk-border',
-					opacity: 0
-				},
-				{
-					layer: 'sa-ind-data',
-					opacity: 0
-				},
-				{
-					layer: 'ca-afg-data',
-					opacity: 0
-				},
-				{
-					layer: 'iran-nov-rf',
-					opacity: 0
-				},
-				{
-					layer: 'iran-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-data',
-					opacity: 0
-				},
-				{
-					layer: 'leb-oct-dec',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jul-sep',
-					opacity: 0
-				},
-				{
-					layer: 'leb-apr-jun',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jan-mar',
-					opacity: 0
-				},
-				{
-					layer: 'leb-data',
-					opacity: 0
-				},
-				{
-					layer: 'me-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-airstrike-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-data',
-					opacity: 0
-				},
-				{
-					layer: 'eth-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'sahel-data-by-year',
@@ -6487,23 +6487,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -6633,23 +6633,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -6794,23 +6794,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -6894,7 +6894,7 @@ var config = {
 				},
 				{
 					layer: 'som-data',
-					opacity: 0
+					opacity: 0.9
 				},
 				{
 					layer: 'eth-data',
@@ -7040,7 +7040,7 @@ var config = {
 				},
 				{
 					layer: 'som-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'eth-data',
@@ -7101,23 +7101,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -7197,7 +7197,7 @@ var config = {
 				},
 				{
 					layer: 'som-airstrike-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'som-data',
@@ -7247,23 +7247,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -7343,7 +7343,7 @@ var config = {
 				},
 				{
 					layer: 'som-airstrike-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'som-data',
@@ -7408,23 +7408,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -7554,23 +7554,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_na',
@@ -7715,23 +7715,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -7743,7 +7743,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_me',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_ca',
@@ -7861,23 +7861,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -7889,7 +7889,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_me',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_ca',
@@ -8022,23 +8022,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -8114,7 +8114,7 @@ var config = {
 				},
 				{
 					layer: 'me-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'som-airstrike-data',
@@ -8168,23 +8168,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -8260,7 +8260,7 @@ var config = {
 				},
 				{
 					layer: 'me-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'som-airstrike-data',
@@ -8329,23 +8329,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -8417,7 +8417,7 @@ var config = {
 				},
 				{
 					layer: 'leb-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'me-data',
@@ -8475,23 +8475,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -8563,7 +8563,7 @@ var config = {
 				},
 				{
 					layer: 'leb-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'me-data',
@@ -8636,23 +8636,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -8724,7 +8724,7 @@ var config = {
 				},
 				{
 					layer: 'leb-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'me-data',
@@ -8782,23 +8782,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -8859,6 +8859,927 @@ var config = {
 				{
 					layer: 'leb-jul-sep',
 					opacity: 0
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jan-mar',
+					opacity: 0
+				},
+				{
+					layer: 'leb-data',
+					opacity: 0.8
+				},
+				{
+					layer: 'me-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-airstrike-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-data',
+					opacity: 0
+				},
+				{
+					layer: 'eth-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data-by-year',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-label',
+					opacity: 0
+				},
+				{
+					layer: 'africa-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-data',
+					opacity: 0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0
+				},
+				{
+					layer: 'us-data',
+					opacity: 0
+				},
+				{
+					layer: 'na-data',
+					opacity: 0
+				}
+		  ]
+		},
+
+//lebanon-q1//
+
+		{
+			id: 'lebanon-q1',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [35.10882, 33.87781],
+				zoom: 7.78,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'all-data-1',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_na',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_africa',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_me',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_ca',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_sa',
+					opacity: 0
+				},
+				{
+					layer: 'jk-data',
+					opacity: 0
+				},
+				{
+					layer: 'jk-border',
+					opacity: 0
+				},
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
+				},
+				{
+					layer: 'ca-afg-data',
+					opacity: 0
+				},
+				{
+					layer: 'iran-nov-rf',
+					opacity: 0
+				},
+				{
+					layer: 'iran-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-data',
+					opacity: 0
+				},
+				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jan-mar',
+					opacity: 0.8
+				},
+				{
+					layer: 'leb-data',
+					opacity: 0
+				},
+				{
+					layer: 'me-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-airstrike-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-data',
+					opacity: 0
+				},
+				{
+					layer: 'eth-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data-by-year',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-label',
+					opacity: 0
+				},
+				{
+					layer: 'africa-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-data',
+					opacity: 0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0
+				},
+				{
+					layer: 'us-data',
+					opacity: 0
+				},
+				{
+					layer: 'na-data',
+					opacity: 0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'all-data-1',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_na',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_africa',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_me',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_ca',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_sa',
+					opacity: 0
+				},
+				{
+					layer: 'jk-data',
+					opacity: 0
+				},
+				{
+					layer: 'jk-border',
+					opacity: 0
+				},
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
+				},
+				{
+					layer: 'ca-afg-data',
+					opacity: 0
+				},
+				{
+					layer: 'iran-nov-rf',
+					opacity: 0
+				},
+				{
+					layer: 'iran-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-data',
+					opacity: 0
+				},
+				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jan-mar',
+					opacity: 0.8
+				},
+				{
+					layer: 'leb-data',
+					opacity: 0
+				},
+				{
+					layer: 'me-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-airstrike-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-data',
+					opacity: 0
+				},
+				{
+					layer: 'eth-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data-by-year',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-label',
+					opacity: 0
+				},
+				{
+					layer: 'africa-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-data',
+					opacity: 0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0
+				},
+				{
+					layer: 'us-data',
+					opacity: 0
+				},
+				{
+					layer: 'na-data',
+					opacity: 0
+				}
+		  ]
+		},
+
+//lebanon-q2//
+
+		{
+			id: 'lebanon-q2',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [35.10882, 33.87781],
+				zoom: 7.78,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'all-data-1',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_na',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_africa',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_me',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_ca',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_sa',
+					opacity: 0
+				},
+				{
+					layer: 'jk-data',
+					opacity: 0
+				},
+				{
+					layer: 'jk-border',
+					opacity: 0
+				},
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
+				},
+				{
+					layer: 'ca-afg-data',
+					opacity: 0
+				},
+				{
+					layer: 'iran-nov-rf',
+					opacity: 0
+				},
+				{
+					layer: 'iran-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-data',
+					opacity: 0
+				},
+				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0.8
+				},
+				{
+					layer: 'leb-jan-mar',
+					opacity: 0
+				},
+				{
+					layer: 'leb-data',
+					opacity: 0
+				},
+				{
+					layer: 'me-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-airstrike-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-data',
+					opacity: 0
+				},
+				{
+					layer: 'eth-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data-by-year',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-label',
+					opacity: 0
+				},
+				{
+					layer: 'africa-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-data',
+					opacity: 0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0
+				},
+				{
+					layer: 'us-data',
+					opacity: 0
+				},
+				{
+					layer: 'na-data',
+					opacity: 0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'all-data-1',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_na',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_africa',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_me',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_ca',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_sa',
+					opacity: 0
+				},
+				{
+					layer: 'jk-data',
+					opacity: 0
+				},
+				{
+					layer: 'jk-border',
+					opacity: 0
+				},
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
+				},
+				{
+					layer: 'ca-afg-data',
+					opacity: 0
+				},
+				{
+					layer: 'iran-nov-rf',
+					opacity: 0
+				},
+				{
+					layer: 'iran-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-data',
+					opacity: 0
+				},
+				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0.8
+				},
+				{
+					layer: 'leb-jan-mar',
+					opacity: 0
+				},
+				{
+					layer: 'leb-data',
+					opacity: 0
+				},
+				{
+					layer: 'me-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-airstrike-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-data',
+					opacity: 0
+				},
+				{
+					layer: 'eth-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data-by-year',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-label',
+					opacity: 0
+				},
+				{
+					layer: 'africa-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-data',
+					opacity: 0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0
+				},
+				{
+					layer: 'us-data',
+					opacity: 0
+				},
+				{
+					layer: 'na-data',
+					opacity: 0
+				}
+		  ]
+		},
+
+//lebanon-q3//
+
+		{
+			id: 'lebanon-q3',
+			title: '',
+			image: '',
+			description: '',
+			location: {
+				center: [35.10882, 33.87781],
+				zoom: 7.78,
+				pitch: 0.00,
+				bearing: 0.00
+			},
+			onChapterEnter: [
+				{
+					layer: 'all-data-1',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_na',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_africa',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_me',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_ca',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_sa',
+					opacity: 0
+				},
+				{
+					layer: 'jk-data',
+					opacity: 0
+				},
+				{
+					layer: 'jk-border',
+					opacity: 0
+				},
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
+				},
+				{
+					layer: 'ca-afg-data',
+					opacity: 0
+				},
+				{
+					layer: 'iran-nov-rf',
+					opacity: 0
+				},
+				{
+					layer: 'iran-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-data',
+					opacity: 0
+				},
+				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0.8
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jan-mar',
+					opacity: 0
+				},
+				{
+					layer: 'leb-data',
+					opacity: 0
+				},
+				{
+					layer: 'me-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-airstrike-data',
+					opacity: 0
+				},
+				{
+					layer: 'som-data',
+					opacity: 0
+				},
+				{
+					layer: 'eth-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data-by-year',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-data',
+					opacity: 0
+				},
+				{
+					layer: 'sahel-label',
+					opacity: 0
+				},
+				{
+					layer: 'africa-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'mex-data',
+					opacity: 0
+				},
+				{
+					layer: 'states-w-numbers',
+					opacity: 0
+				},
+				{
+					layer: 'us-data',
+					opacity: 0
+				},
+				{
+					layer: 'na-data',
+					opacity: 0
+				}
+			],
+			onChapterExit: [
+				{
+					layer: 'all-data-1',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-2',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-3',
+					opacity: 0
+				},
+				{
+					layer: 'all-data-4',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_na',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_africa',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_me',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_ca',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_sa',
+					opacity: 0
+				},
+				{
+					layer: 'jk-data',
+					opacity: 0
+				},
+				{
+					layer: 'jk-border',
+					opacity: 0
+				},
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
+				},
+				{
+					layer: 'ca-afg-data',
+					opacity: 0
+				},
+				{
+					layer: 'iran-nov-rf',
+					opacity: 0
+				},
+				{
+					layer: 'iran-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-rf-data',
+					opacity: 0
+				},
+				{
+					layer: 'yem-data',
+					opacity: 0
+				},
+				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-apr-jun',
@@ -8927,10 +9848,10 @@ var config = {
 		  ]
 		},
 
-//lebanon-text//
+//lebanon-q4//
 
 		{
-			id: 'lebanon-text',
+			id: 'lebanon-q4',
 			title: '',
 			image: '',
 			description: '',
@@ -8943,23 +9864,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -9015,7 +9936,7 @@ var config = {
 				},
 				{
 					layer: 'leb-oct-dec',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-jul-sep',
@@ -9089,23 +10010,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -9161,7 +10082,7 @@ var config = {
 				},
 				{
 					layer: 'leb-oct-dec',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-jul-sep',
@@ -9250,23 +10171,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -9318,7 +10239,7 @@ var config = {
 				},
 				{
 					layer: 'yem-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-oct-dec',
@@ -9396,23 +10317,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -9464,7 +10385,7 @@ var config = {
 				},
 				{
 					layer: 'yem-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-oct-dec',
@@ -9557,23 +10478,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -9625,7 +10546,7 @@ var config = {
 				},
 				{
 					layer: 'yem-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-oct-dec',
@@ -9703,23 +10624,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -9771,314 +10692,7 @@ var config = {
 				},
 				{
 					layer: 'yem-data',
-					opacity: 0
-				},
-				{
-					layer: 'leb-oct-dec',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jul-sep',
-					opacity: 0
-				},
-				{
-					layer: 'leb-apr-jun',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jan-mar',
-					opacity: 0
-				},
-				{
-					layer: 'leb-data',
-					opacity: 0
-				},
-				{
-					layer: 'me-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-airstrike-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-data',
-					opacity: 0
-				},
-				{
-					layer: 'eth-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-data',
-					opacity: 0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'us-data',
-					opacity: 0
-				},
-				{
-					layer: 'na-data',
-					opacity: 0
-				}
-		  ]
-		},
-
-//yemen-datashift//
-
-		{
-			id: 'yemen-datashift',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [45.49023, 15.77554],
-				zoom: 6.02,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'all-data-1',
-					opacity: 0.83
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.6
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.3
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.05
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0.0
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_africa',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_me',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_ca',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_sa',
-					opacity: 0
-				},
-				{
-					layer: 'jk-data',
-					opacity: 0
-				},
-				{
-					layer: 'jk-border',
-					opacity: 0
-				},
-				{
-					layer: 'sa-ind-data',
-					opacity: 0
-				},
-				{
-					layer: 'ca-afg-data',
-					opacity: 0
-				},
-				{
-					layer: 'iran-nov-rf',
-					opacity: 0
-				},
-				{
-					layer: 'iran-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-data',
-					opacity: 0
-				},
-				{
-					layer: 'leb-oct-dec',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jul-sep',
-					opacity: 0
-				},
-				{
-					layer: 'leb-apr-jun',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jan-mar',
-					opacity: 0
-				},
-				{
-					layer: 'leb-data',
-					opacity: 0
-				},
-				{
-					layer: 'me-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-airstrike-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-data',
-					opacity: 0
-				},
-				{
-					layer: 'eth-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-data',
-					opacity: 0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'us-data',
-					opacity: 0
-				},
-				{
-					layer: 'na-data',
-					opacity: 0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'all-data-1',
-					opacity: 0.83
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.6
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.3
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.05
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0.0
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_africa',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_me',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_ca',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_sa',
-					opacity: 0
-				},
-				{
-					layer: 'jk-data',
-					opacity: 0
-				},
-				{
-					layer: 'jk-border',
-					opacity: 0
-				},
-				{
-					layer: 'sa-ind-data',
-					opacity: 0
-				},
-				{
-					layer: 'ca-afg-data',
-					opacity: 0
-				},
-				{
-					layer: 'iran-nov-rf',
-					opacity: 0
-				},
-				{
-					layer: 'iran-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-oct-dec',
@@ -10171,23 +10785,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -10235,7 +10849,7 @@ var config = {
 				},
 				{
 					layer: 'yem-rf-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'yem-data',
@@ -10317,23 +10931,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -10381,7 +10995,7 @@ var config = {
 				},
 				{
 					layer: 'yem-rf-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'yem-data',
@@ -10478,23 +11092,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -10538,7 +11152,7 @@ var config = {
 				},
 				{
 					layer: 'iran-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'yem-rf-data',
@@ -10624,23 +11238,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -10684,7 +11298,7 @@ var config = {
 				},
 				{
 					layer: 'iran-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'yem-rf-data',
@@ -10785,23 +11399,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -10845,7 +11459,7 @@ var config = {
 				},
 				{
 					layer: 'iran-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'yem-rf-data',
@@ -10931,23 +11545,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -10991,314 +11605,7 @@ var config = {
 				},
 				{
 					layer: 'iran-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-data',
-					opacity: 0
-				},
-				{
-					layer: 'leb-oct-dec',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jul-sep',
-					opacity: 0
-				},
-				{
-					layer: 'leb-apr-jun',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jan-mar',
-					opacity: 0
-				},
-				{
-					layer: 'leb-data',
-					opacity: 0
-				},
-				{
-					layer: 'me-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-airstrike-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-data',
-					opacity: 0
-				},
-				{
-					layer: 'eth-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-data',
-					opacity: 0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'us-data',
-					opacity: 0
-				},
-				{
-					layer: 'na-data',
-					opacity: 0
-				}
-		  ]
-		},
-
-//iran-datashift//
-
-		{
-			id: 'iran-datashift',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [49.94506, 32.57550],
-				zoom: 4.68,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'all-data-1',
-					opacity: 0.83
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.6
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.3
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.05
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0.0
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_africa',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_me',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_ca',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_sa',
-					opacity: 0
-				},
-				{
-					layer: 'jk-data',
-					opacity: 0
-				},
-				{
-					layer: 'jk-border',
-					opacity: 0
-				},
-				{
-					layer: 'sa-ind-data',
-					opacity: 0
-				},
-				{
-					layer: 'ca-afg-data',
-					opacity: 0
-				},
-				{
-					layer: 'iran-nov-rf',
-					opacity: 0
-				},
-				{
-					layer: 'iran-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-data',
-					opacity: 0
-				},
-				{
-					layer: 'leb-oct-dec',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jul-sep',
-					opacity: 0
-				},
-				{
-					layer: 'leb-apr-jun',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jan-mar',
-					opacity: 0
-				},
-				{
-					layer: 'leb-data',
-					opacity: 0
-				},
-				{
-					layer: 'me-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-airstrike-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-data',
-					opacity: 0
-				},
-				{
-					layer: 'eth-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-data',
-					opacity: 0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'us-data',
-					opacity: 0
-				},
-				{
-					layer: 'na-data',
-					opacity: 0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'all-data-1',
-					opacity: 0.83
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.6
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.3
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.05
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0.0
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_africa',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_me',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_ca',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_sa',
-					opacity: 0
-				},
-				{
-					layer: 'jk-data',
-					opacity: 0
-				},
-				{
-					layer: 'jk-border',
-					opacity: 0
-				},
-				{
-					layer: 'sa-ind-data',
-					opacity: 0
-				},
-				{
-					layer: 'ca-afg-data',
-					opacity: 0
-				},
-				{
-					layer: 'iran-nov-rf',
-					opacity: 0
-				},
-				{
-					layer: 'iran-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'yem-rf-data',
@@ -11399,23 +11706,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -11455,7 +11762,7 @@ var config = {
 				},
 				{
 					layer: 'iran-nov-rf',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'iran-data',
@@ -11545,23 +11852,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -11601,7 +11908,7 @@ var config = {
 				},
 				{
 					layer: 'iran-nov-rf',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'iran-data',
@@ -11706,23 +12013,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_na',
@@ -11852,23 +12159,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_na',
@@ -12013,23 +12320,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -12045,7 +12352,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_ca',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_sa',
@@ -12159,23 +12466,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -12191,7 +12498,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_ca',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_sa',
@@ -12320,23 +12627,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -12372,7 +12679,7 @@ var config = {
 				},
 				{
 					layer: 'ca-afg-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'iran-nov-rf',
@@ -12466,23 +12773,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -12518,7 +12825,7 @@ var config = {
 				},
 				{
 					layer: 'ca-afg-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'iran-nov-rf',
@@ -12627,23 +12934,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -12679,7 +12986,7 @@ var config = {
 				},
 				{
 					layer: 'ca-afg-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'iran-nov-rf',
@@ -12773,23 +13080,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -12825,7 +13132,7 @@ var config = {
 				},
 				{
 					layer: 'ca-afg-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'iran-nov-rf',
@@ -12934,23 +13241,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -12986,7 +13293,7 @@ var config = {
 				},
 				{
 					layer: 'ca-afg-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'iran-nov-rf',
@@ -13080,23 +13387,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -13132,314 +13439,7 @@ var config = {
 				},
 				{
 					layer: 'ca-afg-data',
-					opacity: 0
-				},
-				{
-					layer: 'iran-nov-rf',
-					opacity: 0
-				},
-				{
-					layer: 'iran-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-data',
-					opacity: 0
-				},
-				{
-					layer: 'leb-oct-dec',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jul-sep',
-					opacity: 0
-				},
-				{
-					layer: 'leb-apr-jun',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jan-mar',
-					opacity: 0
-				},
-				{
-					layer: 'leb-data',
-					opacity: 0
-				},
-				{
-					layer: 'me-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-airstrike-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-data',
-					opacity: 0
-				},
-				{
-					layer: 'eth-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-data',
-					opacity: 0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'us-data',
-					opacity: 0
-				},
-				{
-					layer: 'na-data',
-					opacity: 0
-				}
-		  ]
-		},
-
-//afg-text//
-
-		{
-			id: 'afg-text',
-			title: '',
-			image: '',
-			description: '',
-			location: {
-				center: [70.97220, 34.04994],
-				zoom: 5.36,
-				pitch: 0.00,
-				bearing: 0.00
-			},
-			onChapterEnter: [
-				{
-					layer: 'all-data-1',
-					opacity: 0.83
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.6
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.3
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.05
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0.0
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_africa',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_me',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_ca',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_sa',
-					opacity: 0
-				},
-				{
-					layer: 'jk-data',
-					opacity: 0
-				},
-				{
-					layer: 'jk-border',
-					opacity: 0
-				},
-				{
-					layer: 'sa-ind-data',
-					opacity: 0
-				},
-				{
-					layer: 'ca-afg-data',
-					opacity: 0
-				},
-				{
-					layer: 'iran-nov-rf',
-					opacity: 0
-				},
-				{
-					layer: 'iran-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-data',
-					opacity: 0
-				},
-				{
-					layer: 'leb-oct-dec',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jul-sep',
-					opacity: 0
-				},
-				{
-					layer: 'leb-apr-jun',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jan-mar',
-					opacity: 0
-				},
-				{
-					layer: 'leb-data',
-					opacity: 0
-				},
-				{
-					layer: 'me-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-airstrike-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-data',
-					opacity: 0
-				},
-				{
-					layer: 'eth-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-data',
-					opacity: 0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'us-data',
-					opacity: 0
-				},
-				{
-					layer: 'na-data',
-					opacity: 0
-				}
-			],
-			onChapterExit: [
-				{
-					layer: 'all-data-1',
-					opacity: 0.83
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0.6
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0.3
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0.05
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0.0
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_africa',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_me',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_ca',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_sa',
-					opacity: 0
-				},
-				{
-					layer: 'jk-data',
-					opacity: 0
-				},
-				{
-					layer: 'jk-border',
-					opacity: 0
-				},
-				{
-					layer: 'sa-ind-data',
-					opacity: 0
-				},
-				{
-					layer: 'ca-afg-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'iran-nov-rf',
@@ -13548,23 +13548,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_na',
@@ -13694,23 +13694,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_na',
@@ -13855,23 +13855,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -13891,7 +13891,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_sa',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'jk-data',
@@ -14001,23 +14001,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -14037,7 +14037,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_sa',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'jk-data',
@@ -14162,23 +14162,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -14210,7 +14210,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -14308,23 +14308,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -14356,7 +14356,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -14469,23 +14469,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -14517,7 +14517,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -14615,23 +14615,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -14663,7 +14663,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -14776,23 +14776,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -14824,7 +14824,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -14922,23 +14922,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -14970,7 +14970,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -15067,10 +15067,10 @@ var config = {
 		  ]
 		},
 
-//india-datashift//
+//india-jk//
 
 		{
-			id: 'india-datashift',
+			id: 'india-jk',
 			title: '',
 			image: '',
 			description: '',
@@ -15083,23 +15083,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -15123,11 +15123,11 @@ var config = {
 				},
 				{
 					layer: 'jk-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'jk-border',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'sa-ind-data',
@@ -15229,23 +15229,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -15269,11 +15269,11 @@ var config = {
 				},
 				{
 					layer: 'jk-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'jk-border',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'sa-ind-data',
@@ -15390,23 +15390,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -15430,11 +15430,11 @@ var config = {
 				},
 				{
 					layer: 'jk-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'jk-border',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'sa-ind-data',
@@ -15536,23 +15536,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -15576,11 +15576,11 @@ var config = {
 				},
 				{
 					layer: 'jk-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'jk-border',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'sa-ind-data',
@@ -15697,23 +15697,23 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_na',
@@ -15843,23 +15843,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity:
 				},
 				{
 					layer: 'polygons_na',
@@ -16020,7 +16020,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -16166,7 +16166,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
