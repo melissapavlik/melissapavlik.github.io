@@ -12817,7 +12817,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0.8
+					opacity: 0
 				},
 				{
 					layer: 'ca-afg-data',
