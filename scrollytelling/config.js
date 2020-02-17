@@ -1864,7 +1864,7 @@ var config = {
 			id: 'us-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:white;font-style:bold;background-color:black;"> United States </span><span style="background-color:#0D657D;color:white;line-height:50px;text-align:center;">Developed, democratic political system at risk of turning violent</span>',
 			image: '',
-			description: 'In the summer of 2019, ACLED launched a pilot project to systematically track all forms of political violence and demonstration activity across the US in real-time. Over three months from July through September, ACLED collected data on approximately 3,200 events; while the vast majority of these events are peaceful protests, the project also recorded political violence events ranging from mass shootings and hate crimes to non-state militia activity and police brutality.',
+			description: '<span style="background-color:black;">In the summer of 2019, ACLED launched a pilot project to systematically track all forms of political violence and demonstration activity across the US in real-time. Over three months from July through September, ACLED collected data on approximately 3,200 events; while the vast majority of these events are peaceful protests, the project also recorded political violence events ranging from mass shootings and hate crimes to non-state militia activity and police brutality.</span>',
 			location: {
 				center: [-101.55207, 38.27297],
 				zoom: 3.80,
