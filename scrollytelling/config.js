@@ -11385,7 +11385,7 @@ var config = {
 			id: 'iran-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:black; font-style:bold;">Iran</span><span style="background-color:#FFBB7A; color:black; line-height:50px;"></br>High risk of center deteriorating amid regime escalation abroad and at home</span>',
 			image: '',
-			description: '',
+			description: 'Tensions between Iran and the U.S. escalated substantially in 2019, ultimately resulting in the assassination of Iranian general Qasem Soleimani two days into 2020. Heightened U.S. sanctions against Iran also exacerbated the struggling economy, in turn catalyzing mass demonstrations. These culminated in hundreds of reported fatalities in November, showing the regime’s capacity and willingness to suppress domestic dissent.',
 			location: {
 				center: [49.94506, 32.57550],
 				zoom: 4.68,
@@ -12304,9 +12304,9 @@ var config = {
 
 		{
 			id: 'central-south-asia-intro',
-			title: '<span style="font-size:100px; background-color:black; line-height:150px; color:#F88D2F; text-align:right; font-style:bold;">Central & South Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:#CFCFCF; color:black;"></br> The most lethal war in the world makes Central Asia a dangerous region. </span>',
+			title: '<span style="font-size:100px; background-color:black; line-height:150px; color:#F88D2F; text-align:right; font-style:bold;">Central & South Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:#CFCFCF; color:black;"></br> The most lethal (Afghanistan) and most active (India) countries in the world are in Asia. </span>',
 			image: '',
-			description: 'The center of instability in Central Asia remains Afghanistan, even as other counries in the region suffr from spillover instability and rising protest movements.',
+			description: '',
 			location: {
 				center: [93.91289, 33.98083],
 				zoom: 2.89,
@@ -12920,7 +12920,7 @@ var config = {
 			id: 'afg-intro',
 			title: '<span style="font-size:100px; line-height:150px; background-color:#093746; color:white; font-style:bold;">Afghanistan</span><span style="background-color:#CFCFCF; color:black; line-height:50px;"></br>At risk of rising violence targeting civilians</span>',
 			image: '',
-			description: '',
+			description: 'The nearly two-decade conflict in Afghanistan continued to rage in 2019,  and violence affected all provinces in the country. Civilians remain heavily affected by the ongoing war, and civilian fatalities from both Taliban attacks and from airstrikes rose dramatically in 2019. While the U.S. has indicated its intention to withdraw troops throughout 2020, prospects for peace remain dim.',
 			location: {
 				center: [70.97220, 34.04994],
 				zoom: 5.36,
@@ -13839,9 +13839,9 @@ var config = {
 
 		{
 			id: 'india-text',
-			title: '',
+			title: 'Political shifts in India introduce potential for massive escalation',
 			image: '',
-			description: '',
+			description: 'Several momentous moves by the Indian government contributed to the country’s movement towards Hindu nationalism, and will shape its political violence landscape for years to come. India revoked autonomy in the Jammu & Kashmir (J&K) regions, which in turn led to increased violence. Late in the year, the Citizenship Amendment Bill discriminating against Muslims provoked widespread demonstrations.',
 			location: {
 				center: [68.67099, 22.51075],
 				zoom: 3.94,
@@ -14146,9 +14146,9 @@ var config = {
 
 		{
 			id: 'india-jk',
-			title: '',
+			title: 'Tensions in J&K exploded in 2019',
 			image: '',
-			description: '',
+			description: 'In October 2019, BDC elections proceeded in J&K amidst the ongoing controversy, raising questions about the legitimacy of the political process (Hindustan Times, 30 September 2019). Major opposition parties boycotted the elections citing detention of party leadership and security restrictions preventing their participation in political activities leading to the elections. Despite India’s ruling BJP having the freedom to campaign across J&K and contest unopposed by the state’s mainstream political establishment, independent candidates unexpectedly took 19 of 22 J&K districts at the polls (The Wire, 26 October 2019). The BDC election results were indicative of the growing dissociation between Kashmiri citizens and the BJP. Furthermore, strong opposition to the Indian government’s actions in J&K were reported across the country in the form of protests, violent demonstrations, and clashes with police forces.',
 			location: {
 				center: [74.43137, 33.88668],
 				zoom: 5.93,
