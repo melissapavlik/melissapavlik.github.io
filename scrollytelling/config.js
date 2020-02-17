@@ -1864,7 +1864,7 @@ var config = {
 			id: 'us-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:white;font-style:bold;background-color:black;"> United States </span><span style="background-color:#0D657D;color:white;line-height:50px;text-align:center;">Developed, democratic political system at risk of turning violent</span>',
 			image: '',
-			description: '<span style="background-color:black;">In the summer of 2019, ACLED launched a pilot project to systematically track all forms of political violence and demonstration activity across the US in real-time. Over three months from July through September, ACLED collected data on approximately 3,200 events; while the vast majority of these events are peaceful protests, the project also recorded political violence events ranging from mass shootings and hate crimes to non-state militia activity and police brutality.</span>',
+			description: '<span style="background-color:black;">ACLED collected pilot data on the political violence and protest landscape in the United States from July - September 2019, revealing a vibrant protest environment across all 50 states, and limited but lethal political violence. Demonstrations made up over 97% of reported events, the vast majority of which were peaceful. Dozens of reported fatalities were attributable to mass shootings and to excessive force by the police.</span>',
 			location: {
 				center: [-97.69364, 38.45774],
 				zoom: 3.86,
@@ -3399,7 +3399,7 @@ var config = {
 			id: 'mexico-text',
 			title: '<span style="font-size:50px; line-height:60px; text-align:center; font-style:bold; font-style:italic; color:#A2C8EC;"> As cartels in Mexico fragment and increase their power, violence spreads.</span>',
 			image: '',
-			description: 'A deteriorating security situation, caused in part by weak public institutions and frequent political turnover, has made Mexico one of the most violent countries in the world. 2019 saw a record number of homicides across the country, particularly concentrated in the south.',
+			description: 'ACLED’s coming coverage of Mexico demonstrates an active and lethal political violence landscape, dominated by drug and criminal violence. The violence in Mexico overwhelmingly affects civilians. A weak security apparatus, coupled with the fragmentation of armed groups, indicates that conflict will continue to spread and intensify into 2020, possibly developing into an insurgency.<b> To the right, dots are sized by the number of reported fatalities per event: the larger the dot, the higher the fatalities.',
 			location: {
 				center: [-108.64804, 21.96790],
 				zoom: 4.21,
@@ -4320,7 +4320,7 @@ var config = {
 			id: 'africa-intro',
 			title: '<span style="font-size:100px; line-height:150px; text-align:right; font-style:bold; color:#A2C8EC;">Africa</span><span style="font-size:40px; line-height:60px; text-align:right; font-style:italic; background-color:black; color:white;"></br>Conflict with the potential to crumble states and wreak regional havoc</span>',
 			image: '',
-			description: 'There exist multiple conflicts across Africa which threaten civilians and regional stability. However, three in particular - those in the Sahel, in Somalia, and in Ethiopia -  may see shifts in the coming year that will produce long-lasting and far-reaching consequences. Al Shabaab threatens the fragile Somali government, as across the continent Islamist groups grow more organized and lethal in the Sahel. Meanwhile, new political openness in Ethiopia has led long-simmering ethnic conflicts to devolve into open violence.',
+			description: '',
 			location: {
 				center: [53.88551, 1.44802],
 				zoom: 2.54,
@@ -4938,7 +4938,7 @@ var config = {
 			id: 'sahel-intro',
 			title: '<span style="font-size:100px; line-height:100px; color:#C95200; font-style:bold;">The Sahel</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:black; color:white; line-height:50px;"></br> High risk of conflicts diffusing and infecting neighbors</span>',
 			image: '',
-			description:'' ,
+			description:'Political violence in the Sahel - made up of Niger, Chad, Burkina Faso, Mauritania, and Mali - continued to escalate in 2019. Nearly twice as many reported fatalities occurred across these countries in 2019 than in 2018, making this past year the deadliest in over 20 years. A variety of local and global Islamist groups, overlapping objectives, and poor response from security forces have contributed to this insecurity.' ,
 			location: {
 				center: [-4.29098, 15.79492],
 				zoom: 4.09,
@@ -5550,9 +5550,9 @@ var config = {
 
 		{
 			id: 'sahel-text',
-			title: '',
+			title: 'Multiple overlapping forces served to greatly expand the geography of the conflict',
 			image: '',
-			description: '',
+			description: 'The growing threat posed by Islamist militant groups has attracted a number of foreign powers, with intersecting deployments of French, American, African, and EU troops all present in the region — adding to an already complex security situation. Still, the most serious and destabilizing acts of violence are perpetrated by local militias, recruited by or possibly partnered with either Jihadist organizations or domestic governments. These dynamic arrangements are actively reconfiguring the political geography of states at a time when ideologies and alliances are in flux across the Sahel. On the right, pale blue dots are 2018; black are 2019.',
 			location: {
 				center: [-4.29098, 15.79492],
 				zoom: 4.09,
