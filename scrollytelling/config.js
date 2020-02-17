@@ -6166,7 +6166,7 @@ var config = {
 			id: 'ethiopia-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:white; font-style:bold;">Ethiopia</span><span style="background-color:#A2C8EC; color:black; line-height:50px;"></br>At risk of increased fragmentation despite a popular and promising leader</span>',
 			image: '',
-			description: '',
+			description: 'Prime Minister Abiy Ahmed’s election in Spring 2018 served to open space for political dissent in Ethiopia, exposing long-standing ethno-regional rifts which became violent. The lack of strong state capacity has led to clashes between ethnic militia and communal groups, while dissatisfaction with the regime has led to an increase in protest and riot events. The fractionalized conflict threatens long-term hope for peace.',
 			location: {
 				center: [46.75444, 9.06499],
 				zoom: 5.17,
@@ -7087,7 +7087,7 @@ var config = {
 			id: 'somalia-text',
 			title: '',
 			image: '',
-			description: '',
+			description: 'Amidst an escalation of U.S. engagement and in preparation for AMISOM withdrawal, Al Shabaab remained a relentless and lethal force in Somalia’s political violence landscape in 2019. Their continued activity despite crackdowns raises concerns as to the Somali government’s ability to combat the group without AMISOM forces, especially as a national election approaches.<b> On the right, an x indicates the location of an airstrike.',
 			location: {
 				center: [44.02895, 5.29517],
 				zoom: 5.01,
@@ -8008,7 +8008,7 @@ var config = {
 			id: 'middle-east-intro',
 			title: '<span style="font-size:100px; line-height:150px; background-color:black; color:#DBEFF4; text-align:right; font-style:bold;">The Middle East</span><span style="font-size:40px; line-height:60px; color:black; text-align:right; font-style:italic;background-color:#CFCFCF;"></br> A troubled region faces new challenges </span>',
 			image: '',
-			description: '<span style="background-color:black;>The Midle East, long a lightning rod for instability, has seen continued insurgencies, wars, and increased government repression across the region in 2019. Lebanon, Yemen, and Iran pose particular concerns as 2020 begins.</span>',
+			description: '',
 			location: {
 				center: [47.23947, 26.89468],
 				zoom: 3.87,
@@ -8622,7 +8622,7 @@ var config = {
 			id: 'lebanon-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:#CFCFCF; font-style:bold;">Lebanon</span><span style="background-color:black; color:white; line-height:50px;"></br>At risk of protests evolving into organized violence</span>',
 			image: '',
-			description: '',
+			description: 'In October 2019, demonstrations broke out across Lebanon, fueled by popular discontentment with corruption and a worsening economic crisis. This wave of demonstrations resulted in the resignation of Lebanon’s Prime Minister Saad Hariri, though demonstration events continued even after his departure. Despite intermittent clashes, the demonstrations were largely peaceful.',
 			location: {
 				center: [35.10882, 33.87781],
 				zoom: 7.78,
@@ -8927,7 +8927,7 @@ var config = {
 
 		{
 			id: 'lebanon-q1',
-			title: '',
+			title: 'January - March 2019',
 			image: '',
 			description: '',
 			location: {
@@ -9234,7 +9234,7 @@ var config = {
 
 		{
 			id: 'lebanon-q2',
-			title: '',
+			title: 'April - June 2019',
 			image: '',
 			description: '',
 			location: {
@@ -9541,7 +9541,7 @@ var config = {
 
 		{
 			id: 'lebanon-q3',
-			title: '',
+			title: 'July - September 2019',
 			image: '',
 			description: '',
 			location: {
@@ -9848,7 +9848,7 @@ var config = {
 
 		{
 			id: 'lebanon-q4',
-			title: '',
+			title: 'October - December 2019',
 			image: '',
 			description: '',
 			location: {
@@ -10769,9 +10769,9 @@ var config = {
 
 		{
 			id: 'yemen-text',
-			title: '',
+			title: '2019 was the second most lethal year of Yemen’s civil war, which shows no signs of slowing',
 			image: '',
-			description: '',
+			description: 'The War in Yemen is not a single overarching political struggle, but a variety of interdependent and overlapping local conflicts, insurgencies, and proxy battles for regional powers seeking to maintain influence in the region. These interconnected sources of violence have accounted for over 23,000 direct-conflict related deaths in 2019, making it one of the most lethal years of the war. ',
 			location: {
 				center: [45.49023, 15.77554],
 				zoom: 6.02,
