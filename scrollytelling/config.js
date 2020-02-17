@@ -15859,7 +15859,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_world',
-					opacity:
+					opacity:0
 				},
 				{
 					layer: 'polygons_na',
