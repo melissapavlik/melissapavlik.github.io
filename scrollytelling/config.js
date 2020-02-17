@@ -6119,7 +6119,7 @@ var config = {
 				},
 				{
 					layer: 'eth-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'sahel-data-by-year',
@@ -6583,7 +6583,7 @@ var config = {
 				},
 				{
 					layer: 'som-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'eth-data',
@@ -6729,7 +6729,7 @@ var config = {
 				},
 				{
 					layer: 'som-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'eth-data',
@@ -6890,7 +6890,7 @@ var config = {
 				},
 				{
 					layer: 'som-data',
-					opacity: 0.9
+					opacity: 0.8
 				},
 				{
 					layer: 'eth-data',
