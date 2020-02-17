@@ -22,7 +22,7 @@ var config = {
 			id: 'world-intro',
 			title: 'Where to focus in 2020',
 			image: '',
-			description: '2019 saw disorder mount across the world. Coups, popular demonstrations, assassinations, and election violence rocked countries across nearly every continent, and the year’s developments promise to shape political violence for years to come.',
+			description: 'In 2019, the world witnessed a drastic increase in violent disorder that assumed many forms: protests from Lebanon to Hong Kong and Iraq to Chile; geopolitical competition in Yemen and Syria; dominant insurgencies in Somalia and Afghanistan; a cartel-insurgency in Mexico; and a diffuse, adaptable militant threat across the Sahel. Two problems immediately stand out: the world is significantly more violent now than a decade ago, and today’s conflict forms are strongly localized — types of violence, agents, targets, and solutions are unique to their local context. This is partially because governments in the world’s most violent places are no longer in control of their territories, nor show any interest or ability to resume control through direct or indirect authority. Governments are also much more likely to use violence against their citizens without international reproach. The rise of authoritarianism — and impunity — has generated significant public reaction in the form of mass protest movements, but it has also increased the level of violence imposed upon civilians and political competition.',
 			location: {
 				center: [14.22310, 21.33435],
 				zoom: 1.46,
@@ -636,7 +636,7 @@ var config = {
 			id: 'world-text',
 			title: '',
 			image: '',
-			description: 'Ten areas across five regions call for particularly close attention in the coming year: these areas feature conflicts and disorder which threaten to have an outsized impact on global disorder, represent a massive shift from past patterns, or could devolve significantly as the decade begins.',
+			description: 'In this report, ACLED has chosen 10 conflicts that demonstrate how violent political disorder is evolving in places it has festered for decades — such as Afghanistan — as well as in relatively new spaces — such as the United States. Across these 10 cases, observers have often concentrated on active threats and acts of violence, and less so on the latent risks that may produce new agents, modalities, targets, and opportunities for violence. If the past decade offers any lessons, it is that conflict can take many forms, and can arise from a range of local vulnerabilities if stoked. Here, we review 10 situations in which conflict is likely to change and worsen in the coming year, creating new dilemmas for governments and citizens.',
 			location: {
 				center: [14.22310, 21.33435],
 				zoom: 1.46,
@@ -1248,9 +1248,9 @@ var config = {
 
 		{
 			id: 'north-america-intro',
-			title: '<span style="font-size:100px;line-height:100px; color:#E59F6F;text-align:left;font-style:bold;"> North America</span> <span style="font-size:40px;line-height:60px;color:white;text-align:left;font-style:italic;background-color:black;"> Ongoing political violence threatens to escalate</span>',
+			title: '<span style="font-size:100px;line-height:100px; color:#white;text-align:left;font-style:bold;"> North America</span> <span style="font-size:40px;line-height:60px;color:white;text-align:left;font-style:italic;background-color:black;"> Ongoing political violence threatens to escalate</span>',
 			image: '',
-			description: 'Two countries in North America - the United States and Mexico - pose unique threats to their respective polities and the world at large. The United States - long considered a stable and proficient democracy, and the wealthiest and most powerful country in the world, has seen mass unrest and lone acts of violence which proven to be remarkably deadly. In Mexico, organized criminal gangs, long violence, have increased in frequency and in power, promising political elements to come.',
+			description: '',
 			location: {
 				center: [-105.30480, 39.64788],
 				zoom: 2.82,
@@ -1864,7 +1864,7 @@ var config = {
 			id: 'us-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:white;font-style:bold;background-color:black;"> United States </span><span style="background-color:#0D657D;color:white;line-height:50px;text-align:center;">Developed, democratic political system at risk of turning violent</span>',
 			image: '',
-			description: '',
+			description: 'In the summer of 2019, ACLED launched a pilot project to systematically track all forms of political violence and demonstration activity across the US in real-time. Over three months from July through September, ACLED collected data on approximately 3,200 events; while the vast majority of these events are peaceful protests, the project also recorded political violence events ranging from mass shootings and hate crimes to non-state militia activity and police brutality.',
 			location: {
 				center: [-101.55207, 38.27297],
 				zoom: 3.80,
@@ -2478,7 +2478,7 @@ var config = {
 			id: 'us-text',
 			title: '<span style="font-size:50px; line-height:60px; color:white; text-align:center; font-style:bold; font-style:italic;"> The U.S. is home to a robust protest environment and rare, but deadly violence.</span>',
 			image: 'images/us-event-fatality-donut.png',
-			description: '<span style="color:cfcfcf;line-height:30px;1">ACLED’s pilot project collected data on political violence and protest events in the U.S. from July through September 2019, which included thousands of peaceful protests across all 50 states. Political violence events were limited, but disproportionately lethal: these include mass shootings, hate crimes, militia activity, and police brutality, and resulted in nearly 50 fatalities. </span>',
+			description: '<span style="color:cfcfcf;line-height:30px;1">While violent events make up only 1% of the pilot data, they resulted in nearly 50 fatalities – a disproportionately deadly trend linked primarily to mass shootings. ACLED also records 16 events involving excessive force by police, more than half of which target racial and ethnic minorities. ACLED also records over 3,100 demonstration events across all 50 states, ranging from a minimum of three events in Wyoming to a maximum of almost 600 in California. During the three-month pilot period, more demonstration events were recorded in the US than in almost any other country in the ACLED dataset — second only to India, a country with more than four times the population of the US.</span>',
 			location: {
 				center: [-101.55207, 38.27297],
 				zoom: 3.80,
