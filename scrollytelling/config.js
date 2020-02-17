@@ -1864,7 +1864,7 @@ var config = {
 			id: 'us-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:white;font-style:bold;background-color:black;"> United States </span><span style="background-color:#0D657D;color:white;line-height:50px;text-align:center;">Developed, democratic political system at risk of turning violent</span>',
 			image: '',
-			description: '<span style="background-color:black;">ACLED collected pilot data on the political violence and protest landscape in the United States from July - September 2019, revealing a vibrant protest environment across all 50 states, and limited but lethal political violence. Demonstrations made up over 97% of reported events, the vast majority of which were peaceful. Dozens of reported fatalities were attributable to mass shootings and to excessive force by the police.</span>',
+			description: 'ACLED collected pilot data on the political violence and protest landscape in the United States from July - September 2019, revealing a vibrant protest environment across all 50 states, and limited but lethal political violence. Demonstrations made up over 97% of reported events, the vast majority of which were peaceful. Dozens of reported fatalities were attributable to mass shootings and to excessive force by the police.',
 			location: {
 				center: [-97.69364, 38.45774],
 				zoom: 3.86,
@@ -3090,7 +3090,7 @@ var config = {
 
 		{
 			id: 'mexico-intro',
-			title: '<p style="font-size:100px; line-height:150px; color:white; text-align:center; font-style:bold;"> Mexico </span><span style="background-color:#5F9ED1; color:black; line-height:50px; text-align:center;"></br>High risk of cartel criminal market developing into an insurgency</p>',
+			title: '<span style="font-size:100px; line-height:150px; color:white; text-align:center; font-style:bold;"> Mexico </span><span style="background-color:#5F9ED1; color:black; line-height:50px; text-align:center;"></br>High risk of cartel criminal market developing into an insurgency</span>',
 			image: '',
 			description: '',
 			location: {
@@ -4936,7 +4936,7 @@ var config = {
 
 		{
 			id: 'sahel-intro',
-			title: '<span style="font-size:100px; line-height:100px; color:#C95200; font-style:bold;">The Sahel</span><span style="font-size:40px; line-height:50px; color:white; font-style:italic;"> Mali, Burkina Faso, Niger, Mauritania and Chad </span><span style="background-color:black; color:white; line-height:50px;"></br> High risk of conflicts diffusing and infecting neighbors</span>',
+			title: '<span style="font-size:100px; line-height:100px; color:#C95200; font-style:bold;">The Sahel</span> <span style="background-color:black; color:white; line-height:50px;"></br> High risk of conflicts diffusing and infecting neighbors</span>',
 			image: '',
 			description:'Political violence in the Sahel - made up of Niger, Chad, Burkina Faso, Mauritania, and Mali - continued to escalate in 2019. Nearly twice as many reported fatalities occurred across these countries in 2019 than in 2018, making this past year the deadliest in over 20 years. A variety of local and global Islamist groups, overlapping objectives, and poor response from security forces have contributed to this insecurity.' ,
 			location: {
