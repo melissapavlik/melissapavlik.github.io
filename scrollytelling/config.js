@@ -4907,7 +4907,7 @@ var config = {
 				},
 				{
 					layer: 'africa-data',
-					opacity: 0.8
+					opacity: 0
 				},
 				{
 					layer: 'mex-rf-data',
@@ -5375,7 +5375,7 @@ var config = {
 				},
 				{
 					layer: 'africa-data',
-					opacity: 0.8
+					opacity: 0
 				},
 				{
 					layer: 'mex-rf-data',
