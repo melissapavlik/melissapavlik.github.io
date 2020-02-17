@@ -2480,8 +2480,8 @@ var config = {
 			image: 'images/us-event-fatality-donut.png',
 			description: '<span style="color:cfcfcf;line-height:30px;1">While violent events make up only 1% of the pilot data, they resulted in nearly 50 fatalities – a disproportionately deadly trend linked primarily to mass shootings. ACLED also records 16 events involving excessive force by police, more than half of which target racial and ethnic minorities. ACLED also records over 3,100 demonstration events across all 50 states, ranging from a minimum of three events in Wyoming to a maximum of almost 600 in California. During the three-month pilot period, more demonstration events were recorded in the US than in almost any other country in the ACLED dataset — second only to India, a country with more than four times the population of the US.</span>',
 			location: {
-				center: [-101.55207, 38.27297],
-				zoom: 3.80,
+				center: [-105.98915, 38.95508],
+				zoom: 3.64,
 				pitch: 0.00,
 				bearing: 0.00
 			},
