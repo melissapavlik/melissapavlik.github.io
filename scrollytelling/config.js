@@ -13843,8 +13843,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [68.67099, 22.51075],
-				zoom: 3.94,
+				center: [74.43137, 33.88668],
+				zoom: 5.93,
 				pitch: 0.00,
 				bearing: 0.00
 			},
