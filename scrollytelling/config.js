@@ -6940,23 +6940,23 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'all-data-1',
-					opacity: 0.83
+					opacity: 0
 				},
 				{
 					layer: 'all-data-2',
-					opacity: 0.6
+					opacity: 0
 				},
 				{
 					layer: 'all-data-3',
-					opacity: 0.3
+					opacity: 0
 				},
 				{
 					layer: 'all-data-4',
-					opacity: 0.05
+					opacity: 0
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
