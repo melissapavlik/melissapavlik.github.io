@@ -4047,7 +4047,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_africa',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_me',
@@ -4899,7 +4899,7 @@ var config = {
 				},
 				{
 					layer: 'sahel-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'sahel-label',
@@ -5068,7 +5068,7 @@ var config = {
 				},
 				{
 					layer: 'africa-data',
-					opacity: 0.8
+					opacity: 0
 				},
 				{
 					layer: 'mex-rf-data',
