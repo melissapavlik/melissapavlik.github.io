@@ -1559,8 +1559,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [-101.55207, 38.27297],
-				zoom: 3.80,
+				center: [-97.69364, 38.45774],
+				zoom: 3.86,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -1866,8 +1866,8 @@ var config = {
 			image: '',
 			description: '<span style="background-color:black;">In the summer of 2019, ACLED launched a pilot project to systematically track all forms of political violence and demonstration activity across the US in real-time. Over three months from July through September, ACLED collected data on approximately 3,200 events; while the vast majority of these events are peaceful protests, the project also recorded political violence events ranging from mass shootings and hate crimes to non-state militia activity and police brutality.</span>',
 			location: {
-				center: [-101.55207, 38.27297],
-				zoom: 3.80,
+				center: [-97.69364, 38.45774],
+				zoom: 3.86,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -2173,8 +2173,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [-101.55207, 38.27297],
-				zoom: 3.80,
+				center: [-97.69364, 38.45774],
+				zoom: 3.86,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -2480,8 +2480,8 @@ var config = {
 			image: 'images/us-event-fatality-donut.png',
 			description: '<span style="color:cfcfcf;line-height:30px;1">While violent events make up only 1% of the pilot data, they resulted in nearly 50 fatalities – a disproportionately deadly trend linked primarily to mass shootings. ACLED also records 16 events involving excessive force by police, more than half of which target racial and ethnic minorities. ACLED also records over 3,100 demonstration events across all 50 states, ranging from a minimum of three events in Wyoming to a maximum of almost 600 in California. During the three-month pilot period, more demonstration events were recorded in the US than in almost any other country in the ACLED dataset — second only to India, a country with more than four times the population of the US.</span>',
 			location: {
-				center: [-105.98915, 38.95508],
-				zoom: 3.64,
+				center: [-119.95849, 37.72505],
+				zoom: 3.23,
 				pitch: 0.00,
 				bearing: 0.00
 			},
