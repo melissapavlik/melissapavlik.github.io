@@ -12001,8 +12001,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [68.02622, 43.61508],
-				zoom: 3.64,
+				center: [93.91289, 33.98083],
+				zoom: 2.89,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -12045,7 +12045,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_sa',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'jk-data',
@@ -12191,7 +12191,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_sa',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'jk-data',
@@ -12308,8 +12308,8 @@ var config = {
 			image: '',
 			description: 'The center of instability in Central Asia remains Afghanistan, even as other counries in the region suffr from spillover instability and rising protest movements.',
 			location: {
-				center: [68.02622, 43.61508],
-				zoom: 3.64,
+				center: [93.91289, 33.98083],
+				zoom: 2.89,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -12364,7 +12364,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -12510,7 +12510,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -12671,7 +12671,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -12817,7 +12817,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -13229,8 +13229,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [14.22310, 21.33435],
-				zoom: 1.46,
+				center: [68.67099, 22.51075],
+				zoom: 3.94,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -13253,7 +13253,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 1
+					opacity:0
 				},
 				{
 					layer: 'polygons_na',
@@ -13285,7 +13285,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
@@ -13399,7 +13399,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 1
+					opacity: 0
 				},
 				{
 					layer: 'polygons_na',
@@ -13431,7 +13431,7 @@ var config = {
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'ca-afg-data',
