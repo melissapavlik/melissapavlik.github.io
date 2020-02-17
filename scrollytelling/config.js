@@ -634,7 +634,7 @@ var config = {
 
 		{
 			id: 'world-text',
-			title: 'Where to focus in 2020',
+			title: '',
 			image: '',
 			description: 'Ten areas across five regions call for particularly close attention in the coming year: these areas feature conflicts and disorder which threaten to have an outsized impact on global disorder, represent a massive shift from past patterns, or could devolve significantly as the decade begins.',
 			location: {
@@ -14627,7 +14627,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_world',
-					opacity:0
+					opacity:1
 				},
 				{
 					layer: 'polygons_na',
