@@ -3878,11 +3878,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0.0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_na',
