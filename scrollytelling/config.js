@@ -12304,7 +12304,7 @@ var config = {
 
 		{
 			id: 'central-south-asia-intro',
-			title: '<span style="font-size:100px; background-color:black; line-height:150px; color:white; text-align:right; font-style:bold;">Central & South Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:#CFCFCF; color:black;"></br> The most lethal (Afghanistan) and most active (India) countries in the world are in Asia. </span>',
+			title: '<span style="font-size:100px; background-color:black; line-height:150px; color:white; text-align:right; font-style:bold;">Central & South Asia</span><span style="font-size:40px; line-height:60px; color:white; text-align:right; font-style:italic; background-color:#CFCFCF; color:black;"></br> The most lethal and most active countries in the world are in Asia. </span>',
 			image: '',
 			description: '',
 			location: {
@@ -14146,9 +14146,9 @@ var config = {
 
 		{
 			id: 'india-jk',
-			title: '<span style="blackground-color:black; line-height:50px;"Tensions in J&K exploded in 2019</span>',
+			title: '<span style="background-color:black; line-height:50px;"Tensions in J&K exploded in 2019</span>',
 			image: '',
-			description: 'In October 2019, BDC elections proceeded in J&K amidst the ongoing controversy, raising questions about the legitimacy of the political process (Hindustan Times, 30 September 2019). Major opposition parties boycotted the elections citing detention of party leadership and security restrictions preventing their participation in political activities leading to the elections. Despite India’s ruling BJP having the freedom to campaign across J&K and contest unopposed by the state’s mainstream political establishment, independent candidates unexpectedly took 19 of 22 J&K districts at the polls (The Wire, 26 October 2019). The BDC election results were indicative of the growing dissociation between Kashmiri citizens and the BJP. Furthermore, strong opposition to the Indian government’s actions in J&K were reported across the country in the form of protests, violent demonstrations, and clashes with police forces.',
+			description: '<span style="color:black;">In October 2019, BDC elections proceeded in J&K amidst the ongoing controversy, raising questions about the legitimacy of the political process (Hindustan Times, 30 September 2019). Major opposition parties boycotted the elections citing detention of party leadership and security restrictions preventing their participation in political activities leading to the elections. Despite India’s ruling BJP having the freedom to campaign across J&K and contest unopposed by the state’s mainstream political establishment, independent candidates unexpectedly took 19 of 22 J&K districts at the polls (The Wire, 26 October 2019). The BDC election results were indicative of the growing dissociation between Kashmiri citizens and the BJP. Furthermore, strong opposition to the Indian government’s actions in J&K were reported across the country in the form of protests, violent demonstrations, and clashes with police forces.</span>',
 			location: {
 				center: [74.43137, 33.88668],
 				zoom: 5.93,
