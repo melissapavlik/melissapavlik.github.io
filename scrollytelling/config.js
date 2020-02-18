@@ -13841,7 +13841,7 @@ var config = {
 			id: 'india-text',
 			title: '<span style="color:#CFCFCF; line-height:50px;">Political shifts in India introduce potential for massive escalation</span>',
 			image: '',
-			description: 'span style="color:black;">Several momentous moves by the Indian government contributed to the country’s movement towards Hindu nationalism, and will shape its political violence landscape for years to come. India revoked autonomy in the Jammu & Kashmir (J&K) regions, which in turn led to increased violence. Late in the year, the Citizenship Amendment Bill discriminating against Muslims provoked widespread demonstrations.</span>',
+			description: 'Several momentous moves by the Indian government contributed to the country’s movement towards Hindu nationalism, and will shape its political violence landscape for years to come. India revoked autonomy in the Jammu & Kashmir (J&K) regions, which in turn led to increased violence. Late in the year, the Citizenship Amendment Bill discriminating against Muslims provoked widespread demonstrations.',
 			location: {
 				center: [68.67099, 22.51075],
 				zoom: 3.94,
@@ -14146,9 +14146,9 @@ var config = {
 
 		{
 			id: 'india-jk',
-			title: '<span style="background-color:black; line-height:50px;"Tensions in J&K exploded in 2019</span>',
+			title: '<span style="background-color:black; line-height:50px;">Tensions in J&K exploded in 2019</span>',
 			image: '',
-			description: '<span style="color:black;">In October 2019, BDC elections proceeded in J&K amidst the ongoing controversy, raising questions about the legitimacy of the political process (Hindustan Times, 30 September 2019). Major opposition parties boycotted the elections citing detention of party leadership and security restrictions preventing their participation in political activities leading to the elections. Despite India’s ruling BJP having the freedom to campaign across J&K and contest unopposed by the state’s mainstream political establishment, independent candidates unexpectedly took 19 of 22 J&K districts at the polls (The Wire, 26 October 2019). The BDC election results were indicative of the growing dissociation between Kashmiri citizens and the BJP. Furthermore, strong opposition to the Indian government’s actions in J&K were reported across the country in the form of protests, violent demonstrations, and clashes with police forces.</span>',
+			description: '<span style="color:black;background-color:white">In October 2019, BDC elections proceeded in J&K amidst the ongoing controversy, raising questions about the legitimacy of the political process (Hindustan Times, 30 September 2019). Major opposition parties boycotted the elections citing detention of party leadership and security restrictions preventing their participation in political activities leading to the elections. Despite India’s ruling BJP having the freedom to campaign across J&K and contest unopposed by the state’s mainstream political establishment, independent candidates unexpectedly took 19 of 22 J&K districts at the polls (The Wire, 26 October 2019). The BDC election results were indicative of the growing dissociation between Kashmiri citizens and the BJP. Furthermore, strong opposition to the Indian government’s actions in J&K were reported across the country in the form of protests, violent demonstrations, and clashes with police forces.</span>',
 			location: {
 				center: [74.43137, 33.88668],
 				zoom: 5.93,
