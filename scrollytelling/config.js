@@ -8927,7 +8927,7 @@ var config = {
 
 		{
 			id: 'lebanon-q1',
-			title: '<span style="background-color:black;font-style:italic;font-size:100px;">January - March 2019</span>',
+			title: '<span style="background-color:black;font-style:italic;">January - March 2019</span>',
 			image: '',
 			description: 'Limited activity in the first quarter of 2019...',
 			location: {
@@ -9234,7 +9234,7 @@ var config = {
 
 		{
 			id: 'lebanon-q2',
-			title: '<span style="background-color:black;font-style:italic;font-size:100px;">April - June 2019</span>',
+			title: '<span style="background-color:black;font-style:italic;">April - June 2019</span>',
 			image: '',
 			description: '...or in the second...',
 			location: {
@@ -9541,7 +9541,7 @@ var config = {
 
 		{
 			id: 'lebanon-q3',
-			title: '<span style="background-color:black;font-style:italic;font-size:100px;">July - September 2019</span>',
+			title: '<span style="background-color:black;font-style:italic;">July - September 2019</span>',
 			image: '',
 			description: '...or the third.',
 			location: {
@@ -9848,7 +9848,7 @@ var config = {
 
 		{
 			id: 'lebanon-q4',
-			title: '<span style="background-color:black;font-style:italic;font-size:100px;">October - December 2019</span>',
+			title: '<span style="background-color:black;font-style:italic;">October - December 2019</span>',
 			image: '',
 			description: 'In the fourth quarter of 2019, demonstration activty explodes, spreading around the country.',
 			location: {
