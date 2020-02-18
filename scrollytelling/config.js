@@ -3399,7 +3399,7 @@ var config = {
 			id: 'mexico-text',
 			title: '<span style="font-size:50px; line-height:60px; text-align:center; font-style:bold; font-style:italic; color:#A2C8EC;"> As cartels in Mexico fragment and increase their power, violence spreads.</span>',
 			image: '',
-			description: 'ACLED’s coming coverage of Mexico demonstrates an active and lethal political violence landscape, dominated by drug and criminal violence. The violence in Mexico overwhelmingly affects civilians. A weak security apparatus, coupled with the fragmentation of armed groups, indicates that conflict will continue to spread and intensify into 2020, possibly developing into an insurgency.</br><b> To the right, dots are sized by the number of reported fatalities per event: the larger the dot, the higher the fatalities.',
+			description: 'ACLED’s coming coverage of Mexico demonstrates an active and lethal political violence landscape, dominated by drug and criminal violence. The violence in Mexico overwhelmingly affects civilians. A weak security apparatus, coupled with the fragmentation of armed groups, indicates that conflict will continue to spread and intensify into 2020, possibly developing into an insurgency.</br></br><b> To the right, dots are sized by the number of reported fatalities per event: the larger the dot, the higher the fatalities.',
 			location: {
 				center: [-108.64804, 21.96790],
 				zoom: 4.21,
@@ -8850,19 +8850,19 @@ var config = {
 				},
 				{
 					layer: 'leb-oct-dec',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-jul-sep',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-apr-jun',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-jan-mar',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-data',
@@ -11385,7 +11385,7 @@ var config = {
 			id: 'iran-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:black; font-style:bold;">Iran</span><span style="background-color:#FFBB7A; color:black; line-height:50px;"></br>High risk of center deteriorating amid regime escalation abroad and at home</span>',
 			image: '',
-			description: '<span style:"color:black;">Tensions between Iran and the U.S. escalated substantially in 2019, ultimately resulting in the assassination of Iranian general Qasem Soleimani two days into 2020. Heightened U.S. sanctions against Iran also exacerbated the struggling economy, in turn catalyzing mass demonstrations. These culminated in hundreds of reported fatalities in November, showing the regime’s capacity and willingness to suppress domestic dissent.</span>',
+			description: '<span style="color:black;">Tensions between Iran and the U.S. escalated substantially in 2019, ultimately resulting in the assassination of Iranian general Qasem Soleimani two days into 2020. Heightened U.S. sanctions against Iran also exacerbated the struggling economy, in turn catalyzing mass demonstrations. These culminated in hundreds of reported fatalities in November, showing the regime’s capacity and willingness to suppress domestic dissent.</span>',
 			location: {
 				center: [49.94506, 32.57550],
 				zoom: 4.68,
