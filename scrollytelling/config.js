@@ -1862,7 +1862,7 @@ var config = {
 
 		{
 			id: 'us-intro',
-			title: '<span style="font-size:100px; line-height:150px; color:white;font-style:bold;background-color:black;"> United States </span><span style="background-color:#0D657D;color:white;line-height:50px;text-align:center;">Developed, democratic political system at risk of turning violent</span>',
+			title: '<span style="font-size:100px; line-height:150px; color:white;font-style:bold;background-color:black;"> United States </span><span style="background-color:#0D657D;color:white;line-height:50px;text-align:center;"></br>Developed, democratic political system at risk of turning violent</span>',
 			image: '',
 			description: 'ACLED collected pilot data on the political violence and protest landscape in the United States from July - September 2019, revealing a vibrant protest environment across all 50 states, and limited but lethal political violence. Demonstrations made up over 97% of reported events, the vast majority of which were peaceful. Dozens of reported fatalities were attributable to mass shootings and to excessive force by the police.',
 			location: {
@@ -5552,7 +5552,7 @@ var config = {
 			id: 'sahel-text',
 			title: '<span style="line-height:50px; font-style:italic;">Multiple overlapping forces served to greatly expand the geography of the conflict</span>',
 			image: 'images/sahel.png',
-			description: 'The growing threat posed by Islamist militant groups has attracted a number of foreign powers, with intersecting deployments of French, American, African, and EU troops all present in the region — adding to an already complex security situation. Still, the most serious and destabilizing acts of violence are perpetrated by local militias, recruited by or possibly partnered with either Jihadist organizations or domestic governments. These dynamic arrangements are actively reconfiguring the political geography of states at a time when ideologies and alliances are in flux across the Sahel. </br><b>On the right, <span style="color:#A2C8EC;">pale blue dots represent 2019 locations</span>; black dots are 2018 locations.</b>',
+			description: 'The growing threat posed by Islamist militant groups has attracted a number of foreign powers, with intersecting deployments of French, American, African, and EU troops all present in the region — adding to an already complex security situation. Still, the most serious and destabilizing acts of violence are perpetrated by local militias, recruited by or possibly partnered with either Jihadist organizations or domestic governments. These dynamic arrangements are actively reconfiguring the political geography of states at a time when ideologies and alliances are in flux across the Sahel. </br></br><b>On the right, <span style="color:#A2C8EC;">pale blue dots represent 2019 locations</span>; black dots are 2018 locations.</b>',
 			location: {
 				center: [-4.29098, 15.79492],
 				zoom: 4.09,
@@ -7087,7 +7087,7 @@ var config = {
 			id: 'somalia-text',
 			title: '',
 			image: '',
-			description: 'Amidst an escalation of U.S. engagement and in preparation for AMISOM withdrawal, Al Shabaab remained a relentless and lethal force in Somalia’s political violence landscape in 2019. Their continued activity despite crackdowns raises concerns as to the Somali government’s ability to combat the group without AMISOM forces, especially as a national election approaches.</br> On the right, an <b>x</b> indicates the location of an airstrike.',
+			description: 'Amidst an escalation of U.S. engagement and in preparation for AMISOM withdrawal, Al Shabaab remained a relentless and lethal force in Somalia’s political violence landscape in 2019. Their continued activity despite crackdowns raises concerns as to the Somali government’s ability to combat the group without AMISOM forces, especially as a national election approaches.<span style="color:#FF7F0E;"></br></br><b>On the right, an x indicates the location of an airstrike.</span>',
 			location: {
 				center: [44.02895, 5.29517],
 				zoom: 5.01,
@@ -13841,7 +13841,7 @@ var config = {
 			id: 'india-text',
 			title: '<span style="color:#CFCFCF; line-height:50px;">Political shifts in India introduce potential for massive escalation</span>',
 			image: '',
-			description: 'Several momentous moves by the Indian government contributed to the country’s movement towards Hindu nationalism, and will shape its political violence landscape for years to come. India revoked autonomy in the Jammu & Kashmir (J&K) regions, which in turn led to increased violence. Late in the year, the Citizenship Amendment Bill discriminating against Muslims provoked widespread demonstrations.',
+			description: 'span style="color:black;">Several momentous moves by the Indian government contributed to the country’s movement towards Hindu nationalism, and will shape its political violence landscape for years to come. India revoked autonomy in the Jammu & Kashmir (J&K) regions, which in turn led to increased violence. Late in the year, the Citizenship Amendment Bill discriminating against Muslims provoked widespread demonstrations.</span>',
 			location: {
 				center: [68.67099, 22.51075],
 				zoom: 3.94,
