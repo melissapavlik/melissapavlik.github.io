@@ -3091,7 +3091,7 @@ var config = {
 		{
 			id: 'mexico-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:white; text-align:center; font-style:bold;"> Mexico </span><span style="background-color:#5F9ED1; color:black; line-height:50px; text-align:center;"></br>High risk of cartel criminal market developing into an insurgency</span>',
-			image: 'images/mex.png',
+			image: '',
 			description: '',
 			location: {
 				center: [-108.64804, 21.96790],
