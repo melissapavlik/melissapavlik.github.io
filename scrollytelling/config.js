@@ -3399,7 +3399,7 @@ var config = {
 			id: 'mexico-text',
 			title: '<span style="font-size:50px; line-height:60px; text-align:center; font-style:bold; font-style:italic; color:#A2C8EC;"> As cartels in Mexico fragment and increase their power, violence spreads.</span>',
 			image: '',
-			description: 'ACLED’s coming coverage of Mexico demonstrates an active and lethal political violence landscape, dominated by drug and criminal violence. The violence in Mexico overwhelmingly affects civilians. A weak security apparatus, coupled with the fragmentation of armed groups, indicates that conflict will continue to spread and intensify into 2020, possibly developing into an insurgency.<b> To the right, dots are sized by the number of reported fatalities per event: the larger the dot, the higher the fatalities.',
+			description: 'ACLED’s coming coverage of Mexico demonstrates an active and lethal political violence landscape, dominated by drug and criminal violence. The violence in Mexico overwhelmingly affects civilians. A weak security apparatus, coupled with the fragmentation of armed groups, indicates that conflict will continue to spread and intensify into 2020, possibly developing into an insurgency.</br><b> To the right, dots are sized by the number of reported fatalities per event: the larger the dot, the higher the fatalities.',
 			location: {
 				center: [-108.64804, 21.96790],
 				zoom: 4.21,
@@ -5550,9 +5550,9 @@ var config = {
 
 		{
 			id: 'sahel-text',
-			title: 'Multiple overlapping forces served to greatly expand the geography of the conflict',
+			title: '<span style="line-height:50px; font-style:italic;">Multiple overlapping forces served to greatly expand the geography of the conflict</span>',
 			image: 'images/sahel.png',
-			description: 'The growing threat posed by Islamist militant groups has attracted a number of foreign powers, with intersecting deployments of French, American, African, and EU troops all present in the region — adding to an already complex security situation. Still, the most serious and destabilizing acts of violence are perpetrated by local militias, recruited by or possibly partnered with either Jihadist organizations or domestic governments. These dynamic arrangements are actively reconfiguring the political geography of states at a time when ideologies and alliances are in flux across the Sahel. On the right, pale blue dots are 2018; black are 2019.',
+			description: 'The growing threat posed by Islamist militant groups has attracted a number of foreign powers, with intersecting deployments of French, American, African, and EU troops all present in the region — adding to an already complex security situation. Still, the most serious and destabilizing acts of violence are perpetrated by local militias, recruited by or possibly partnered with either Jihadist organizations or domestic governments. These dynamic arrangements are actively reconfiguring the political geography of states at a time when ideologies and alliances are in flux across the Sahel. </br><b>On the right, <span style="color:#A2C8EC;">pale blue dots represent 2019 locations</span>; black dots are 2018 locations.</b>',
 			location: {
 				center: [-4.29098, 15.79492],
 				zoom: 4.09,
@@ -7087,7 +7087,7 @@ var config = {
 			id: 'somalia-text',
 			title: '',
 			image: '',
-			description: 'Amidst an escalation of U.S. engagement and in preparation for AMISOM withdrawal, Al Shabaab remained a relentless and lethal force in Somalia’s political violence landscape in 2019. Their continued activity despite crackdowns raises concerns as to the Somali government’s ability to combat the group without AMISOM forces, especially as a national election approaches.<b> On the right, an x indicates the location of an airstrike.',
+			description: 'Amidst an escalation of U.S. engagement and in preparation for AMISOM withdrawal, Al Shabaab remained a relentless and lethal force in Somalia’s political violence landscape in 2019. Their continued activity despite crackdowns raises concerns as to the Somali government’s ability to combat the group without AMISOM forces, especially as a national election approaches.</br> On the right, an <b>x</b> indicates the location of an airstrike.',
 			location: {
 				center: [44.02895, 5.29517],
 				zoom: 5.01,
@@ -8006,7 +8006,7 @@ var config = {
 
 		{
 			id: 'middle-east-intro',
-			title: '<span style="font-size:100px; line-height:150px; background-color:black; color:#DBEFF4; text-align:right; font-style:bold;">The Middle East</span><span style="font-size:40px; line-height:60px; color:black; text-align:right; font-style:italic;background-color:#CFCFCF;"></br> A troubled region faces new challenges </span>',
+			title: '<span style="font-size:100px; line-height:150px; background-color:black; color:white; text-align:right; font-style:bold;">The Middle East</span><span style="font-size:40px; line-height:60px; color:black; text-align:right; font-style:italic;background-color:#CFCFCF;"></br> A troubled region faces new challenges </span>',
 			image: '',
 			description: '',
 			location: {
@@ -8704,19 +8704,19 @@ var config = {
 				},
 				{
 					layer: 'leb-oct-dec',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-jul-sep',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-apr-jun',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-jan-mar',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-data',
@@ -8927,9 +8927,9 @@ var config = {
 
 		{
 			id: 'lebanon-q1',
-			title: 'January - March 2019',
+			title: '<span style="background-color:black;font-style:italic;">January - March 2019</span>',
 			image: '',
-			description: '',
+			description: 'Limited activity in the first quarter of 2019...',
 			location: {
 				center: [35.10882, 33.87781],
 				zoom: 7.78,
@@ -9234,9 +9234,9 @@ var config = {
 
 		{
 			id: 'lebanon-q2',
-			title: 'April - June 2019',
+			title: '<span style="background-color:black;font-style:italic;">April - June 2019</span>',
 			image: '',
-			description: '',
+			description: '...or in the second...',
 			location: {
 				center: [35.10882, 33.87781],
 				zoom: 7.78,
@@ -9541,9 +9541,9 @@ var config = {
 
 		{
 			id: 'lebanon-q3',
-			title: 'July - September 2019',
+			title: '<span style="background-color:black;font-style:italic;">July - September 2019</span>',
 			image: '',
-			description: '',
+			description: '...or the third.',
 			location: {
 				center: [35.10882, 33.87781],
 				zoom: 7.78,
@@ -9848,9 +9848,9 @@ var config = {
 
 		{
 			id: 'lebanon-q4',
-			title: 'October - December 2019',
+			title: '<span style="background-color:black;font-style:italic;">October - December 2019</span>',
 			image: '',
-			description: '',
+			description: 'In the fourth quarter of 2019, demonstration activty explodes, spreading around the country.',
 			location: {
 				center: [35.10882, 33.87781],
 				zoom: 7.78,
@@ -10769,7 +10769,7 @@ var config = {
 
 		{
 			id: 'yemen-text',
-			title: '2019 was the second most lethal year of Yemen’s civil war, which shows no signs of slowing',
+			title: '<span style="line-height:50px;">2019 was the second most lethal year of Yemen’s civil war, which shows no signs of slowing</span>',
 			image: '',
 			description: 'The War in Yemen is not a single overarching political struggle, but a variety of interdependent and overlapping local conflicts, insurgencies, and proxy battles for regional powers seeking to maintain influence in the region. These interconnected sources of violence have accounted for over 23,000 direct-conflict related deaths in 2019, making it one of the most lethal years of the war. ',
 			location: {
@@ -11385,7 +11385,7 @@ var config = {
 			id: 'iran-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:black; font-style:bold;">Iran</span><span style="background-color:#FFBB7A; color:black; line-height:50px;"></br>High risk of center deteriorating amid regime escalation abroad and at home</span>',
 			image: '',
-			description: 'Tensions between Iran and the U.S. escalated substantially in 2019, ultimately resulting in the assassination of Iranian general Qasem Soleimani two days into 2020. Heightened U.S. sanctions against Iran also exacerbated the struggling economy, in turn catalyzing mass demonstrations. These culminated in hundreds of reported fatalities in November, showing the regime’s capacity and willingness to suppress domestic dissent.',
+			description: '<span style:"color:black;">Tensions between Iran and the U.S. escalated substantially in 2019, ultimately resulting in the assassination of Iranian general Qasem Soleimani two days into 2020. Heightened U.S. sanctions against Iran also exacerbated the struggling economy, in turn catalyzing mass demonstrations. These culminated in hundreds of reported fatalities in November, showing the regime’s capacity and willingness to suppress domestic dissent.</span>',
 			location: {
 				center: [49.94506, 32.57550],
 				zoom: 4.68,
