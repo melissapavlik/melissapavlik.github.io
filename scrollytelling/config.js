@@ -12615,7 +12615,7 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [70.97220, 34.04994],
+				center:  [72.49961, 34.06919],
 				zoom: 5.36,
 				pitch: 0.00,
 				bearing: 0.00
@@ -12922,7 +12922,7 @@ var config = {
 			image: '',
 			description: '<span style="color:black;">The nearly two-decade conflict in Afghanistan continued to rage in 2019,  and violence affected all provinces in the country. Civilians remain heavily affected by the ongoing war, and civilian fatalities from both Taliban attacks and from airstrikes rose dramatically in 2019. While the U.S. has indicated its intention to withdraw troops throughout 2020, prospects for peace remain dim.</span>',
 			location: {
-				center: [70.97220, 34.04994],
+				center:  [72.49961, 34.06919],
 				zoom: 5.36,
 				pitch: 0.00,
 				bearing: 0.00
