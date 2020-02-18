@@ -8397,19 +8397,19 @@ var config = {
 				},
 				{
 					layer: 'leb-oct-dec',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-jul-sep',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-apr-jun',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-jan-mar',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-data',
@@ -8543,19 +8543,19 @@ var config = {
 				},
 				{
 					layer: 'leb-oct-dec',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-jul-sep',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-apr-jun',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-jan-mar',
-					opacity: 0
+					opacity: 0.8
 				},
 				{
 					layer: 'leb-data',
