@@ -8,7 +8,7 @@ var config = {
 	theme: 'dark',
 	alignment: '',
  	title: '<h1 style="background-color: #1c1c1c; opacity: 0.98;font-size:200px; font-style:bold; margin-top:25px; margin-bottom:0px; color: #CFCFCF; line-height: 200px;">10 Conflicts</h1> <h1 style="font-size:100px; margin-left:480px; text-align:right; padding-right:20px; background-color: #C95200; opacity:0.9; font-style:italic; margin-top:5px; line-height:100px; margin-bottom:0px;">to Watch in 2020</h1>',
- 	subtitle: 'As political violence continues to erupt worldwide, ten countries are especially worth watching throughout the coming year.',
+ 	subtitle: 'As political violence continues to erupt worldwide, ten conflicts are especially worth watching throughout the coming year.',
  	byline: 'By: Melissa Pavlik',
  	footer: 'Source: © ACLED 2019. Data can be found here: This is based on ACLED report here:',
 
