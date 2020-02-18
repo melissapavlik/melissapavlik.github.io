@@ -7703,8 +7703,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [47.23947, 26.89468],
-				zoom: 3.87,
+				center: [31.02814, 27.84799],
+				zoom: 3.66,
 				pitch: 0.00,
 				bearing: 0.00
 			},
@@ -8010,8 +8010,8 @@ var config = {
 			image: '',
 			description: '',
 			location: {
-				center: [47.23947, 26.89468],
-				zoom: 3.87,
+				center: [31.02814, 27.84799],
+				zoom: 3.66,
 				pitch: 0.00,
 				bearing: 0.00
 			},
