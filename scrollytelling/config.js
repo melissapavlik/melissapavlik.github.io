@@ -2477,7 +2477,7 @@ var config = {
 		{
 			id: 'us-text',
 			title: '<span style="font-size:50px; line-height:60px; color:white; text-align:center; font-style:bold; font-style:italic;"> The U.S. is home to a robust protest environment and rare, but deadly violence.</span>',
-			image: 'images/us-event-fatality-donut.png',
+			image: 'images/us.png',
 			description: '<span style="color:cfcfcf;line-height:30px;1">While violent events make up only 1% of the pilot data, they resulted in nearly 50 fatalities – a disproportionately deadly trend linked primarily to mass shootings. ACLED also records 16 events involving excessive force by police, more than half of which target racial and ethnic minorities. ACLED also records over 3,100 demonstration events across all 50 states, ranging from a minimum of three events in Wyoming to a maximum of almost 600 in California. During the three-month pilot period, more demonstration events were recorded in the US than in almost any other country in the ACLED dataset — second only to India, a country with more than four times the population of the US.</span>',
 			location: {
 				center: [-119.95849, 37.72505],
@@ -3091,7 +3091,7 @@ var config = {
 		{
 			id: 'mexico-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:white; text-align:center; font-style:bold;"> Mexico </span><span style="background-color:#5F9ED1; color:black; line-height:50px; text-align:center;"></br>High risk of cartel criminal market developing into an insurgency</span>',
-			image: '',
+			image: 'images/mex.png',
 			description: '',
 			location: {
 				center: [-108.64804, 21.96790],
@@ -5551,7 +5551,7 @@ var config = {
 		{
 			id: 'sahel-text',
 			title: 'Multiple overlapping forces served to greatly expand the geography of the conflict',
-			image: '',
+			image: 'images/sahel.png',
 			description: 'The growing threat posed by Islamist militant groups has attracted a number of foreign powers, with intersecting deployments of French, American, African, and EU troops all present in the region — adding to an already complex security situation. Still, the most serious and destabilizing acts of violence are perpetrated by local militias, recruited by or possibly partnered with either Jihadist organizations or domestic governments. These dynamic arrangements are actively reconfiguring the political geography of states at a time when ideologies and alliances are in flux across the Sahel. On the right, pale blue dots are 2018; black are 2019.',
 			location: {
 				center: [-4.29098, 15.79492],
@@ -6165,7 +6165,7 @@ var config = {
 		{
 			id: 'ethiopia-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:white; font-style:bold;">Ethiopia</span><span style="background-color:#A2C8EC; color:black; line-height:50px;"></br>At risk of increased fragmentation despite a popular and promising leader</span>',
-			image: '',
+			image: 'images/eth.png',
 			description: 'Prime Minister Abiy Ahmed’s election in Spring 2018 served to open space for political dissent in Ethiopia, exposing long-standing ethno-regional rifts which became violent. The lack of strong state capacity has led to clashes between ethnic militia and communal groups, while dissatisfaction with the regime has led to an increase in protest and riot events. The fractionalized conflict threatens long-term hope for peace.',
 			location: {
 				center: [46.75444, 9.06499],
