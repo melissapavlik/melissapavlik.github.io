@@ -11385,7 +11385,7 @@ var config = {
 			id: 'iran-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:black; font-style:bold;">Iran</span><span style="background-color:#FFBB7A; color:black; line-height:50px;"></br>High risk of center deteriorating amid regime escalation abroad and at home</span>',
 			image: '',
-			description: '<span style="color:black;">Tensions between Iran and the U.S. escalated substantially in 2019, ultimately resulting in the assassination of Iranian general Qasem Soleimani two days into 2020. Heightened U.S. sanctions against Iran also exacerbated the struggling economy, in turn catalyzing mass demonstrations. These culminated in hundreds of reported fatalities in November, showing the regime’s capacity and willingness to suppress domestic dissent.</span>',
+			description: '<span style="color:black;background-color:white;">Tensions between Iran and the U.S. escalated substantially in 2019, ultimately resulting in the assassination of Iranian general Qasem Soleimani two days into 2020. Heightened U.S. sanctions against Iran also exacerbated the struggling economy, in turn catalyzing mass demonstrations. These culminated in hundreds of reported fatalities in November, showing the regime’s capacity and willingness to suppress domestic dissent.</span>',
 			location: {
 				center: [49.94506, 32.57550],
 				zoom: 4.68,
@@ -12920,7 +12920,7 @@ var config = {
 			id: 'afg-intro',
 			title: '<span style="font-size:100px; line-height:150px; background-color:#093746; color:white; font-style:bold;">Afghanistan</span><span style="background-color:#CFCFCF; color:black; line-height:50px;"></br>At risk of rising violence targeting civilians</span>',
 			image: '',
-			description: '<span style="color:black;">The nearly two-decade conflict in Afghanistan continued to rage in 2019,  and violence affected all provinces in the country. Civilians remain heavily affected by the ongoing war, and civilian fatalities from both Taliban attacks and from airstrikes rose dramatically in 2019. While the U.S. has indicated its intention to withdraw troops throughout 2020, prospects for peace remain dim.</span>',
+			description: '<span style="color:black;background-color:white;">The nearly two-decade conflict in Afghanistan continued to rage in 2019,  and violence affected all provinces in the country. Civilians remain heavily affected by the ongoing war, and civilian fatalities from both Taliban attacks and from airstrikes rose dramatically in 2019. While the U.S. has indicated its intention to withdraw troops throughout 2020, prospects for peace remain dim.</span>',
 			location: {
 				center:  [72.49961, 34.06919],
 				zoom: 5.36,
