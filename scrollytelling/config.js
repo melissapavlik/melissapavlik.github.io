@@ -251,8 +251,7 @@ var config = {
 				{
 					layer: 'mex-data',
 					opacity: 0.8
-				},
-
+				}
 			],
 			onChapterExit: [
 				{
