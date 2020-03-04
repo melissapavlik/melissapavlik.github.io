@@ -401,7 +401,6 @@ var config = {
 				},
 			],
 			onChapterExit: [
-
 				{
 					layer: 'polygons_world',
 					opacity: 1
@@ -496,7 +495,7 @@ var config = {
 				{
 					layer: 'sahel-label',
 					opacity: 0
-				},
+				}
 			],
 			onChapterExit: [
 				{
@@ -830,78 +829,6 @@ var config = {
 			},
 			onChapterEnter: [
 				{
-					layer: 'all-data-1',
-					opacity: 0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_africa',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_me',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_ca',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_sa',
-					opacity: 0
-				},
-				{
-					layer: 'jk-data',
-					opacity: 0
-				},
-				{
-					layer: 'jk-border',
-					opacity: 0
-				},
-				{
-					layer: 'sa-ind-data',
-					opacity: 0
-				},
-				{
-					layer: 'ca-afg-data',
-					opacity: 0
-				},
-				{
-					layer: 'iran-nov-rf',
-					opacity: 0
-				},
-				{
-					layer: 'iran-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-data',
-					opacity: 0
-				},
-				{
 					layer: 'leb-oct-dec',
 					opacity: 0.8
 				},
@@ -920,58 +847,6 @@ var config = {
 				{
 					layer: 'leb-data',
 					opacity: 0.8
-				},
-				{
-					layer: 'me-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-airstrike-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-data',
-					opacity: 0
-				},
-				{
-					layer: 'eth-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-data',
-					opacity: 0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'us-data',
-					opacity: 0
-				},
-				{
-					layer: 'na-data',
-					opacity: 0
 				}
 			],
 			onChapterExit: [
@@ -1352,150 +1227,14 @@ var config = {
 			],
 			onChapterExit: [
 				{
-					layer: 'all-data-1',
-					opacity: 0
-				},
-				{
-					layer: 'all-data-2',
-					opacity: 0
-				},
-				{
-					layer: 'all-data-3',
-					opacity: 0
-				},
-				{
-					layer: 'all-data-4',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_world',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_africa',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_me',
-					opacity: 0
-				},
-				{
 					layer: 'polygons_ca',
 					opacity: 1
 				},
 				{
 					layer: 'polygons_sa',
 					opacity: 1
-				},
-				{
-					layer: 'jk-data',
-					opacity: 0
-				},
-				{
-					layer: 'jk-border',
-					opacity: 0
-				},
-				{
-					layer: 'sa-ind-data',
-					opacity: 0
-				},
-				{
-					layer: 'ca-afg-data',
-					opacity: 0
-				},
-				{
-					layer: 'iran-nov-rf',
-					opacity: 0
-				},
-				{
-					layer: 'iran-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'yem-data',
-					opacity: 0
-				},
-				{
-					layer: 'leb-oct-dec',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jul-sep',
-					opacity: 0
-				},
-				{
-					layer: 'leb-apr-jun',
-					opacity: 0
-				},
-				{
-					layer: 'leb-jan-mar',
-					opacity: 0
-				},
-				{
-					layer: 'leb-data',
-					opacity: 0
-				},
-				{
-					layer: 'me-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-airstrike-data',
-					opacity: 0
-				},
-				{
-					layer: 'som-data',
-					opacity: 0
-				},
-				{
-					layer: 'eth-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-data',
-					opacity: 0
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-rf-data',
-					opacity: 0
-				},
-				{
-					layer: 'mex-data',
-					opacity: 0
-				},
-				{
-					layer: 'states-w-numbers',
-					opacity: 0
-				},
-				{
-					layer: 'us-data',
-					opacity: 0
-				},
-				{
-					layer: 'na-data',
-					opacity: 0
 				}
-		  ]
+			]
 		},
 
 //central-south-asia-intro//
