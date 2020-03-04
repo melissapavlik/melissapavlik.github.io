@@ -1118,7 +1118,7 @@ var config = {
 					layer: 'yem-rf-data',
 					opacity: 0.8
 				}
-			],
+			]
 		},
 
 //yemen2iran//
