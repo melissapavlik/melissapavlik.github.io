@@ -168,11 +168,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
+				{
 					layer: 'polygons_na',
 					opacity: 1
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
 				{
 					layer: 'polygons_na',
 					opacity: 1
@@ -195,11 +203,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'polygons_na',
+					opacity: 0
+				},
+				{
 					layer: 'na-data',
 					opacity: 0.8
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'polygons_na',
+					opacity: 0
+				},
 				{
 					layer: 'na-data',
 					opacity: 0.8
@@ -222,11 +238,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'na-data',
+					opacity: 0
+				},
+				{
 					layer: 'mex-data',
 					opacity: 0.8
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'na-data',
+					opacity: 0
+				},
 				{
 					layer: 'mex-data',
 					opacity: 0.8
@@ -340,12 +364,20 @@ var config = {
 				{
 					layer: 'us-data',
 					opacity: 0.8
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0
 				}
 			],
 			onChapterExit: [
 				{
 					layer: 'us-data',
 					opacity: 0.8
+				},
+				{
+					layer: 'mex-rf-data',
+					opacity: 0
 				}
 		  ]
 		},
@@ -399,6 +431,10 @@ var config = {
 					layer: 'polygons_world',
 					opacity: 0
 				},
+				{
+					layer: 'us-data',
+					opacity: 0
+				}
 			],
 			onChapterExit: [
 				{
@@ -407,6 +443,10 @@ var config = {
 				},
 				{
 					layer: 'polygons_na',
+					opacity: 0
+				},
+				{
+					layer: 'us-data',
 					opacity: 0
 				}
 		  ]
@@ -427,11 +467,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
+				{
 					layer: 'polygons_africa',
 					opacity: 1
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'polygons_world',
+					opacity: 0
+				},
 				{
 					layer: 'polygons_africa',
 					opacity: 1
@@ -613,11 +661,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'sahel-data-by-year',
+					opacity: 0
+				},
+				{
 					layer: 'eth-data',
 					opacity: 0
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'sahel-data-by-year',
+					opacity: 0
+				},
 				{
 					layer: 'eth-data',
 					opacity: 0.8
@@ -669,12 +725,20 @@ var config = {
 				{
 					layer: 'som-data',
 					opacity: 0.8
+				},
+				{
+					layer: 'eth-data',
+					opacity: 0
 				}
 			],
 			onChapterExit: [
 				{
 					layer: 'som-data',
 					opacity: 0.8
+				},
+				{
+					layer: 'eth-data',
+					opacity: 0
 				}
 		  ]
 		},
@@ -721,11 +785,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'som-data',
+					opacity: 0
+				},
+				{
 					layer: 'som-airstrike-data',
 					opacity: 0.8
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'som-data',
+					opacity: 0
+				},
 				{
 					layer: 'som-airstrike-data',
 					opacity: 0.8
@@ -748,11 +820,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'som-airstrike-data',
+					opacity: 0
+				},
+				{
 					layer: 'polygons_world',
 					opacity: 0
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'som-airstrike-data',
+					opacity: 0
+				},
 				{
 					layer: 'polygons_world',
 					opacity: 1
@@ -775,11 +855,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'polygons_world',
+					opacity: 1
+				},
+				{
 					layer: 'polygons_me',
 					opacity: 1
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'polygons_world',
+					opacity: 1
+				},
 				{
 					layer: 'polygons_me',
 					opacity: 1
@@ -804,12 +892,20 @@ var config = {
 				{
 					layer: 'me-data',
 					opacity: 0.8
+				},
+				{
+					layer: 'polygons_me',
+					opacity: 0
 				}
 			],
 			onChapterExit: [
 				{
 					layer: 'me-data',
 					opacity: 0.8
+				},
+				{
+					layer: 'polygons_me',
+					opacity: 0
 				}
 		  ]
 		},
@@ -828,6 +924,10 @@ var config = {
 				bearing: 0.00
 			},
 			onChapterEnter: [
+				{
+					layer: 'me-data',
+					opacity: 0
+				},
 				{
 					layer: 'leb-oct-dec',
 					opacity: 0.8
@@ -850,6 +950,10 @@ var config = {
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'me-data',
+					opacity: 0
+				},
 				{
 					layer: 'leb-oct-dec',
 					opacity: 0.8
@@ -947,14 +1051,46 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0
+				},
+				{
 					layer: 'leb-jan-mar',
 					opacity: 0.8
+				},
+				{
+					layer: 'leb-data',
+					opacity: 0
 				}
 			],
 			onChapterExit: [
 				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0
+				},
+				{
 					layer: 'leb-jan-mar',
 					opacity: 0.8
+				},
+				{
+					layer: 'leb-data',
+					opacity: 0
 				}
 			]
 		},
@@ -976,14 +1112,22 @@ var config = {
 				{
 					layer: 'leb-apr-jun',
 					opacity: 0.8
+				},
+				{
+					layer: 'leb-jan-mar',
+					opacity: 0
 				}
 			],
 			onChapterExit: [
 				{
 					layer: 'leb-apr-jun',
 					opacity: 0.8
+				},
+				{
+					layer: 'leb-jan-mar',
+					opacity: 0
 				}
-		  ]
+			]
 		},
 
 //lebanon-q3//
@@ -1003,14 +1147,22 @@ var config = {
 				{
 					layer: 'leb-jul-sep',
 					opacity: 0.8
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0
 				}
 			],
 			onChapterExit: [
 				{
 					layer: 'leb-jul-sep',
 					opacity: 0.8
+				},
+				{
+					layer: 'leb-apr-jun',
+					opacity: 0
 				}
-			],
+			]
 		},
 
 //lebanon-q4//
@@ -1028,11 +1180,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'leb-jul-sep',
+					opacity: 0
+				},
+				{
 					layer: 'leb-oct-dec',
 					opacity: 0.8
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'leb-jul-sep',
+					opacity: 0
+				},
 				{
 					layer: 'leb-oct-dec',
 					opacity: 0.8
@@ -1055,11 +1215,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
+				{
 					layer: 'yem-data',
 					opacity: 0.8
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'leb-oct-dec',
+					opacity: 0
+				},
 				{
 					layer: 'yem-data',
 					opacity: 0.8
@@ -1109,11 +1277,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'yem-data',
+					opacity: 0
+				},
+				{
 					layer: 'yem-rf-data',
 					opacity: 0.8
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'yem-data',
+					opacity: 0
+				},
 				{
 					layer: 'yem-rf-data',
 					opacity: 0.8
@@ -1136,11 +1312,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'yem-rf-data',
+					opacity: 0
+				},
+				{
 					layer: 'iran-data',
 					opacity: 0.8
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'yem-rf-data',
+					opacity: 0
+				},
 				{
 					layer: 'iran-data',
 					opacity: 0.8
@@ -1190,11 +1374,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'iran-data',
+					opacity: 0
+				},
+				{
 					layer: 'polygons_world',
 					opacity: 1
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'iran-data',
+					opacity: 0
+				},
 				{
 					layer: 'polygons_world',
 					opacity: 1
@@ -1223,6 +1415,10 @@ var config = {
 				{
 					layer: 'polygons_sa',
 					opacity: 1
+				},
+				{
+					layer: 'polygons_world',
+					opacity: 0
 				}
 			],
 			onChapterExit: [
@@ -1232,6 +1428,10 @@ var config = {
 				},
 				{
 					layer: 'polygons_sa',
+					opacity: 1
+				},
+				{
+					layer: 'polygons_world',
 					opacity: 1
 				}
 			]
@@ -1252,6 +1452,14 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'polygons_ca',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_sa',
+					opacity: 0
+				},
+				{
 					layer: 'sa-ind-data',
 					opacity: 0.8
 				},
@@ -1261,6 +1469,14 @@ var config = {
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'polygons_ca',
+					opacity: 0
+				},
+				{
+					layer: 'polygons_sa',
+					opacity: 0
+				},
 				{
 					layer: 'sa-ind-data',
 					opacity: 0.8
@@ -1289,12 +1505,20 @@ var config = {
 				{
 					layer: 'ca-afg-data',
 					opacity: 0.8
+				},
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
 				}
 			],
 			onChapterExit: [
 				{
 					layer: 'ca-afg-data',
 					opacity: 0.8
+				},
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
 				}
 		  ]
 		},
@@ -1341,11 +1565,19 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'ca-afg-data',
+					opacity: 0
+				},
+				{
 					layer: 'sa-ind-data',
 					opacity: 0.8
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'ca-afg-data',
+					opacity: 0
+				},
 				{
 					layer: 'sa-ind-data',
 					opacity: 0.8
@@ -1422,6 +1654,10 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'sa-ind-data',
+					opacity: 0
+				},
+				{
 					layer: 'jk-data',
 					opacity: 0.8
 				},
@@ -1431,6 +1667,10 @@ var config = {
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'sa-ind-data',
+					opacity: 0
+				},
 				{
 					layer: 'jk-data',
 					opacity: 0.8
@@ -1460,12 +1700,28 @@ var config = {
 				{
 					layer: 'polygons_world',
 					opacity: 1
+				},
+				{
+					layer: 'jk-data',
+					opacity: 0
+				},
+				{
+					layer: 'jk-border',
+					opacity: 0
 				}
 			],
 			onChapterExit: [
 				{
 					layer: 'polygons_world',
 					opacity:1
+				},
+				{
+					layer: 'jk-data',
+					opacity: 0
+				},
+				{
+					layer: 'jk-border',
+					opacity: 0
 				}
 		  ]
 		},
@@ -1485,6 +1741,10 @@ var config = {
 			},
 			onChapterEnter: [
 				{
+					layer: 'polygons_world',
+					opacity:0
+				},
+				{
 					layer: 'all-data-1',
 					opacity: 0.83
 				},
@@ -1502,6 +1762,10 @@ var config = {
 				}
 			],
 			onChapterExit: [
+				{
+					layer: 'polygons_world',
+					opacity:0
+				},
 				{
 					layer: 'all-data-1',
 					opacity: 0.83
