@@ -12,7 +12,7 @@ var config = {
  	byline: 'Produced by ACLED Research Analyst Mel Pavlik</br><i/>Based on ACLED report 10 Conflicts to Worry About in 2020</i>',
  	footer: 'Source: © ACLED 2019. Data can be found here: This is based on ACLED report here:',
 
-<!-- sections begin-->
+// sections begin
 
 	chapters: [
 
@@ -29,6 +29,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
@@ -80,6 +81,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'all-data-1',
@@ -139,6 +141,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_world',
@@ -166,6 +169,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_world',
@@ -201,6 +205,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_na',
@@ -236,6 +241,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'na-data',
@@ -271,6 +277,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'mex-data',
@@ -298,6 +305,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'mex-rf-data',
@@ -333,6 +341,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'mex-rf-data',
@@ -360,6 +369,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'us-data',
@@ -395,6 +405,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'us-data',
@@ -422,6 +433,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_na',
@@ -465,6 +477,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_world',
@@ -500,6 +513,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_africa',
@@ -535,6 +549,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'africa-data',
@@ -570,6 +585,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'sahel-label',
@@ -597,6 +613,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'sahel-label',
@@ -632,6 +649,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'sahel-data-by-year',
@@ -659,6 +677,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'sahel-data-by-year',
@@ -694,6 +713,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'eth-data',
@@ -721,6 +741,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'som-data',
@@ -756,6 +777,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'som-data',
@@ -783,6 +805,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'som-data',
@@ -818,6 +841,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'som-airstrike-data',
@@ -853,6 +877,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_world',
@@ -888,6 +913,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'me-data',
@@ -923,6 +949,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'me-data',
@@ -990,6 +1017,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'leb-oct-dec',
@@ -1049,6 +1077,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'leb-oct-dec',
@@ -1108,6 +1137,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'leb-apr-jun',
@@ -1143,6 +1173,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'leb-jul-sep',
@@ -1178,6 +1209,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'leb-jul-sep',
@@ -1213,6 +1245,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'leb-oct-dec',
@@ -1248,6 +1281,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'yem-data',
@@ -1275,6 +1309,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'yem-data',
@@ -1310,6 +1345,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'yem-rf-data',
@@ -1345,6 +1381,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'iran-data',
@@ -1372,6 +1409,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'iran-data',
@@ -1407,6 +1445,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_ca',
@@ -1450,6 +1489,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_ca',
@@ -1501,6 +1541,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'ca-afg-data',
@@ -1536,6 +1577,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'ca-afg-data',
@@ -1563,6 +1605,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'ca-afg-data',
@@ -1598,6 +1641,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'sa-ind-data',
@@ -1625,6 +1669,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'sa-ind-data',
@@ -1652,6 +1697,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'sa-ind-data',
@@ -1696,6 +1742,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_world',
@@ -1739,6 +1786,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
+			callback: 'showLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_world',
