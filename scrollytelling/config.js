@@ -7,7 +7,7 @@ var config = {
 	showMarkers: false,
 	theme: 'dark',
 	alignment: '',
- 	title: '<h1 style="background-color: #1c1c1c; opacity: 0.98;font-size:200px; font-style:bold; margin-top:25px; margin-bottom:0px; color: #CFCFCF; line-height: 200px;">10 Conflicts</h1> <h1 style="font-size:80px; margin-left:350px; text-align:right; padding-right:20px; background-color: #C95200; opacity:0.9; font-style:italic; margin-top:5px; line-height:100px; margin-bottom:0px;">to Worry About in 2020</h1>',
+ 	title: '<h1 style="background-color: #1c1c1c; opacity: 0.98;font-size:200px; font-style:bold; margin-top:25px; margin-bottom:0px; color: #CFCFCF; line-height: 200px;">10 Conflicts</h1> <h1 style="font-size:80px; margin-left:350px; text-align:right; padding-right:20px; background-color: #C95200; font-style:italic; margin-top:5px; line-height:100px; margin-bottom:0px;">to Worry About in 2020</h1>',
  	subtitle: 'As political violence continues to erupt worldwide, ACLED reports on ten conflicts worth watching throughout the coming year.',
  	byline: 'Produced by ACLED Research Analyst Mel Pavlik</br><i/>Based on ACLED report 10 Conflicts to Worry About in 2020</i>',
  	footer: 'Source: © ACLED 2019. Data can be found here: This is based on ACLED report here:',
@@ -626,7 +626,7 @@ var config = {
 			id: 'sahel-text',
 			title: '<span style="line-height:50px; font-style:italic;">Multiple overlapping forces served to greatly expand the geography of the conflict</span>',
 			image: 'images/sahel.png',
-			description: 'The growing threat posed by Islamist militant groups has attracted a number of foreign powers, with intersecting deployments of French, American, African, and EU troops all present in the region — adding to an already complex security situation. Still, the most serious and destabilizing acts of violence are perpetrated by local militias, recruited by or possibly partnered with either Jihadist organizations or domestic governments. These dynamic arrangements are actively reconfiguring the political geography of states at a time when ideologies and alliances are in flux across the Sahel. </br></br><b>On the right, <span style="color:#A2C8EC;">pale blue dots represent 2019 locations</span>; black dots are 2018 locations.</b>',
+			description: 'The growing threat posed by Islamist militant groups has attracted a number of foreign powers, with intersecting deployments of French, American, African, and EU troops all present in the region — adding to an already complex security situation. Still, the most serious and destabilizing acts of violence are perpetrated by local militias, recruited by or possibly partnered with either Jihadist organizations or domestic governments. These dynamic arrangements are actively reconfiguring the political geography of states at a time when ideologies and alliances are in flux across the Sahel. </br></br><b>On the right, <span style="color:#dbdee1;">pale grey dots represent 2019 locations</span>; black dots are 2018 locations.</b>',
 			location: {
 				center: [-4.29098, 15.79492],
 				zoom: 4.09,
@@ -1178,7 +1178,7 @@ var config = {
 			id: 'lebanon-q4',
 			title: '<span style="background-color:black;font-style:italic;">October - December 2019</span>',
 			image: '',
-			description: 'In the fourth quarter of 2019, demonstration activty explodes, spreading around the country.',
+			description: 'In the fourth quarter of 2019, demonstration activity explodes, spreading around the country.',
 			location: {
 				center: [35.10882, 33.87781],
 				zoom: 7.78,
@@ -1278,7 +1278,7 @@ var config = {
 			id: 'yemen-text',
 			title: '<span style="line-height:50px;">2019 was the second most lethal year of Yemen’s civil war, which shows no signs of slowing</span>',
 			image: '',
-			description: 'The War in Yemen is not a single overarching political struggle, but a variety of interdependent and overlapping local conflicts, insurgencies, and proxy battles for regional powers seeking to maintain influence in the region. These interconnected sources of violence have accounted for over 23,000 direct-conflict related deaths in 2019, making it one of the most lethal years of the war. ',
+			description: 'The War in Yemen is not a single overarching political struggle, but a variety of interdependent and overlapping local conflicts, insurgencies, and proxy battles for regional powers seeking to maintain influence in the region. These interconnected sources of violence have accounted for over 23,000 direct-conflict related deaths in 2019, making it one of the most lethal years of the war. </br></br><b> To the right, dots are sized by the number of reported fatalities per event: the larger the dot, the higher the fatalities.',
 			location: {
 				center: [45.49023, 15.77554],
 				zoom: 6.02,
@@ -1469,19 +1469,19 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'polygons_ca',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'polygons_sa',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'sa-ind-data',
-					opacity: 0.8
+					opacity: 0
 				},
 				{
 					layer: 'ca-afg-data',
-					opacity: 0.8
+					opacity: 0
 				}
 			],
 			onChapterExit: [
