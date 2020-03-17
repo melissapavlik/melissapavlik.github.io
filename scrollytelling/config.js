@@ -305,7 +305,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'mex-rf-data',
@@ -341,7 +341,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'mex-rf-data',
@@ -369,7 +369,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'us-data',
@@ -433,7 +433,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_na',
@@ -477,7 +477,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_world',
@@ -585,7 +585,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'sahel-label',
@@ -613,7 +613,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'sahel-label',
@@ -651,16 +651,8 @@ var config = {
 			},
 			callback: 'showLegend',
 			onChapterEnter: [
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0.8
-				}
 			],
 			onChapterExit: [
-				{
-					layer: 'sahel-data-by-year',
-					opacity: 0.8
-				}
 		  ]
 		},
 
