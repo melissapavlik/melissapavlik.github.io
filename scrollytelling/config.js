@@ -513,25 +513,17 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_africa',
 					opacity: 1
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0
 				}
 			],
 			onChapterExit: [
 				{
 					layer: 'polygons_africa',
 					opacity: 0
-				},
-				{
-					layer: 'africa-data',
-					opacity: 0.8
 				}
 		  ]
 		},
@@ -554,20 +546,12 @@ var config = {
 				{
 					layer: 'africa-data',
 					opacity: 0.8
-				},
-				{
-					layer: 'sahel-label',
-					opacity: 0
 				}
 			],
 			onChapterExit: [
 				{
-					layer: 'sahel-label',
-					opacity: 1
-				},
-				{
 					layer: 'africa-data',
-					opacity: 0
+					opacity: 0.8
 				}
 		  ]
 		},
@@ -797,7 +781,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'som-data',
@@ -833,7 +817,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'som-airstrike-data',
@@ -869,11 +853,11 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_world',
-					opacity: 1
+					opacity: 0
 				},
 				{
 					layer: 'polygons_me',
@@ -883,7 +867,7 @@ var config = {
 			onChapterExit: [
 				{
 					layer: 'polygons_world',
-					opacity: 1
+					opacity: 0
 				},
 				{
 					layer: 'polygons_me',
@@ -1301,7 +1285,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'yem-data',
@@ -1401,7 +1385,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'iran-data',
@@ -1437,7 +1421,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_ca',
@@ -1463,7 +1447,7 @@ var config = {
 				},
 				{
 					layer: 'polygons_world',
-					opacity: 1
+					opacity: 0
 				}
 			]
 		},
@@ -1734,7 +1718,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_world',
@@ -1778,7 +1762,7 @@ var config = {
 				pitch: 0.00,
 				bearing: 0.00
 			},
-			callback: 'showLegend',
+			callback: 'hideLegend',
 			onChapterEnter: [
 				{
 					layer: 'polygons_world',
