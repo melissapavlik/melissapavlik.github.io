@@ -8,9 +8,9 @@ var config = {
 	theme: 'dark',
 	alignment: '',
  	title: '<h1 style="background-color: #1c1c1c; opacity: 0.98;font-size:200px; font-style:bold; margin-top:25px; margin-bottom:0px; color: #CFCFCF; line-height: 200px;">10 Conflicts</h1> <h1 style="font-size:80px; margin-left:350px; text-align:right; padding-right:20px; background-color: #C95200; font-style:italic; margin-top:5px; line-height:100px; margin-bottom:0px;">to Worry About in 2020</h1>',
- 	subtitle: 'As political violence continues to erupt worldwide, ACLED reports on ten conflicts worth watching throughout the coming year.',
- 	byline: 'Produced by ACLED Research Analyst Mel Pavlik</br><i/>Based on ACLED report 10 Conflicts to Worry About in 2020</i>',
- 	footer: 'Source: © ACLED 2019. Data can be found here: This is based on ACLED report here:',
+ 	subtitle: 'As political violence continues to erupt worldwide, ACLED reports on 10 conflicts worth watching throughout the coming year.',
+ 	byline: 'Produced by ACLED Research Analyst Mel Pavlik</br><i/>Based on ACLED report <a href="https://acleddata.com/2020/01/23/ten-conflicts-to-worry-about-in-2020/">10 Conflicts to Worry About in 2020</a></i>',
+ 	footer: 'Source: © ACLED 2020 Data can be found here: <a href="www.acleddata.com">www.acleddata.com</a> This is based on ACLED report here:<a href="https://acleddata.com/2020/01/23/ten-conflicts-to-worry-about-in-2020/">https://acleddata.com/2020/01/23/ten-conflicts-to-worry-about-in-2020/</a>',
 
 // sections begin
 
@@ -334,7 +334,7 @@ var config = {
 			id: 'mexico-text',
 			title: '<span style="font-size:50px; line-height:60px; text-align:center; font-style:bold; font-style:italic; color:#A2C8EC;"> As cartels in Mexico fragment and increase their power, violence spreads.</span>',
 			image: '',
-			description: 'ACLED’s coming coverage of Mexico demonstrates an active and lethal political violence landscape, dominated by drug and criminal violence. The violence in Mexico overwhelmingly affects civilians. A weak security apparatus, coupled with the fragmentation of armed groups, indicates that conflict will continue to spread and intensify into 2020, possibly developing into an insurgency.</br></br><b> To the right, dots are sized by the number of reported fatalities per event: the larger the dot, the higher the fatalities.',
+			description: 'ACLED’s new coverage of Mexico demonstrates an active and lethal political violence landscape, dominated by drug and criminal violence. The violence in Mexico overwhelmingly affects civilians. A weak security apparatus, coupled with the fragmentation of armed groups, indicates that conflict will continue to spread and intensify into 2020, possibly developing into an insurgency.</br></br><b> To the right, dots are sized by the number of reported fatalities per event: the larger the dot, the higher the fatalities.',
 			location: {
 				center: [-108.64804, 21.96790],
 				zoom: 4.21,
@@ -1278,7 +1278,7 @@ var config = {
 			id: 'yemen-text',
 			title: '<span style="line-height:50px;">2019 was the second most lethal year of Yemen’s civil war, which shows no signs of slowing</span>',
 			image: '',
-			description: 'The War in Yemen is not a single overarching political struggle, but a variety of interdependent and overlapping local conflicts, insurgencies, and proxy battles for regional powers seeking to maintain influence in the region. These interconnected sources of violence have accounted for over 23,000 direct-conflict related deaths in 2019, making it one of the most lethal years of the war. </br></br><b> To the right, dots are sized by the number of reported fatalities per event: the larger the dot, the higher the fatalities.',
+			description: 'The War in Yemen is not a single overarching political struggle, but a variety of interdependent and overlapping local conflicts, insurgencies, and proxy battles for regional powers seeking to maintain influence in the region. These interconnected sources of violence have accounted for over 23,000 direct conflict-related deaths in 2019, making it one of the most lethal years of the war. </br></br><b> To the right, dots are sized by the number of reported fatalities per event: the larger the dot, the higher the fatalities.',
 			location: {
 				center: [45.49023, 15.77554],
 				zoom: 6.02,
