@@ -893,11 +893,11 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'me-data',
-					opacity: 0.8
+					opacity: 0
 				},
 				{
 					layer: 'polygons_me',
-					opacity: 0
+					opacity: 1
 				}
 			],
 			onChapterExit: [
@@ -1424,11 +1424,7 @@ var config = {
 			callback: 'hideLegend',
 			onChapterEnter: [
 				{
-					layer: 'polygons_ca',
-					opacity: 1
-				},
-				{
-					layer: 'polygons_sa',
+					layer: 'polygons_sa_ca',
 					opacity: 1
 				},
 				{
@@ -1438,11 +1434,7 @@ var config = {
 			],
 			onChapterExit: [
 				{
-					layer: 'polygons_ca',
-					opacity: 1
-				},
-				{
-					layer: 'polygons_sa',
+					layer: 'polygons_sa_ca',
 					opacity: 1
 				},
 				{
@@ -1468,11 +1460,7 @@ var config = {
 			callback: 'showLegend',
 			onChapterEnter: [
 				{
-					layer: 'polygons_ca',
-					opacity: 1
-				},
-				{
-					layer: 'polygons_sa',
+					layer: 'polygons_sa_ca',
 					opacity: 1
 				},
 				{
@@ -1486,11 +1474,7 @@ var config = {
 			],
 			onChapterExit: [
 				{
-					layer: 'polygons_ca',
-					opacity: 0
-				},
-				{
-					layer: 'polygons_sa',
+					layer: 'polygons_sa_ca',
 					opacity: 0
 				},
 				{
