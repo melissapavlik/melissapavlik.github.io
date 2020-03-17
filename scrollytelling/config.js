@@ -398,7 +398,7 @@ var config = {
 			id: 'us-intro',
 			title: '<span style="font-size:100px; line-height:150px; color:white;font-style:bold;background-color:black;"> United States </span><span style="background-color:#0D657D;color:white;line-height:50px;text-align:center;"></br>Developed, democratic political system at risk of turning violent</span>',
 			image: '',
-			description: 'ACLED collected pilot data on the political violence and protest landscape in the United States from July - September 2019, revealing a vibrant protest environment across all 50 states, and limited but lethal political violence. Demonstrations made up over 97% of reported events, the vast majority of which were peaceful. Dozens of reported fatalities were attributable to mass shootings and to excessive force by the police.',
+			description: '<span style="background-color:black;">ACLED collected pilot data on the political violence and protest landscape in the United States from July - September 2019, revealing a vibrant protest environment across all 50 states, and limited but lethal political violence. Demonstrations made up over 97% of reported events, the vast majority of which were peaceful. Dozens of reported fatalities were attributable to mass shootings and to excessive force by the police.</span>',
 			location: {
 				center: [-97.69364, 38.45774],
 				zoom: 3.86,
@@ -436,12 +436,8 @@ var config = {
 			callback: 'hideLegend',
 			onChapterEnter: [
 				{
-					layer: 'polygons_na',
-					opacity: 1
-				},
-				{
 					layer: 'polygons_world',
-					opacity: 0
+					opacity: 1
 				},
 				{
 					layer: 'us-data',
@@ -452,10 +448,6 @@ var config = {
 				{
 					layer: 'polygons_world',
 					opacity: 1
-				},
-				{
-					layer: 'polygons_na',
-					opacity: 0
 				},
 				{
 					layer: 'us-data',
@@ -573,13 +565,21 @@ var config = {
 			onChapterEnter: [
 				{
 					layer: 'sahel-label',
-					opacity: 1
+					opacity: 0
+				},
+				{
+					layer: 'africa-data',
+					opacity: 0.8
 				}
 			],
 			onChapterExit: [
 				{
 					layer: 'sahel-label',
 					opacity: 1
+				},
+				{
+					layer: 'africa-data',
+					opacity: 0
 				}
 		  ]
 		},
